@@ -6,8 +6,9 @@
 # Inherit from the custom device configuration.
 $(call inherit-product, device/xiaomi/rodin/device.mk)
 
-# Inherit from the LineageOS configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Disable AVB
+TARGET_AVB_DISABLE_DM_VERITY := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rodin

@@ -166,7 +166,11 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+ifneq ($(TARGET_AVB_DISABLE_DM_VERITY), false)
+# Disable dm-verity (HASHTREE_DISABLED) to keep partitions flashable (e.g. GApps),
+# while keeping signature verification so RKP/attestation stays alive.
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 1
+endif
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 BOARD_AVB_BOOT_ALGORITHM := SHA256_RSA4096

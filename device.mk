@@ -470,3 +470,5 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 
 # Product properties
 TARGET_PRODUCT_PROP += device/xiaomi/rodin/product.prop
+# Fenrir
+$(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
