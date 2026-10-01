@@ -27,6 +27,8 @@ import com.xiaomi.settings.touchsampling.TouchBoostScreen
 import com.xiaomi.settings.ui.Motion
 import com.xiaomi.settings.ui.XiaomiPartsTheme
 
+import com.xiaomi.settings.zram.ZramSettingsScreen
+
 class XiaomiPartsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -72,6 +74,7 @@ private fun PartsNavHost() {
                 onNavigateToBattery      = { nav.navigate("batteryStatus") },
                 onNavigateToPerformance  = { nav.navigate("performance") },
                 onNavigateToMemory       = { nav.navigate("memory") },
+                onNavigateToZram         = { nav.navigate("zram") },
             )
         }
         composable("displayColours")    { DisplayColoursScreen { nav.popBackStack() } }
@@ -80,6 +83,8 @@ private fun PartsNavHost() {
         composable("touchBoost")        { TouchBoostScreen { nav.popBackStack() } }
         composable("batteryStatus")     { BatteryStatusScreen { nav.popBackStack() } }
         composable("performance")       { PerformanceMonitorScreen { nav.popBackStack() } }
-        composable("memory")            { MemoryMonitorScreen { nav.popBackStack() } }
+        composable("memory")            { MemoryMonitorScreen(onBack = { nav.popBackStack() }, onNavigateToZram = { nav.navigate("zram") }) }
+        composable("zram")              { ZramSettingsScreen { nav.popBackStack() } }
     }
 }
+

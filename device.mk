@@ -476,5 +476,11 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,mediatek_wifi_hal,use_pre_baklava_qpr0_struct,true)
 
+# zRAM resize helper
+PRODUCT_PACKAGES += \
+    init.zram_resize.rc \
+    zram_resize.sh
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
+

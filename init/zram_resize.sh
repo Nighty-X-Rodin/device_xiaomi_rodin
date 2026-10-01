@@ -43,7 +43,7 @@ if ! swapoff /dev/block/zram0 2>>"$LOG"; then
     log_e "swapoff failed rc=$?"
 fi
 echo 1 > /sys/block/zram0/reset 2>>"$LOG" || log_e "reset failed"
-echo lz4 > /sys/block/zram0/comp_algorithm 2>>"$LOG" || log_e "comp_algorithm failed"
+echo lzo-rle > /sys/block/zram0/comp_algorithm 2>>"$LOG" || log_e "comp_algorithm failed"
 if ! echo "${SIZE_MB}M" > /sys/block/zram0/disksize 2>>"$LOG"; then
     log_e "disksize failed"
     exit 1

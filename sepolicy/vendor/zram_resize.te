@@ -54,6 +54,10 @@ allow zram_resize proc_meminfo:file r_file_perms;
 allow zram_resize zram_resize_log_file:dir rw_dir_perms;
 allow zram_resize zram_resize_log_file:file create_file_perms;
 
+#SHELL
+allow zram_resize shell_data_file:dir search;
+allow zram_resize system_prop:file read;
+
 # NOTE: persist.sys.zram_size_percent is read by the script through the
 # property area. Property reads are not SELinux-checked (only writes via
 # property_service are), so no get_prop rules are needed here.

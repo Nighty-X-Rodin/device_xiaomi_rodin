@@ -4,5 +4,12 @@
 # end of init.mt6899.rc) and on every change of persist.sys.zram_size_percent
 # made by the app, re-creating the zram0 swap device at the requested size.
 
+service zram_resize /vendor/bin/zram_resize.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:zram_resize:s0
+
 on property:persist.sys.zram_size_percent=* && property:sys.boot_completed=1
-    exec u:r:zram_resize:s0 -- /vendor/bin/zram_resize.sh
+    start zram_resize
