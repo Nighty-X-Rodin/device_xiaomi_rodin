@@ -72,9 +72,20 @@ object ZramUtils {
 
     suspend fun setZramPercent(targetPct: Int): Boolean = withContext(Dispatchers.IO) {
         val pct = targetPct.coerceIn(10, 80)
+        val info = readZramInfo()
+        val targetMb = calculateMbForPercent(info.totalRamKb, pct)
+
         runCatching {
             SystemProperties.set(PROP_ZRAM_PCT, pct.toString())
-            delay(1200)
+            // Poll for up to 2.5 seconds waiting for the resize helper to finish
+            for (i in 0 until 25) {
+                delay(100)
+                val currentBytes = readOneLine(SYSFS_ZRAM_DISKSIZE)?.trim()?.toLongOrNull() ?: 0L
+                val currentMb = currentBytes / (1024 * 1024)
+                if (kotlin.math.abs(currentMb - targetMb) <= 64) {
+                    return@withContext true
+                }
+            }
             true
         }.getOrDefault(false)
     }

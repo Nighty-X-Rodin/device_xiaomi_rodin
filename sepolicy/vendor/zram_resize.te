@@ -22,14 +22,19 @@ init_daemon_domain(zram_resize)
 # Required for swapon / swapoff syscalls
 allow zram_resize self:capability sys_admin;
 
-# Shebang interpreter of the script (/system/bin/sh)
-allow zram_resize shell_exec:file execute;
+# Directory traversal for block devices
+allow zram_resize block_device:dir search;
 
-# toybox applets (sed/cat/mkswap/swapon/swapoff)
-allow zram_resize toolbox_exec:file { execute execute_no_trans };
+# Shebang interpreter of the script (/system/bin/sh and /vendor/bin/sh)
+allow zram_resize shell_exec:file rx_file_perms;
+allow zram_resize vendor_shell_exec:file rx_file_perms;
+
+# toybox applets (sed/cat/mkswap/swapon/swapoff/log)
+allow zram_resize toolbox_exec:file rx_file_perms;
+allow zram_resize vendor_toolbox_exec:file rx_file_perms;
 
 # getprop lives at /system/bin/getprop (system_file)
-allow zram_resize system_file:file { execute execute_no_trans };
+allow zram_resize system_file:file rx_file_perms;
 
 # /system path traversal for the interpreter and the applets
 allow zram_resize system_file:dir search;
@@ -50,14 +55,6 @@ allow zram_resize ram_device:blk_file rw_file_perms;
 allow zram_resize proc:dir search;
 allow zram_resize proc_meminfo:file r_file_perms;
 
-# Debug log written by the resize helper (/data/local/tmp/zram_resize.log)
-allow zram_resize zram_resize_log_file:dir rw_dir_perms;
-allow zram_resize zram_resize_log_file:file create_file_perms;
+# Read persist.sys.zram_size_percent via getprop
+get_prop(zram_resize, system_prop)
 
-#SHELL
-allow zram_resize shell_data_file:dir search;
-allow zram_resize system_prop:file read;
-
-# NOTE: persist.sys.zram_size_percent is read by the script through the
-# property area. Property reads are not SELinux-checked (only writes via
-# property_service are), so no get_prop rules are needed here.

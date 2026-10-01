@@ -8,9 +8,8 @@
 # that size (in-RAM, no backing device).
 # Debug output goes to /data/local/tmp/zram_resize.log.
 
-LOG=/data/local/tmp/zram_resize.log
-log_i() { echo "I $(date +%s): $*" >> "$LOG" 2>/dev/null; }
-log_e() { echo "E $(date +%s): $*" >> "$LOG" 2>/dev/null; }
+log_i() { /system/bin/log -t zram_resize -p i "$*"; }
+log_e() { /system/bin/log -t zram_resize -p e "$*"; }
 
 log_i "triggered, pct=$(getprop persist.sys.zram_size_percent)"
 
@@ -39,20 +38,28 @@ fi
 
 log_i "resizing to ${SIZE_MB}M (was ${CUR_BYTES:-unknown} bytes)"
 
-if ! swapoff /dev/block/zram0 2>>"$LOG"; then
+# Preserve existing compression algorithm if set, default to lz4
+CUR_ALGO=$(sed -n 's/.*\[\([^]]*\)\].*/\1/p' /sys/block/zram0/comp_algorithm 2>/dev/null)
+[ -z "$CUR_ALGO" ] && CUR_ALGO="lz4"
+
+if ! swapoff /dev/block/zram0 2>/dev/null; then
     log_e "swapoff failed rc=$?"
-fi
-echo 1 > /sys/block/zram0/reset 2>>"$LOG" || log_e "reset failed"
-echo lzo-rle > /sys/block/zram0/comp_algorithm 2>>"$LOG" || log_e "comp_algorithm failed"
-if ! echo "${SIZE_MB}M" > /sys/block/zram0/disksize 2>>"$LOG"; then
-    log_e "disksize failed"
     exit 1
 fi
-if ! mkswap /dev/block/zram0 2>>"$LOG"; then
+echo 1 > /sys/block/zram0/reset 2>/dev/null || log_e "reset failed"
+echo "$CUR_ALGO" > /sys/block/zram0/comp_algorithm 2>/dev/null || log_e "comp_algorithm failed"
+if ! echo "${SIZE_MB}M" > /sys/block/zram0/disksize 2>/dev/null; then
+    log_e "disksize failed"
+    # Attempt to restore swap so system is not left swap-less
+    mkswap /dev/block/zram0 2>/dev/null
+    swapon /dev/block/zram0 2>/dev/null
+    exit 1
+fi
+if ! mkswap /dev/block/zram0 2>/dev/null; then
     log_e "mkswap failed"
     exit 1
 fi
-if ! swapon /dev/block/zram0 2>>"$LOG"; then
+if ! swapon /dev/block/zram0 2>/dev/null; then
     log_e "swapon failed"
     exit 1
 fi
