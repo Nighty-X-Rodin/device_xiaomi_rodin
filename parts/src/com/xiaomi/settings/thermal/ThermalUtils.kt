@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2020 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-FileCopyrightText: 2025 Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -40,6 +41,16 @@ class ThermalUtils private constructor(private val context: Context) {
                 startService()
             } else {
                 stopService()
+                setDefaultThermalProfile()
+            }
+        }
+
+    var chargingProfileEnabled: Boolean = sharedPrefs.getBoolean(THERMAL_CHARGING_ENABLED, true)
+        set(value) {
+            if (field == value) return
+            field = value
+            sharedPrefs.edit().putBoolean(THERMAL_CHARGING_ENABLED, value).apply()
+            if (!value) {
                 setDefaultThermalProfile()
             }
         }
@@ -233,6 +244,7 @@ class ThermalUtils private constructor(private val context: Context) {
     companion object {
         private const val TAG                  = "ThermalUtils"
         const val THERMAL_ENABLED              = "thermal_enabled"
+        const val THERMAL_CHARGING_ENABLED     = "thermal_charging_enabled"
         const val THERMAL_PACKAGE_PREFIX       = "thermal_package_"
         const val THERMAL_SCONFIG              = "/sys/devices/virtual/thermal/thermal_message/sconfig"
         const val SCONFIG_CHARGE               = "27"

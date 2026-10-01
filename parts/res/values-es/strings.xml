@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2023 Paranoid Android
+     Copyright (C) 2026 The XPerience Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <string name="app_name">Xiaomi Parts</string>
 
-    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <!-- ── Xiaomi Parts Hub  -->
     <string name="xiaomi_parts_title">Xiaomi Parts</string>
     <string name="xiaomi_parts_summary">Pantalla, rendimiento y sistema</string>
     <string name="xiaomi_parts_category_diagnostics">Diagnóstico</string>
 
-    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <!-- ── HomeScreen category headers  -->
     <string name="display_category">Pantalla</string>
     <string name="performance_category">Rendimiento</string>
     <string name="system_category">Sistema</string>
 
-    <!-- ── Common UI ───────────────────────────────────────── -->
+    <!-- ── Common UI  -->
     <string name="dismiss">Descartar</string>
     <string name="cancel">Cancelar</string>
     <string name="navigate_up">Navegar hacia arriba</string>
 
-    <!-- ── Battery status ─────────────────────────────────── -->
+    <!-- ── Battery status  -->
     <string name="battery_status_title">Estado de la batería</string>
     <string name="battery_status_summary">Salud, carga y métricas en vivo</string>
     <string name="battery_live_section">Batería</string>
@@ -58,7 +59,7 @@
     <string name="battery_plug_dock">Base</string>
     <string name="battery_plug_none">Batería</string>
 
-    <!-- ── Performance monitor ────────────────────────────── -->
+    <!-- ── Performance monitor ─ -->
     <string name="performance_title">Monitor de rendimiento</string>
     <string name="performance_summary">Carga de la CPU y métricas en vivo</string>
     <string name="monitor_cpu_section">CPU</string>
@@ -74,7 +75,7 @@
     <string name="monitor_gpu_load">Carga de la GPU: %1$d%%</string>
     <string name="monitor_unavailable">Los datos de monitoreo no están disponibles en este dispositivo.</string>
 
-    <!-- ── Memory manager ─────────────────────────────────── -->
+    <!-- ── Memory manager  -->
     <string name="memory_title">Administrador de memoria</string>
     <string name="memory_summary">Uso de RAM y procesos en ejecución</string>
     <string name="memory_used">En uso</string>
@@ -91,7 +92,7 @@
     <string name="memory_process_stopped">Proceso detenido</string>
 
 
-    <!-- ── Display Colours ────────────────────────────────── -->
+    <!-- ── Display Colours ── -->
     <string name="display_colours_title">Colores de la pantalla</string>
     <string name="display_colours_summary">Modo de color y temperatura</string>
     <string name="display_colours_description">Ajusta el modo de color y el balance de blancos de tu pantalla para obtener un aspecto más natural o más vívido.</string>
@@ -109,7 +110,7 @@
     <string name="color_mode_p3_summary">Espacio de color de cine DCI-P3</string>
     <string name="color_mode_srgb_summary">sRGB preciso para la web y el diseño</string>
 
-    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <!-- ── Screen Resolution  -->
     <string name="screen_resolution_title">Resolución de pantalla</string>
     <string name="screen_resolution_home_summary">Cambiar la resolución de pantalla</string>
     <string name="screen_resolution_description">Seleccionar una resolución más alta hace que la pantalla sea más nítida, pero consume más batería. Las resoluciones más bajas reducen el consumo de batería.</string>
@@ -127,7 +128,7 @@
     <string name="screen_resolution_dialog_confirm">Aplicar</string>
     <string name="screen_resolution_dialog_cancel">Cancelar</string>
 
-    <!-- ── Thermal Management ───────────────────────────────── -->
+    <!-- ── Thermal Management ─ -->
     <string name="thermal_title">Gestión térmica</string>
     <string name="thermal_summary">Rendimiento y temperatura por app</string>
     <string name="thermal_enable_title">Perfiles térmicos</string>
@@ -162,13 +163,13 @@
     <string name="thermal_yuanshen">Yuanshen</string>
     <string name="thermal_charge">Carga</string>
 
-    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <!-- ── Touch Boost  -->
     <string name="touch_boost_title">Refuerzo táctil</string>
     <string name="touch_boost_summary">Respuesta táctil más rápida</string>
     <string name="touch_boost_description">Aumenta la frecuencia de muestreo del panel táctil, reduciendo la latencia entre el toque y la respuesta. Puede aumentar ligeramente el consumo de energía durante el uso activo.</string>
     <string name="touch_boost_failed">No se pudo aplicar el refuerzo táctil</string>
 
-    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <!-- ── Swap (zRAM) ── -->
     <string name="zram_title">Expansión zRAM</string>
     <string name="zram_summary">Gestionar tamaño de swap comprimido en RAM</string>
     <string name="zram_disksize">zRAM activa</string>
@@ -178,13 +179,14 @@
     <string name="zram_apply">Aplicar cambios</string>
     <string name="zram_applying">Redimensionando zRAM…</string>
     <string name="zram_applied">zRAM redimensionada a %1$s</string>
+    <string name="zram_applied_reboot">Tamaño de zRAM guardado. Reinicia el dispositivo si el cambio no se aplica de inmediato.</string>
     <string name="zram_failed">Fallo al redimensionar zRAM</string>
     <string name="zram_preset_basic">Ligero (25%)</string>
     <string name="zram_preset_balanced">Equilibrado (50%)</string>
     <string name="zram_preset_performance">Rendimiento (65%)</string>
     <string name="zram_preset_heavy">Máximo (80%)</string>
-    <string name="zram_description">zRAM crea un espacio de intercambio (swap) comprimido directamente en la memoria RAM. Aumenta la capacidad multitarea efectiva sin degradar la memoria flash, manteniendo más aplicaciones activas.</string>
-    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="zram_description">zRAM crea un espacio de intercambio (swap) comprimido directamente en la memoria RAM. Aumenta la capacidad multitarea efectiva sin degradar la memoria flash, manteniendo más aplicaciones activas.\n\nNota: Si el nuevo tamaño no se refleja de inmediato al aplicar, reinicia el dispositivo para reconstruir el espacio de swap.</string>
+    <!-- ── Diagnostics ─ -->
     <string name="fingerprint_calibration_title">Calibración de la huella dactilar</string>
     <string name="fingerprint_calibration_summary">Recalibrar el sensor de huella dactilar</string>
     <string name="fingerprint_calibration_not_found">Calibración de huella no disponible</string>
@@ -192,7 +194,7 @@
     <string name="speaker_calibration_summary">Prueba de autocalibración del altavoz CIT</string>
     <string name="speaker_calibration_not_found">Calibración del altavoz no disponible</string>
 
-    <!-- ── Expressive Home & Bento Grid ────────────────────── -->
+    <!-- ── Expressive Home & Bento Grid ─ -->
     <string name="quick_actions_title">Acciones rápidas</string>
     <string name="device_overview_title">POCO X7 Pro</string>
     <string name="device_overview_chip">Dimensity 8400 Ultra</string>
@@ -211,4 +213,21 @@
     <string name="bento_resolution_title">Resolución</string>
     <string name="bento_fingerprint_title">Huella dactilar</string>
     <string name="bento_speaker_title">Altavoz</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Aplicar perfil durante la carga</string>
+    <string name="thermal_charging_switch_summary">Usa reglas térmicas al cargar. Desactívalo para permitir carga rápida máxima de 90W sin limitaciones impuestas.</string>
+
+    <!-- ── Real Battery Health  -->
+    <string name="battery_health_percentage">Salud de la batería</string>
+    <string name="battery_real_capacity">Capacidad real</string>
+    <string name="battery_design_capacity">Capacidad de diseño</string>
+
+    <!-- ── CPU Governor & Scheduler  -->
+    <string name="cpu_governor_title">Governor de CPU</string>
+    <string name="cpu_governor_summary">Ajustar el escalado de frecuencia en los clústeres</string>
+    <string name="cpu_gov_schedutil">Equilibrado</string>
+    <string name="cpu_gov_performance">Rendimiento</string>
+    <string name="cpu_gov_powersave">Ahorro</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

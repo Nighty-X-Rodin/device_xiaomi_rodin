@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2020 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-FileCopyrightText: 2025 Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -180,12 +181,13 @@ class ThermalService : Service() {
      *   queued toast before the new one shows, preventing visible stacking.
      */
     private fun applyProfile() {
-        val isCharging   = chargingMonitor.isCharging
-        val prevCharging = wasCharging
+        val isCharging          = chargingMonitor.isCharging
+        val prevCharging        = wasCharging
+        val shouldApplyCharging = isCharging && thermalUtils.chargingProfileEnabled
 
         runCatching {
             when {
-                isCharging              -> thermalUtils.setChargingThermalProfile()
+                shouldApplyCharging     -> thermalUtils.setChargingThermalProfile()
                 !screenOn               -> thermalUtils.setDefaultThermalProfile()
                 currentApp.isNotEmpty() -> thermalUtils.setThermalProfile(currentApp)
                 else -> dlog(TAG, "applyProfile: skipped — no foreground app yet")
@@ -198,8 +200,8 @@ class ThermalService : Service() {
         // reflects what was just acted on.
         wasCharging = isCharging
 
-        // Show a toast only on a real plug-in / plug-out transition.
-        // prevCharging == null → first call (service start) — skip toast.
+        // Show a toast only on a real plug-in / plug-out transition if charging profile is enabled
+        if (!thermalUtils.chargingProfileEnabled) return
         if (prevCharging == null) return
         if (isCharging == prevCharging) return
 

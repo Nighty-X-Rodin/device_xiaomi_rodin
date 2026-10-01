@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2025 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-License-Identifier: Apache-2.0
  *
  * Background service that applies the high touch sampling rate (HTSR)

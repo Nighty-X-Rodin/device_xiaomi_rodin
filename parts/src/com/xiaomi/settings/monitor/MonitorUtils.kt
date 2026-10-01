@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2026 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-License-Identifier: Apache-2.0
  *
  * Data collection for the System Monitor section. All reads are
@@ -319,3 +320,39 @@ fun formatBytes(kb: Long): String {
 }
 
 fun logMonitor(tag: String, msg: String) = Log.d(TAG, "[$tag] $msg")
+
+// ──────────────────────────────────────────────────────────────────────────
+// CPU Governor Controls
+// ──────────────────────────────────────────────────────────────────────────
+
+const val KEY_CPU_GOVERNOR = "cpu_governor"
+const val DEFAULT_CPU_GOVERNOR = "schedutil"
+
+fun readAvailableGovernors(): List<String> {
+    val line = readOneLine("/sys/devices/system/cpu/cpufreq/policy0/scaling_available_governors")
+    val list = line?.split(Regex("\\s+"))?.map { it.trim() }?.filter { it.isNotEmpty() }
+    return if (!list.isNullOrEmpty()) list else listOf("schedutil", "performance", "powersave", "sugov_ext")
+}
+
+fun readCurrentGovernor(): String {
+    return readOneLine("/sys/devices/system/cpu/cpufreq/policy0/scaling_governor") ?: DEFAULT_CPU_GOVERNOR
+}
+
+fun writeCpuGovernor(governor: String): Boolean {
+    val policies = policyDirs()
+    if (policies.isEmpty()) {
+        Log.w(TAG, "writeCpuGovernor: no policy dirs found")
+        return false
+    }
+    var allSuccess = true
+    for (dir in policies) {
+        val path = "${dir.absolutePath}/scaling_governor"
+        val success = com.xiaomi.settings.utils.writeLine(path, governor)
+        if (!success) {
+            allSuccess = false
+            Log.e(TAG, "Failed to write governor '$governor' to $path")
+        }
+    }
+    return allSuccess
+}
+

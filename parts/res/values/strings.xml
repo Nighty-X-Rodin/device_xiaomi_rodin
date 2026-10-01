@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2023 Paranoid Android
+     Copyright (C) 2026 The XPerience Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <string name="app_name">Xiaomi Parts</string>
 
-    <!-- ── Xiaomi Parts Hub ────────────────────────────────────── -->
+    <!-- ── Xiaomi Parts Hub -->
     <string name="xiaomi_parts_title">Xiaomi Parts</string>
     <string name="xiaomi_parts_summary">Display, Performance &amp; System</string>
     <string name="xiaomi_parts_category_diagnostics">Diagnostics</string>
 
-    <!-- ── HomeScreen category headers ─────────────────────── -->
+    <!-- ── HomeScreen category headers  -->
     <string name="display_category">Display</string>
     <string name="performance_category">Performance</string>
     <string name="system_category">System</string>
 
-    <!-- ── Common UI ───────────────────────────────────────── -->
+    <!-- ── Common UI -->
     <string name="dismiss">Dismiss</string>
     <string name="cancel">Cancel</string>
     <string name="navigate_up">Navigate up</string>
 
-    <!-- ── Battery status ─────────────────────────────────── -->
+    <!-- ── Battery status -->
     <string name="battery_status_title">Battery status</string>
     <string name="battery_status_summary">Health, charging and live metrics</string>
     <string name="battery_live_section">Battery</string>
@@ -58,7 +59,7 @@
     <string name="battery_plug_dock">Dock</string>
     <string name="battery_plug_none">Battery</string>
 
-    <!-- ── Performance monitor ────────────────────────────── -->
+    <!-- ── Performance monitor  -->
     <string name="performance_title">Performance monitor</string>
     <string name="performance_summary">CPU load and live metrics</string>
     <string name="monitor_cpu_section">CPU</string>
@@ -74,7 +75,7 @@
     <string name="monitor_gpu_load">GPU load: %1$d%%</string>
     <string name="monitor_unavailable">Monitoring data is not available on this device.</string>
 
-    <!-- ── Memory manager ─────────────────────────────────── -->
+    <!-- ── Memory manager -->
     <string name="memory_title">Memory manager</string>
     <string name="memory_summary">RAM usage and running processes</string>
     <string name="memory_used">Used</string>
@@ -91,7 +92,7 @@
     <string name="memory_process_stopped">Process stopped</string>
 
 
-    <!-- ── Display Colours ────────────────────────────────── -->
+    <!-- ── Display Colours ─ -->
     <string name="display_colours_title">Display colours</string>
     <string name="display_colours_summary">Colour mode and temperature</string>
     <string name="display_colours_description">Adjust the colour mode and white balance of your display for a more natural or vivid appearance.</string>
@@ -109,7 +110,7 @@
     <string name="color_mode_p3_summary">DCI-P3 cinema colour space</string>
     <string name="color_mode_srgb_summary">Accurate sRGB for web and design</string>
 
-    <!-- ── Screen Resolution ──────────────────────────────── -->
+    <!-- ── Screen Resolution ── -->
     <string name="screen_resolution_title">Screen resolution</string>
     <string name="screen_resolution_home_summary">Change display resolution</string>
     <string name="screen_resolution_description">Selecting a higher resolution makes the display sharper, but uses more battery. Lower resolutions reduce battery usage.</string>
@@ -127,7 +128,7 @@
     <string name="screen_resolution_dialog_confirm">Apply</string>
     <string name="screen_resolution_dialog_cancel">Cancel</string>
 
-    <!-- ── Thermal Management ───────────────────────────────── -->
+    <!-- ── Thermal Management  -->
     <string name="thermal_title">Thermal management</string>
     <string name="thermal_summary">Per-app performance and temperature</string>
     <string name="thermal_enable_title">Thermal profiles</string>
@@ -162,13 +163,13 @@
     <string name="thermal_yuanshen">Yuanshen</string>
     <string name="thermal_charge">Charging</string>
 
-    <!-- ── Touch Boost ───────────────────────────────────────── -->
+    <!-- ── Touch Boost -->
     <string name="touch_boost_title">Touch boost</string>
     <string name="touch_boost_summary">Faster touch response</string>
     <string name="touch_boost_description">Raises the touch controller polling rate, reducing tap-to-response latency. May slightly increase power draw during active use.</string>
     <string name="touch_boost_failed">Touch boost failed to apply</string>
 
-    <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <!-- ── Swap (zRAM) -->
     <string name="zram_title">zRAM expansion</string>
     <string name="zram_summary">Manage compressed RAM swap size</string>
     <string name="zram_disksize">Active zRAM</string>
@@ -178,13 +179,14 @@
     <string name="zram_apply">Apply changes</string>
     <string name="zram_applying">Resizing zRAM…</string>
     <string name="zram_applied">zRAM resized to %1$s</string>
+    <string name="zram_applied_reboot">zRAM size saved. Reboot your device if the change does not apply immediately.</string>
     <string name="zram_failed">Failed to resize zRAM</string>
     <string name="zram_preset_basic">Light (25%)</string>
     <string name="zram_preset_balanced">Balanced (50%)</string>
     <string name="zram_preset_performance">Performance (65%)</string>
     <string name="zram_preset_heavy">Maximum (80%)</string>
-    <string name="zram_description">zRAM creates a compressed swap space directly in physical RAM. It increases effective memory capacity without wearing out internal storage, keeping more background apps alive and responsive.</string>
-    <!-- ── Diagnostics ─────────────────────────────────────── -->
+    <string name="zram_description">zRAM creates a compressed swap space directly in physical RAM. It increases effective memory capacity without wearing out internal storage, keeping more background apps alive and responsive.\n\nNote: If the new size is not reflected immediately after applying, reboot the device to recreate the swap space.</string>
+    <!-- ── Diagnostics ─-->
     <string name="fingerprint_calibration_title">Fingerprint calibration</string>
     <string name="fingerprint_calibration_summary">Recalibrate the fingerprint sensor</string>
     <string name="fingerprint_calibration_not_found">Fingerprint calibration not available</string>
@@ -192,7 +194,7 @@
     <string name="speaker_calibration_summary">CIT speaker self-calibration test</string>
     <string name="speaker_calibration_not_found">Speaker calibration not available</string>
 
-    <!-- ── Expressive Home & Bento Grid ────────────────────── -->
+    <!-- ── Expressive Home & Bento Grid ─ -->
     <string name="quick_actions_title">Quick actions</string>
     <string name="device_overview_title">POCO X7 Pro</string>
     <string name="device_overview_chip">Dimensity 8400 Ultra</string>
@@ -211,4 +213,21 @@
     <string name="bento_resolution_title">Resolution</string>
     <string name="bento_fingerprint_title">Fingerprint</string>
     <string name="bento_speaker_title">Speaker</string>
+
+    <!-- ── Thermal Charging Switch  -->
+    <string name="thermal_charging_switch_title">Apply profile while charging</string>
+    <string name="thermal_charging_switch_summary">Use thermal throttling rules while charging. Turn off to allow unrestricted fast charging up to 90W.</string>
+
+    <!-- ── Real Battery Health ── -->
+    <string name="battery_health_percentage">Battery health</string>
+    <string name="battery_real_capacity">Full capacity</string>
+    <string name="battery_design_capacity">Design capacity</string>
+
+    <!-- ── CPU Governor & Scheduler ── -->
+    <string name="cpu_governor_title">CPU governor</string>
+    <string name="cpu_governor_summary">Adjust scaling governor across all clusters</string>
+    <string name="cpu_gov_schedutil">Balanced</string>
+    <string name="cpu_gov_performance">Performance</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

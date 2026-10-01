@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2026 The XPerience Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-License-Identifier: Apache-2.0
  */
 

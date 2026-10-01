@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2026 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -109,12 +110,18 @@ fun BatteryStatusScreen(onBack: () -> Unit) {
 
     var snap by remember { mutableStateOf(readSnapshot(context)) }
     var chargeCounterUah by remember { mutableLongStateOf(0L) }
+    var cycleCount by remember { mutableIntStateOf(-1) }
+    var chargeFullUah by remember { mutableLongStateOf(0L) }
+    var chargeFullDesignUah by remember { mutableLongStateOf(0L) }
 
     val bm = remember { context.getSystemService(BatteryManager::class.java) }
 
     fun refreshProperties() {
         chargeCounterUah = runCatching { bm.getLongProperty(BatteryManager.BATTERY_PROPERTY_CHARGE_COUNTER) }
             .getOrDefault(readSysfsLong("/sys/class/power_supply/battery/charge_counter") ?: 0L)
+        cycleCount = (readSysfsLong("/sys/class/power_supply/battery/cycle_count") ?: -1L).toInt()
+        chargeFullUah = readSysfsLong("/sys/class/power_supply/battery/charge_full") ?: 0L
+        chargeFullDesignUah = readSysfsLong("/sys/class/power_supply/battery/charge_full_design") ?: 0L
     }
 
     LaunchedEffect(Unit) {
@@ -141,6 +148,11 @@ fun BatteryStatusScreen(onBack: () -> Unit) {
     val statusText = stringResource(statusLabelRes(snap.status))
     val isCharging = snap.plugged != 0
     val level      = snap.level.coerceIn(0, 100)
+    val healthPct  = if (chargeFullUah > 0 && chargeFullDesignUah > 0) {
+        minOf(100, kotlin.math.round(chargeFullUah.toDouble() / chargeFullDesignUah.toDouble() * 100.0).toInt())
+    } else {
+        -1
+    }
 
     Scaffold(
         topBar = {
@@ -249,6 +261,52 @@ fun BatteryStatusScreen(onBack: () -> Unit) {
 
             item(key = "wear-label") { SectionHeader(stringResource(R.string.battery_wear_section)) }
             item(key = "wear-grid-1") {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = PageGutter)
+                        .padding(bottom = 8.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    val healthStr = if (healthPct >= 0) "$healthPct%" else stringResource(healthLabelRes(snap.health))
+                    StatCard(
+                        label = stringResource(R.string.battery_health_percentage),
+                        value = healthStr,
+                        icon  = Icons.Filled.CheckCircle,
+                        tint  = if (healthPct < 0 || healthPct >= 80) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+                        modifier = Modifier.weight(1f),
+                    )
+                    StatCard(
+                        label = stringResource(R.string.battery_cycle_count),
+                        value = if (cycleCount >= 0) "$cycleCount" else "—",
+                        icon  = Icons.Filled.ElectricBolt,
+                        modifier = Modifier.weight(1f),
+                    )
+                }
+            }
+            item(key = "wear-grid-2") {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = PageGutter)
+                        .padding(bottom = 8.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    StatCard(
+                        label = stringResource(R.string.battery_real_capacity),
+                        value = if (chargeFullUah > 0) "%.0f mAh".format(chargeFullUah / 1000.0) else "—",
+                        icon  = Icons.Filled.BatteryChargingFull,
+                        modifier = Modifier.weight(1f),
+                    )
+                    StatCard(
+                        label = stringResource(R.string.battery_design_capacity),
+                        value = if (chargeFullDesignUah > 0) "%.0f mAh".format(chargeFullDesignUah / 1000.0) else "—",
+                        icon  = Icons.Filled.Memory,
+                        modifier = Modifier.weight(1f),
+                    )
+                }
+            }
+            item(key = "wear-grid-3") {
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()

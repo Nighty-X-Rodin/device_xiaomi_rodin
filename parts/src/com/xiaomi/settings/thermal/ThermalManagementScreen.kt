@@ -187,6 +187,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
     val scope        = rememberCoroutineScope()
 
     var thermalEnabled   by remember { mutableStateOf(thermalUtils.enabled) }
+    var chargingProfileEnabled by remember { mutableStateOf(thermalUtils.chargingProfileEnabled) }
     var appList          by remember { mutableStateOf<List<AppThermalEntry>>(emptyList()) }
     var isCharging       by remember { mutableStateOf(readIsCharging(context)) }
     var showResetDialog  by remember { mutableStateOf(false) }
@@ -194,8 +195,9 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
     var showAddSheet     by remember { mutableStateOf(false) }
     var pendingNewApp    by remember { mutableStateOf<InstalledAppEntry?>(null) }
 
-    val controlsEnabled = thermalEnabled && !isCharging
-    val addSheetState   = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    val isChargingLocked = isCharging && chargingProfileEnabled
+    val controlsEnabled  = thermalEnabled && !isChargingLocked
+    val addSheetState    = rememberModalBottomSheetState(skipPartiallyExpanded = true)
 
     DisposableEffect(Unit) {
         val receiver = object : BroadcastReceiver() {
@@ -258,7 +260,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
         ) {
             item(key = "charging-banner") {
                 AnimatedVisibility(
-                    visible = isCharging,
+                    visible = isChargingLocked,
                     enter   = expandVertically(animationSpec = Motion.defaultEffectsSpec()) + fadeIn(),
                     exit    = shrinkVertically(animationSpec = Motion.defaultEffectsSpec()) + fadeOut(),
                 ) {
@@ -306,7 +308,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
                 ) {
                     Card(
                         onClick  = {
-                            if (!isCharging) {
+                            if (!isChargingLocked) {
                                 thermalEnabled = !thermalEnabled
                                 thermalUtils.enabled = thermalEnabled
                             }
@@ -316,7 +318,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
                         colors   = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh),
                     ) {
                         ListItem(
-                            modifier = Modifier.alpha(if (isCharging) 0.38f else 1f),
+                            modifier = Modifier.alpha(if (isChargingLocked) 0.38f else 1f),
                             headlineContent = {
                                 Text(
                                     text  = stringResource(R.string.thermal_enable_title),
@@ -326,7 +328,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
                             trailingContent = {
                                 Switch(
                                     checked         = thermalEnabled,
-                                    enabled         = !isCharging,
+                                    enabled         = !isChargingLocked,
                                     onCheckedChange = { checked ->
                                         thermalEnabled = checked
                                         thermalUtils.enabled = checked
@@ -348,6 +350,47 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
                             )
                         },
                         modifier = Modifier.fillMaxWidth(),
+                    )
+                }
+            }
+
+            item(key = "charging-profile-switch") {
+                Card(
+                    onClick  = {
+                        chargingProfileEnabled = !chargingProfileEnabled
+                        thermalUtils.chargingProfileEnabled = chargingProfileEnabled
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = horizontalGutter)
+                        .padding(bottom = 12.dp),
+                    shape    = MaterialTheme.shapes.extraLarge,
+                    colors   = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerHigh),
+                ) {
+                    ListItem(
+                        headlineContent = {
+                            Text(
+                                text  = stringResource(R.string.thermal_charging_switch_title),
+                                style = MaterialTheme.typography.titleMedium,
+                            )
+                        },
+                        supportingContent = {
+                            Text(
+                                text  = stringResource(R.string.thermal_charging_switch_summary),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        },
+                        trailingContent = {
+                            Switch(
+                                checked         = chargingProfileEnabled,
+                                onCheckedChange = { checked ->
+                                    chargingProfileEnabled = checked
+                                    thermalUtils.chargingProfileEnabled = checked
+                                },
+                            )
+                        },
+                        colors = ListItemDefaults.colors(containerColor = Color.Transparent),
                     )
                 }
             }

@@ -40,9 +40,9 @@ allow parts_app app_function_service:service_manager find;
 # generic sysfs, /proc/stat|meminfo|cpuinfo|loadavg|uptime|version,
 # per-UID CPU accounting, per-pid proc entries, MTK GPU freq/load nodes.
 
-# /sys/devices/system/cpu (cpufreq policies, core online status)
+# /sys/devices/system/cpu (cpufreq policies, core online status, governor control)
 allow parts_app sysfs_devices_system_cpu:dir r_dir_perms;
-allow parts_app sysfs_devices_system_cpu:file r_file_perms;
+allow parts_app sysfs_devices_system_cpu:file rw_file_perms;
 
 # /sys/devices/platform/*/power_supply (battery raw attributes)
 allow parts_app sysfs_batteryinfo:dir r_dir_perms;

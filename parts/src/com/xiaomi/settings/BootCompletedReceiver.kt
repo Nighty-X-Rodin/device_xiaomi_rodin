@@ -1,5 +1,6 @@
 /*
- * SPDX-FileCopyrightText: 2018 The LineageOS Project
+ * SPDX-FileCopyrightText: The LineageOS Project
+ * SPDX-FileCopyrightText: The XPerience Project
  * SPDX-FileCopyrightText: 2025 Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -74,5 +75,15 @@ class BootCompletedReceiver : BroadcastReceiver() {
                     ),
                 )
         }.onFailure { e -> Log.e(TAG, "Failed to override HDR types", e) }
+
+        // Restore saved CPU governor
+        runCatching {
+            val prefs = androidx.preference.PreferenceManager.getDefaultSharedPreferences(context)
+            val gov = prefs.getString(
+                com.xiaomi.settings.monitor.KEY_CPU_GOVERNOR,
+                com.xiaomi.settings.monitor.DEFAULT_CPU_GOVERNOR,
+            ) ?: com.xiaomi.settings.monitor.DEFAULT_CPU_GOVERNOR
+            com.xiaomi.settings.monitor.writeCpuGovernor(gov)
+        }.onFailure { e -> Log.e(TAG, "Failed to restore CPU governor", e) }
     }
 }
