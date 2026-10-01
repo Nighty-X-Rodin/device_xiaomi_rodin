@@ -19,6 +19,9 @@ typeattribute zram_resize data_between_core_and_vendor_violators;
 
 init_daemon_domain(zram_resize)
 
+# Required for swapon / swapoff syscalls
+allow zram_resize self:capability sys_admin;
+
 # Shebang interpreter of the script (/system/bin/sh)
 allow zram_resize shell_exec:file execute;
 
