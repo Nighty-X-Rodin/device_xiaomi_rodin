@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Не удалось применить ускорение отклика касания</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Расширение zRAM</string>
+    <string name="zram_summary">Управление размером подкачки сжатого ОЗУ</string>
+    <string name="zram_disksize">Активный zRAM</string>
+    <string name="zram_comp_algo">Алгоритм</string>
+    <string name="zram_usage">Использование подкачки</string>
+    <string name="zram_percentage">Процент выделения ОЗУ</string>
+    <string name="zram_apply">Применить изменения</string>
+    <string name="zram_applying">Изменение размера zRAM…</string>
+    <string name="zram_applied">Размер zRAM изменен до %1$s</string>
+    <string name="zram_applied_reboot">Размер zRAM сохранен. Перезагрузите устройство, если изменения не вступят в силу немедленно.</string>
+    <string name="zram_failed">Не удалось изменить размер zRAM</string>
+    <string name="zram_preset_basic">Базовый (25%)</string>
+    <string name="zram_preset_balanced">Сбалансированный (50%)</string>
+    <string name="zram_preset_performance">Производительность (65%)</string>
+    <string name="zram_preset_heavy">Максимальный (80%)</string>
+    <string name="zram_description">zRAM создает сжатое пространство подкачки непосредственно в физической оперативной памяти. Это увеличивает эффективный объем памяти, не изнашивая внутреннюю память, сохраняя работоспособность и оперативность большего количества фоновых приложений.
+
+Примечание. Если новый размер не отображается сразу после применения, перезагрузите устройство, чтобы воссоздать пространство подкачки.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Калибровка отпечатка пальца</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Калибровка динамика</string>
     <string name="speaker_calibration_summary">Тест самокалибровки динамика CIT</string>
     <string name="speaker_calibration_not_found">Калибровка динамика недоступна</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Быстрые действия</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Активный</string>
+    <string name="status_disabled">Выкл.</string>
+    <string name="optical_sensor_chip">Оптический датчик</string>
+    <string name="audio_cit_chip">Звук CIT</string>
+    <string name="bento_battery_title">Аккумулятор</string>
+    <string name="bento_soc_thermal_title">SoC Тепловая</string>
+    <string name="bento_display_title">Дисплей</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Термальная система</string>
+    <string name="bento_performance_title">Производительность</string>
+    <string name="bento_memory_title">ОЗУ Память</string>
+    <string name="bento_colours_title">Цвета</string>
+    <string name="bento_resolution_title">Разрешение</string>
+    <string name="bento_fingerprint_title">Отпечаток пальца</string>
+    <string name="bento_speaker_title">Динамик</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Применить профиль во время зарядки</string>
+    <string name="thermal_charging_switch_summary">Использовать правила регулирования температуры во время зарядки. Выключите, чтобы разрешить неограниченную быструю зарядку мощностью до 90 Вт.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Состояние батареи</string>
+    <string name="battery_real_capacity">Полная емкость</string>
+    <string name="battery_design_capacity">Расчетная мощность</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Регулятор ЦП</string>
+    <string name="cpu_governor_summary">Настройка регулятора масштабирования во всех кластерах</string>
+    <string name="cpu_gov_schedutil">Сбалансированная</string>
+    <string name="cpu_gov_performance">Производительность</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

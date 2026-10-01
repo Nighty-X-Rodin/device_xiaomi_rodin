@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">ટચ બુસ્ટ લાગુ કરી શકાયું નહીં</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM વિસ્તરણ</string>
+    <string name="zram_summary">સંકુચિત RAM સ્વેપ કદનું સંચાલન કરો</string>
+    <string name="zram_disksize">સક્રિય zRAM</string>
+    <string name="zram_comp_algo">અલ્ગોરિધમ</string>
+    <string name="zram_usage">સ્વેપ વપરાશ</string>
+    <string name="zram_percentage">RAM ફાળવણી ટકાવારી</string>
+    <string name="zram_apply">ફેરફારો લાગુ કરો</string>
+    <string name="zram_applying">zRAM ને માપ બદલો…</string>
+    <string name="zram_applied">zRAM ને %1$s</string>
+    <string name="zram_applied_reboot">zRAM કદ સાચવવામાં આવ્યું. જો ફેરફાર તરત જ લાગુ ન થાય તો તમારા ઉપકરણને રીબૂટ કરો.</string>
+    <string name="zram_failed">zRAM</string>
+    <string name="zram_preset_basic">મૂળભૂત (25%)</string>
+    <string name="zram_preset_balanced">સંતુલિત (50%)</string>
+    <string name="zram_preset_performance">પ્રદર્શન (65%)</string>
+    <string name="zram_preset_heavy">મહત્તમ (80%) માપ બદલવામાં નિષ્ફળ</string>
+    <string name="zram_description">zRAM ભૌતિક RAM માં સીધી સંકુચિત સ્વેપ જગ્યા બનાવે છે. તે આંતરિક સ્ટોરેજને ખતમ કર્યા વિના અસરકારક મેમરી ક્ષમતામાં વધારો કરે છે, વધુ પૃષ્ઠભૂમિ એપ્લિકેશનોને જીવંત અને પ્રતિભાવશીલ રાખે છે.
+
+નોંધ: જો અરજી કર્યા પછી તરત જ નવું કદ પ્રતિબિંબિત થતું નથી, તો સ્વેપ સ્પેસ ફરીથી બનાવવા માટે ઉપકરણને રીબૂટ કરો.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">આંગળીના નિશાનનું કેલિબ્રેશન</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">સ્પીકર કેલિબ્રેશન</string>
     <string name="speaker_calibration_summary">CIT સ્પીકર સેલ્ફ-કેલિબ્રેશન પરીક્ષણ</string>
     <string name="speaker_calibration_not_found">સ્પીકર કેલિબ્રેશન ઉપલબ્ધ નથી</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">ઝડપી ક્રિયાઓ</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">એક્ટિવ</string>
+    <string name="status_disabled">ઑફ</string>
+    <string name="optical_sensor_chip">ઑપ્ટિકલ સેન્સર</string>
+    <string name="audio_cit_chip">CIT ઑડિઓ</string>
+    <string name="bento_battery_title">બેટરી</string>
+    <string name="bento_soc_thermal_title">SoC થર્મલ</string>
+    <string name="bento_display_title">ડિસ્પ્લે</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">થર્મલ્સ</string>
+    <string name="bento_performance_title">પરફોર્મન્સ મી</string>
+    <string name="bento_memory_title"></string>
+    <string name="bento_colours_title">રંગો</string>
+    <string name="bento_resolution_title">રીઝોલ્યુશન</string>
+    <string name="bento_fingerprint_title">ફિંગરપ્રિન્ટ</string>
+    <string name="bento_speaker_title">સ્પીકર</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ચાર્જ કરતી વખતે પ્રોફાઇલ લાગુ કરો</string>
+    <string name="thermal_charging_switch_summary">ચાર્જ કરતી વખતે થર્મલ થ્રોટલિંગ નિયમોનો ઉપયોગ કરો. 90W સુધી અપ્રતિબંધિત ઝડપી ચાર્જિંગને મંજૂરી આપવા માટે બંધ કરો.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">બેટરી આરોગ્ય</string>
+    <string name="battery_real_capacity">સંપૂર્ણ ક્ષમતા</string>
+    <string name="battery_design_capacity">ડિઝાઇન ક્ષમતા</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU ગવર્નર</string>
+    <string name="cpu_governor_summary">તમામ ક્લસ્ટરોમાં સ્કેલિંગ ગવર્નરને સમાયોજિત કરો</string>
+    <string name="cpu_gov_schedutil">સંતુલિત</string>
+    <string name="cpu_gov_performance">પરફોર્મન્સ</string>
+    <string name="cpu_gov_powersave">પાવરસેવ</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -152,4 +152,61 @@
     <string name="speaker_calibration_title">Чанга яригчийн тохируулга</string>
     <string name="speaker_calibration_summary">CIT чанга яригчийг өөрөө тохируулах туршилт</string>
     <string name="speaker_calibration_not_found">Чанга яригчийн тохируулга хийх боломжгүй</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">zRAM өргөтгөл</string>
+    <string name="zram_summary">Шахсан RAM солих хэмжээг удирдах</string>
+    <string name="zram_disksize">Идэвхтэй zRAM</string>
+    <string name="zram_comp_algo">Алгоритм</string>
+    <string name="zram_usage">Солилцооны хэрэглээ</string>
+    <string name="zram_percentage">RAM хуваарилалтын хувь</string>
+    <string name="zram_apply">Өөрчлөлт оруулах</string>
+    <string name="zram_applying">zRAM-ийн хэмжээг өөрчлөх...</string>
+    <string name="zram_applied">zRAM-ийн хэмжээг %1$s болгон өөрчлөх</string>
+    <string name="zram_applied_reboot">zRAM-ийн хэмжээг хадгалсан. Хэрэв өөрчлөлт нэн даруй хэрэгжихгүй бол төхөөрөмжөө дахин ачаална уу.</string>
+    <string name="zram_failed">zRAM-ийн хэмжээг өөрчилж чадсангүй</string>
+    <string name="zram_preset_basic">Үндсэн (25%)</string>
+    <string name="zram_preset_balanced">Тэнцвэртэй (50%)</string>
+    <string name="zram_preset_performance">Гүйцэтгэл (65%)</string>
+    <string name="zram_preset_heavy">Хамгийн их (80%)</string>
+    <string name="zram_description">zRAM нь физик RAM-д шууд шахагдсан своп зай үүсгэдэг. Энэ нь дотоод санах ойг ашиглахгүйгээр үр дүнтэй санах ойн багтаамжийг нэмэгдүүлж, илүү олон дэвсгэр програмыг амьд, хариу үйлдэл үзүүлэх боломжийг олгодог.
+
+Санамж: Хэрэв шинэ хэмжээ хэрэглэсний дараа шууд тусгагдаагүй бол солих зайг дахин үүсгэхийн тулд төхөөрөмжийг дахин ачаална уу.</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Шуурхай үйлдэл</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Идэвхтэй</string>
+    <string name="status_disabled">Унтраах</string>
+    <string name="optical_sensor_chip">Оптик мэдрэгч</string>
+    <string name="audio_cit_chip">CIT аудио</string>
+    <string name="bento_battery_title">Зай</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Дэлгэц</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Дулааны төхөөрөмж</string>
+    <string name="bento_performance_title">Гүйцэтгэл</string>
+    <string name="bento_memory_title">RAM санах ой</string>
+    <string name="bento_colours_title">Өнгө</string>
+    <string name="bento_resolution_title">Нарийвчлал</string>
+    <string name="bento_fingerprint_title">Хурууны хээ</string>
+    <string name="bento_speaker_title">Чанга яригч</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Цэнэглэх үед профайл ашиглах</string>
+    <string name="thermal_charging_switch_summary">Цэнэглэх үед дулааны тохируулагч дүрмийг ашиглана уу. 90 Вт хүртэл хязгааргүй хурдан цэнэглэхийг зөвшөөрөхийн тулд унтраа.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Батерейны эрүүл мэнд</string>
+    <string name="battery_real_capacity">Бүрэн хүчин чадал</string>
+    <string name="battery_design_capacity">Дизайн хүчин чадал</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU зохицуулагч</string>
+    <string name="cpu_governor_summary">Бүх кластерууд дахь масштабын зохицуулагчийг тохируулах</string>
+    <string name="cpu_gov_schedutil">Тэнцвэртэй</string>
+    <string name="cpu_gov_performance">Гүйцэтгэл</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

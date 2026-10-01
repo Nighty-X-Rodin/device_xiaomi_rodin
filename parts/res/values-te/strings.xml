@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost అప్లే చేయడంలో విఫలమైంది</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM విస్తరణ</string>
+    <string name="zram_summary">కంప్రెస్డ్ ర్యామ్ స్వాప్ పరిమాణాన్ని నిర్వహించండి</string>
+    <string name="zram_disksize">యాక్టివ్ zRAM</string>
+    <string name="zram_comp_algo">అల్గోరిథం</string>
+    <string name="zram_usage">స్వాప్ వినియోగాన్ని</string>
+    <string name="zram_percentage">RAM కేటాయింపు శాతం</string>
+    <string name="zram_apply">మార్పులను వర్తింపజేయండి</string>
+    <string name="zram_applying">zRAM పునఃపరిమాణం...</string>
+    <string name="zram_applied">zRAM పరిమాణం %1$sకి సేవ్ చేయబడింది</string>
+    <string name="zram_applied_reboot">zRAM పరిమాణం సేవ్ చేయబడింది మార్పు వెంటనే వర్తించకపోతే మీ పరికరాన్ని రీబూట్ చేయండి.</string>
+    <string name="zram_failed">zRAM పునఃపరిమాణం చేయడంలో విఫలమైంది</string>
+    <string name="zram_preset_basic">ప్రాథమిక (25%)</string>
+    <string name="zram_preset_balanced">బ్యాలెన్స్‌డ్ (50%)</string>
+    <string name="zram_preset_performance">పనితీరు (65%)</string>
+    <string name="zram_preset_heavy">గరిష్టం (80%)</string>
+    <string name="zram_description">zRAM భౌతిక RAMలో నేరుగా కంప్రెస్డ్ స్వాప్ స్పేస్‌ను సృష్టిస్తుంది. ఇది అంతర్గత నిల్వను కోల్పోకుండా ప్రభావవంతమైన మెమరీ సామర్థ్యాన్ని పెంచుతుంది, మరిన్ని బ్యాక్‌గ్రౌండ్ యాప్‌లను సజీవంగా మరియు ప్రతిస్పందించేలా ఉంచుతుంది.
+
+గమనిక: దరఖాస్తు చేసిన వెంటనే కొత్త పరిమాణం ప్రతిబింబించకపోతే, స్వాప్ స్పేస్‌ను మళ్లీ సృష్టించడానికి పరికరాన్ని రీబూట్ చేయండి.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">వేలిముడి క్యాలిబ్రేషన్</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">స్పీకర్ క్యాలిబ్రేషన్</string>
     <string name="speaker_calibration_summary">CIT స్పీకర్ స్వీప్ క్యాలిబ్రేషన్ పరీక్ష</string>
     <string name="speaker_calibration_not_found">స్పీకర్ క్యాలిబ్రేషన్ అందుబాటును లేదు</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">త్వరిత చర్యలు</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">యాక్టివ్</string>
+    <string name="status_disabled">ఆఫ్</string>
+    <string name="optical_sensor_chip">ఆప్టికల్ సెన్సార్</string>
+    <string name="audio_cit_chip">CIT ఆడియో</string>
+    <string name="bento_battery_title">బ్యాటరీ</string>
+    <string name="bento_soc_thermal_title">SoC థర్మల్</string>
+    <string name="bento_display_title">డిస్ప్లే</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">థర్మల్‌లు</string>
+    <string name="bento_performance_title">పనితీరు</string>
+    <string name="bento_memory_title">RAM</string>
+    <string name="bento_colours_title">రంగులు</string>
+    <string name="bento_resolution_title">రిజల్యూషన్</string>
+    <string name="bento_fingerprint_title">ఫింగర్‌ప్రింట్</string>
+    <string name="bento_speaker_title">స్పీకర్</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ఛార్జింగ్ చేస్తున్నప్పుడు ప్రొఫైల్‌ను వర్తింపజేయండి</string>
+    <string name="thermal_charging_switch_summary">ఛార్జింగ్ చేస్తున్నప్పుడు థర్మల్ థ్రోట్లింగ్ నియమాలను ఉపయోగించండి. 90W వరకు అనియంత్రిత ఫాస్ట్ ఛార్జింగ్‌ను అనుమతించడానికి ఆఫ్ చేయండి.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">బ్యాటరీ ఆరోగ్యం</string>
+    <string name="battery_real_capacity">పూర్తి సామర్థ్యం</string>
+    <string name="battery_design_capacity">డిజైన్ సామర్థ్యం</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU గవర్నర్</string>
+    <string name="cpu_governor_summary">అన్ని క్లస్టర్‌లలో స్కేలింగ్ గవర్నర్‌ను సర్దుబాటు చేయండి</string>
+    <string name="cpu_gov_schedutil">బ్యాలెన్స్‌డ్</string>
+    <string name="cpu_gov_performance">పనితీరు</string>
+    <string name="cpu_gov_powersave">పవర్‌సేవ్</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

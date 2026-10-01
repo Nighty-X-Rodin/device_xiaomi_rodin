@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost gagal digunakan</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">pengembangan zRAM</string>
+    <string name="zram_summary">Urus saiz swap RAM termampat</string>
+    <string name="zram_disksize">zRAM aktif</string>
+    <string name="zram_comp_algo">Algoritma</string>
+    <string name="zram_usage">Penggunaan swap</string>
+    <string name="zram_percentage">peratusan peruntukan RAM</string>
+    <string name="zram_apply">Gunakan perubahan</string>
+    <string name="zram_applying">Saiz semula zRAM...</string>
+    <string name="zram_applied">saiz zRAM diubah kepada %1$s</string>
+    <string name="zram_applied_reboot">saiz zRAM disimpan. But semula peranti anda jika perubahan tidak berlaku serta-merta.</string>
+    <string name="zram_failed">Gagal mengubah saiz zRAM</string>
+    <string name="zram_preset_basic">Asas (25%)</string>
+    <string name="zram_preset_balanced">Seimbang (50%)</string>
+    <string name="zram_preset_performance">Prestasi (65%)</string>
+    <string name="zram_preset_heavy">Maksimum (80%)</string>
+    <string name="zram_description">zRAM mencipta ruang swap termampat secara langsung dalam RAM fizikal. Ia meningkatkan kapasiti memori yang berkesan tanpa menggunakan storan dalaman, memastikan lebih banyak apl latar belakang hidup dan responsif.
+
+Nota: Jika saiz baharu tidak ditunjukkan serta-merta selepas digunakan, but semula peranti untuk mencipta semula ruang swap.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Penentukuran cap jari</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Penentukuran pembesar suara</string>
     <string name="speaker_calibration_summary">Ujian penentukuran sendiri pembesar suara CIT</string>
     <string name="speaker_calibration_not_found">Penentukuran pembesar suara tidak tersedia</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Tindakan pantas</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktif</string>
+    <string name="status_disabled">Mati</string>
+    <string name="optical_sensor_chip">Sensor optik</string>
+    <string name="audio_cit_chip">Audio CIT</string>
+    <string name="bento_battery_title">Bateri</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Paparan</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Prestasi</string>
+    <string name="bento_memory_title">Memori RAM</string>
+    <string name="bento_colours_title">Warna</string>
+    <string name="bento_resolution_title">Resolusi</string>
+    <string name="bento_fingerprint_title">Cap Jari</string>
+    <string name="bento_speaker_title">Pembesar Suara</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Gunakan profil semasa mengecas</string>
+    <string name="thermal_charging_switch_summary">Gunakan peraturan pendikit terma semasa mengecas. Matikan untuk membenarkan pengecasan pantas tanpa had sehingga 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Kesihatan bateri</string>
+    <string name="battery_real_capacity">Kapasiti penuh</string>
+    <string name="battery_design_capacity">Kapasiti reka bentuk</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Gabenor CPU</string>
+    <string name="cpu_governor_summary">Laraskan penskalaan gabenor merentas semua kluster</string>
+    <string name="cpu_gov_schedutil">Seimbang</string>
+    <string name="cpu_gov_performance">Prestasi</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

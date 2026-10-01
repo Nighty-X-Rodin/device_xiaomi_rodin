@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Impossible d\'appliquer l\'accélération tactile</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Extension de la zRAM</string>
+    <string name="zram_summary">Gérer la taille d\'échange de la RAM compressée</string>
+    <string name="zram_disksize">zRAM active</string>
+    <string name="zram_comp_algo">Algorithme</string>
+    <string name="zram_usage">Utilisation de l\'échange</string>
+    <string name="zram_percentage">Pourcentage d\'allocation de la RAM</string>
+    <string name="zram_apply">Appliquer les modifications</string>
+    <string name="zram_applying">Redimensionner la zRAM…</string>
+    <string name="zram_applied">La zRAM redimensionnée à %1$s</string>
+    <string name="zram_applied_reboot">Taille de la zRAM enregistrée. Redémarrez votre appareil si la modification ne s\'applique pas immédiatement.</string>
+    <string name="zram_failed">Échec du redimensionnement de la zRAM</string>
+    <string name="zram_preset_basic">De base (25 %)</string>
+    <string name="zram_preset_balanced">Équilibré (50 %)</string>
+    <string name="zram_preset_performance">Performances (65 %)</string>
+    <string name="zram_preset_heavy">Maximum (80 %)</string>
+    <string name="zram_description">zRAM crée un espace d\'échange compressé directement dans la RAM physique. Il augmente la capacité de mémoire effective sans épuiser le stockage interne, gardant ainsi davantage d\'applications en arrière-plan actives et réactives.
+
+Remarque : Si la nouvelle taille n\'est pas reflétée immédiatement après l\'application, redémarrez l\'appareil pour recréer l\'espace d\'échange.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Calibrage de l\'empreinte digitale</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Calibrage du haut-parleur</string>
     <string name="speaker_calibration_summary">Test d\'autocalibrage du haut-parleur CIT</string>
     <string name="speaker_calibration_not_found">Calibrage du haut-parleur non disponible</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Actions rapides</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Actif</string>
+    <string name="status_disabled">Désactivé</string>
+    <string name="optical_sensor_chip">Capteur optique</string>
+    <string name="audio_cit_chip">Audio CIT</string>
+    <string name="bento_battery_title">Batterie</string>
+    <string name="bento_soc_thermal_title">SoC Thermique</string>
+    <string name="bento_display_title">Affichage</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermique</string>
+    <string name="bento_performance_title">Performance</string>
+    <string name="bento_memory_title">Mémoire RAM</string>
+    <string name="bento_colours_title">Couleurs</string>
+    <string name="bento_resolution_title">Résolution</string>
+    <string name="bento_fingerprint_title">Empreinte digitale</string>
+    <string name="bento_speaker_title">Haut-parleur</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Appliquer le profil pendant le chargement</string>
+    <string name="thermal_charging_switch_summary">Utiliser les règles de limitation thermique pendant le chargement. Éteignez-le pour permettre une charge rapide sans restriction jusqu\'à 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">État de la batterie</string>
+    <string name="battery_real_capacity">Pleine capacité</string>
+    <string name="battery_design_capacity">Capacité de conception</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Gouverneur du processeur</string>
+    <string name="cpu_governor_summary">Ajustement du régulateur de mise à l\'échelle sur tous les clusters</string>
+    <string name="cpu_gov_schedutil">Équilibré</string>
+    <string name="cpu_gov_performance">Performances</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -152,4 +152,61 @@
     <string name="speaker_calibration_title">Динамикті калибрлеу</string>
     <string name="speaker_calibration_summary">CIT динамиктерінің өзін-өзі калибрлеу сынағы</string>
     <string name="speaker_calibration_not_found">Динамик калибрлеу қолжетімді емес</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">zRAM кеңейтімі</string>
+    <string name="zram_summary">Қысылған ЖЖҚ ауыстыру өлшемін басқару</string>
+    <string name="zram_disksize">Белсенді zRAM</string>
+    <string name="zram_comp_algo">Алгоритм</string>
+    <string name="zram_usage">Ауыстырмалы пайдалану</string>
+    <string name="zram_percentage">ЖЖҚ бөлу пайызы</string>
+    <string name="zram_apply">Өзгерістерді қолдану</string>
+    <string name="zram_applying">zRAM өлшемін өзгерту…</string>
+    <string name="zram_applied">zRAM өлшемін %1$s</string>
+    <string name="zram_applied_reboot">zRAM өлшеміне өзгерту сақталды. Өзгеріс дереу қолданылмаса, құрылғыны қайта жүктеңіз.</string>
+    <string name="zram_failed">zRAM өлшемін өзгерту сәтсіз аяқталды</string>
+    <string name="zram_preset_basic">Негізгі (25%)</string>
+    <string name="zram_preset_balanced">Теңгерімді (50%)</string>
+    <string name="zram_preset_performance">Өнімділік (65%)</string>
+    <string name="zram_preset_heavy">Ең көбі (80%)</string>
+    <string name="zram_description">zRAM сығылған своп кеңістігін тікелей физикалық жедел жадта жасайды. Ол ішкі жадты тоздырмай, тиімді жад сыйымдылығын арттырады, қосымша фондық қолданбаларды тірі және жауап береді.
+
+Ескертпе: жаңа өлшем қолданғаннан кейін бірден көрсетілмесе, ауыстыру орнын қайта жасау үшін құрылғыны қайта жүктеңіз.</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Жылдам әрекеттер</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Белсенді</string>
+    <string name="status_disabled">Өшірулі</string>
+    <string name="optical_sensor_chip">Оптикалық сенсор</string>
+    <string name="audio_cit_chip">CIT аудио</string>
+    <string name="bento_battery_title">Батарея</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Дисплей</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Термалдар</string>
+    <string name="bento_performance_title">Өнімділік</string>
+    <string name="bento_memory_title">ЖЖҚ жады</string>
+    <string name="bento_colours_title">Түстер</string>
+    <string name="bento_resolution_title">Ажыратымдылық</string>
+    <string name="bento_fingerprint_title">Саусақ ізі</string>
+    <string name="bento_speaker_title">Динамик</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Зарядтау кезінде профильді қолдану</string>
+    <string name="thermal_charging_switch_summary">Зарядтау кезінде термиялық реттеу ережелерін пайдаланыңыз. 90 Вт-қа дейін шектеусіз жылдам зарядтау мүмкіндігін беру үшін өшіріңіз.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Батареяның денсаулығы</string>
+    <string name="battery_real_capacity">Толық сыйымдылық</string>
+    <string name="battery_design_capacity">Жобалық сыйымдылық</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU реттегіші</string>
+    <string name="cpu_governor_summary">Барлық кластерлерде масштабтау реттегішін реттеңіз</string>
+    <string name="cpu_gov_schedutil">Теңгерімделген</string>
+    <string name="cpu_gov_performance">Өнімділік</string>
+    <string name="cpu_gov_powersave">Қуатты үнемдеу</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Az érintésgyorsítás alkalmazása nem sikerült</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM bővítés</string>
+    <string name="zram_summary">Tömörített RAM csereméret kezelése</string>
+    <string name="zram_disksize">Aktív zRAM</string>
+    <string name="zram_comp_algo">Algoritmus</string>
+    <string name="zram_usage">Cserehasználat</string>
+    <string name="zram_percentage">RAM kiosztási százalékos</string>
+    <string name="zram_apply">Módosítások alkalmazása</string>
+    <string name="zram_applying">zRAM átméretezése…</string>
+    <string name="zram_applied">zRAM átméretezve %1$s</string>
+    <string name="zram_applied_reboot">zRAM méretre mentve. Indítsa újra az eszközt, ha a módosítás nem érvényesül azonnal.</string>
+    <string name="zram_failed">Nem sikerült átméretezni a zRAM-ot</string>
+    <string name="zram_preset_basic">Basic (25%)</string>
+    <string name="zram_preset_balanced">Kiegyensúlyozott (50%)</string>
+    <string name="zram_preset_performance">Teljesítmény (65%)</string>
+    <string name="zram_preset_heavy">Maximum (80%)</string>
+    <string name="zram_description">A zRAM közvetlenül a fizikai RAM-ban hoz létre tömörített csereterületet. Növeli a tényleges memóriakapacitást a belső tárhely elhasználódása nélkül, így több háttéralkalmazást tart életben és érzékenyen.
+
+Megjegyzés: Ha az új méret nem jelenik meg azonnal az alkalmazás után, indítsa újra az eszközt a csereterület újbóli létrehozásához.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Ujjlenyomat-kalibráció</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Hangszóró-kalibráció</string>
     <string name="speaker_calibration_summary">CIT hangszóró önteszt kalibráció</string>
     <string name="speaker_calibration_not_found">A hangszóró-kalibráció nem érhető el</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Gyors műveletek</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktív</string>
+    <string name="status_disabled">Ki</string>
+    <string name="optical_sensor_chip">Optikai érzékelő</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Akkumulátor</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Kijelző</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Hőhatások</string>
+    <string name="bento_performance_title">Teljesítmény</string>
+    <string name="bento_memory_title">RAM memória</string>
+    <string name="bento_colours_title">Színek</string>
+    <string name="bento_resolution_title">Felbontás</string>
+    <string name="bento_fingerprint_title">Ujjlenyomat</string>
+    <string name="bento_speaker_title">Hangszóró</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Profil alkalmazása töltés közben</string>
+    <string name="thermal_charging_switch_summary">Használjon hőszabályozási szabályokat töltés közben. Kapcsolja ki, hogy lehetővé tegye a korlátlan gyorstöltést 90 W-ig.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Akkumulátor állapota</string>
+    <string name="battery_real_capacity">Teljes kapacitás</string>
+    <string name="battery_design_capacity">Tervezési kapacitás</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU szabályozó</string>
+    <string name="cpu_governor_summary">A skálázási szabályozó beállítása az összes klaszteren</string>
+    <string name="cpu_gov_schedutil">Kiegyensúlyozott</string>
+    <string name="cpu_gov_performance">Teljesítmény</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

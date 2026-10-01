@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost gagal diterapkan</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">ekspansi zRAM</string>
+    <string name="zram_summary">Kelola ukuran swap RAM terkompresi</string>
+    <string name="zram_disksize">ZRAM aktif</string>
+    <string name="zram_comp_algo">Algoritma</string>
+    <string name="zram_usage">Tukar penggunaan</string>
+    <string name="zram_percentage">persentase alokasi RAM</string>
+    <string name="zram_apply">Terapkan perubahan</string>
+    <string name="zram_applying">Mengubah ukuran zRAM…</string>
+    <string name="zram_applied">zRAM diubah ukurannya menjadi %1$s</string>
+    <string name="zram_applied_reboot">ukuran zRAM disimpan. Nyalakan ulang perangkat Anda jika perubahan tidak segera diterapkan.</string>
+    <string name="zram_failed">Gagal mengubah ukuran zRAM</string>
+    <string name="zram_preset_basic">Dasar (25%)</string>
+    <string name="zram_preset_balanced">Seimbang (50%)</string>
+    <string name="zram_preset_performance">Kinerja (65%)</string>
+    <string name="zram_preset_heavy">Maksimum (80%)</string>
+    <string name="zram_description">zRAM membuat ruang swap terkompresi langsung di RAM fisik. Hal ini meningkatkan kapasitas memori efektif tanpa menghabiskan penyimpanan internal, sehingga membuat lebih banyak aplikasi latar belakang tetap hidup dan responsif.
+
+Catatan: Jika ukuran baru tidak langsung diterapkan setelah diterapkan, reboot perangkat untuk membuat ulang ruang swap.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Kalibrasi sidik jari</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Kalibrasi speaker</string>
     <string name="speaker_calibration_summary">Tes kalibrasi mandiri speaker CIT</string>
     <string name="speaker_calibration_not_found">Kalibrasi speaker tidak tersedia</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Tindakan cepat</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktif</string>
+    <string name="status_disabled">Mati</string>
+    <string name="optical_sensor_chip">Sensor optik</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Baterai</string>
+    <string name="bento_soc_thermal_title">SoC Termal</string>
+    <string name="bento_display_title">Tampilan</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Termal</string>
+    <string name="bento_performance_title">Performa</string>
+    <string name="bento_memory_title">Memori RAM</string>
+    <string name="bento_colours_title">Warna</string>
+    <string name="bento_resolution_title">Resolusi</string>
+    <string name="bento_fingerprint_title">Sidik Jari</string>
+    <string name="bento_speaker_title">Speaker</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Terapkan profil saat mengisi daya</string>
+    <string name="thermal_charging_switch_summary">Gunakan aturan pelambatan termal saat mengisi daya. Matikan untuk memungkinkan pengisian cepat tanpa batas hingga 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Kesehatan baterai</string>
+    <string name="battery_real_capacity">Kapasitas penuh</string>
+    <string name="battery_design_capacity">Kapasitas desain</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Pengatur CPU</string>
+    <string name="cpu_governor_summary">Sesuaikan pengatur penskalaan di semua cluster</string>
+    <string name="cpu_gov_schedutil">Seimbang</string>
+    <string name="cpu_gov_performance">Performa</string>
+    <string name="cpu_gov_powersave">Hemat daya</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

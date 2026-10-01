@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch-boost kon nie toegepas word nie</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM uitbreiding</string>
+    <string name="zram_summary">Bestuur saamgeperste RAM ruil grootte</string>
+    <string name="zram_disksize">Aktiewe zRAM</string>
+    <string name="zram_comp_algo">Algoritme</string>
+    <string name="zram_usage">Ruil gebruik</string>
+    <string name="zram_percentage">RAM toekenning persentasie</string>
+    <string name="zram_apply">Pas veranderinge toe</string>
+    <string name="zram_applying">Verander grootte van zRAM…</string>
+    <string name="zram_applied">zRAM verander grootte na %1$s</string>
+    <string name="zram_applied_reboot">zRAM grootte gestoor. Herbegin jou toestel as die verandering nie onmiddellik van toepassing is nie.</string>
+    <string name="zram_failed">Kon nie die grootte van zRAM verander nie</string>
+    <string name="zram_preset_basic">Basies (25%)</string>
+    <string name="zram_preset_balanced">Gebalanseerd (50%)</string>
+    <string name="zram_preset_performance">Prestasie (65%)</string>
+    <string name="zram_preset_heavy">Maksimum (80%)</string>
+    <string name="zram_description">zRAM skep \'n saamgeperste ruilspasie direk in fisiese RAM. Dit verhoog effektiewe geheuekapasiteit sonder om interne berging te verslyt, en hou meer agtergrondprogramme lewendig en reageer.
+
+Let wel: As die nuwe grootte nie onmiddellik na toepassing weerspieël word nie, herlaai die toestel om die ruilspasie te herskep.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Vingerindruk-kalibrasie</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Luidspreker-kalibrasie</string>
     <string name="speaker_calibration_summary">CIT-selfkalibrasietoets vir luidspreker</string>
     <string name="speaker_calibration_not_found">Luidspreker-kalibrasie nie beskikbaar nie</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Vinnige aksies</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Optiese sensor</string>
+    <string name="audio_cit_chip">CIT klank</string>
+    <string name="bento_battery_title">Battery</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Termies</string>
+    <string name="bento_performance_title">Prestasie</string>
+    <string name="bento_memory_title">RAM geheue</string>
+    <string name="bento_colours_title">Kleure</string>
+    <string name="bento_resolution_title">Resolusie</string>
+    <string name="bento_fingerprint_title">Vingerafdruk</string>
+    <string name="bento_speaker_title">Luidspreker</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Pas profiel toe terwyl laai</string>
+    <string name="thermal_charging_switch_summary">Gebruik termiese smoorreëls terwyl laai. Skakel af om onbeperkte vinnige laai tot 90W toe te laat.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Batterygesondheid</string>
+    <string name="battery_real_capacity">Volle kapasiteit</string>
+    <string name="battery_design_capacity">Ontwerpkapasiteit</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">SVE-goewerneur</string>
+    <string name="cpu_governor_summary">Pas skaalbeheerder oor alle trosse aan</string>
+    <string name="cpu_gov_schedutil">Gebalanseerd</string>
+    <string name="cpu_gov_performance">Prestasie</string>
+    <string name="cpu_gov_powersave">Kragbesparing</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

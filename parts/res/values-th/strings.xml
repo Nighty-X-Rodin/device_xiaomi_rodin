@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost ไม่สามารถใช้ได้</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">การขยาย zRAM</string>
+    <string name="zram_summary">จัดการขนาดการแลกเปลี่ยน RAM ที่บีบอัด</string>
+    <string name="zram_disksize">zRAM ที่ใช้งานอยู่</string>
+    <string name="zram_comp_algo">อัลกอริทึม</string>
+    <string name="zram_usage">การใช้การแลกเปลี่ยน</string>
+    <string name="zram_percentage">เปอร์เซ็นต์การจัดสรร RAM</string>
+    <string name="zram_apply">ใช้การเปลี่ยนแปลง</string>
+    <string name="zram_applying">การปรับขนาด zRAM…</string>
+    <string name="zram_applied">zRAM ปรับขนาดเป็น %1$s</string>
+    <string name="zram_applied_reboot">ขนาด zRAM ที่บันทึกไว้ รีบูทอุปกรณ์ของคุณหากการเปลี่ยนแปลงไม่มีผลทันที</string>
+    <string name="zram_failed">ไม่สามารถปรับขนาด zRAM</string>
+    <string name="zram_preset_basic">พื้นฐาน (25%)</string>
+    <string name="zram_preset_balanced">สมดุล (50%)</string>
+    <string name="zram_preset_performance">ประสิทธิภาพ (65%)</string>
+    <string name="zram_preset_heavy">สูงสุด (80%)</string>
+    <string name="zram_description">zRAM สร้างพื้นที่สว็อปที่ถูกบีบอัดโดยตรงใน RAM จริง โดยจะเพิ่มความจุหน่วยความจำที่มีประสิทธิภาพโดยไม่ทำให้ที่เก็บข้อมูลภายในหมด ทำให้แอปพื้นหลังยังคงทำงานและตอบสนองได้มากขึ้น
+
+หมายเหตุ: หากขนาดใหม่ไม่ปรากฏทันทีหลังจากใช้ ให้รีบูตอุปกรณ์เพื่อสร้างพื้นที่สว็อปใหม่</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">การปรับเทียบลายนิ้วมือ</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">การปรับเทียบลำโพง</string>
     <string name="speaker_calibration_summary">การทดสอบปรับเทียบลำโพงด้วยตัวเองของ CIT</string>
     <string name="speaker_calibration_not_found">การปรับเทียบลำโพงไม่พร้อมใช้งาน</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">การดำเนินการด่วน</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">ใช้งานอยู่</string>
+    <string name="status_disabled">ปิด</string>
+    <string name="optical_sensor_chip">เซ็นเซอร์ออปติคอล</string>
+    <string name="audio_cit_chip">เสียง CIT</string>
+    <string name="bento_battery_title">แบตเตอรี่</string>
+    <string name="bento_soc_thermal_title">SoC ความร้อน</string>
+    <string name="bento_display_title">จอแสดงผล</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">ความร้อน</string>
+    <string name="bento_performance_title">ประสิทธิภาพ</string>
+    <string name="bento_memory_title">หน่วยความจำ RAM</string>
+    <string name="bento_colours_title">สี</string>
+    <string name="bento_resolution_title">ความละเอียด</string>
+    <string name="bento_fingerprint_title">ลายนิ้วมือ</string>
+    <string name="bento_speaker_title">ลำโพง</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ใช้โปรไฟล์ขณะชาร์จ</string>
+    <string name="thermal_charging_switch_summary">ใช้กฎการควบคุมปริมาณความร้อนขณะชาร์จ ปิดเพื่อให้สามารถชาร์จเร็วแบบไม่จำกัดได้สูงสุด 90W</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">ความสมบูรณ์ของแบตเตอรี่</string>
+    <string name="battery_real_capacity">ความจุเต็ม</string>
+    <string name="battery_design_capacity">ความจุการออกแบบ</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">ตัวควบคุม CPU</string>
+    <string name="cpu_governor_summary">ปรับตัวควบคุมสเกลในทุกคลัสเตอร์</string>
+    <string name="cpu_gov_schedutil">สมดุล</string>
+    <string name="cpu_gov_performance">ประสิทธิภาพ</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">No s\'ha pogut aplicar el reforç tàctil</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Expansió de la zRAM</string>
+    <string name="zram_summary">Gestiona la mida d\'intercanvi de RAM comprimida</string>
+    <string name="zram_disksize">Algoritme de zRAM activa</string>
+    <string name="zram_comp_algo"></string>
+    <string name="zram_usage">Ús d\'intercanvi</string>
+    <string name="zram_percentage">Percentatge d\'assignació de RAM</string>
+    <string name="zram_apply">Aplica els canvis</string>
+    <string name="zram_applying">Canviar la mida de la zRAM...</string>
+    <string name="zram_applied">S\'ha redimensionat la zRAM a %1$s</string>
+    <string name="zram_applied_reboot">mida de la zRAM desada. Reinicieu el dispositiu si el canvi no s\'aplica immediatament.</string>
+    <string name="zram_failed">No s\'ha pogut canviar la mida de la zRAM</string>
+    <string name="zram_preset_basic">Bàsica (25%)</string>
+    <string name="zram_preset_balanced">Equilibrada (50%)</string>
+    <string name="zram_preset_performance">Rendiment (65%)</string>
+    <string name="zram_preset_heavy">Màxim (80%)</string>
+    <string name="zram_description">zRAM crea un espai d\'intercanvi comprimit directament a la memòria RAM física. Augmenta la capacitat de memòria efectiva sense desgastar l\'emmagatzematge intern, mantenint més aplicacions en segon pla actives i sensibles.
+
+Nota: si la nova mida no es reflecteix immediatament després de l\'aplicació, reinicieu el dispositiu per recrear l\'espai d\'intercanvi.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Calibració de l\'empreta dactilar</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Calibració de l\'altaveu</string>
     <string name="speaker_calibration_summary">Prova d\'autocalibració de l\'altaveu CIT</string>
     <string name="speaker_calibration_not_found">Calibració de l\'altaveu no disponible</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Accions ràpides</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Activa</string>
+    <string name="status_disabled">Apagat</string>
+    <string name="optical_sensor_chip">Sensor òptic</string>
+    <string name="audio_cit_chip">Àudio CIT</string>
+    <string name="bento_battery_title">Bateria</string>
+    <string name="bento_soc_thermal_title">SoC Tèrmica</string>
+    <string name="bento_display_title">Pantalla</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Tèrmica</string>
+    <string name="bento_performance_title">Rendiment</string>
+    <string name="bento_memory_title">Memòria RAM</string>
+    <string name="bento_colours_title">Colors</string>
+    <string name="bento_resolution_title">Resolució</string>
+    <string name="bento_fingerprint_title">Empremta digital</string>
+    <string name="bento_speaker_title">Altaveu</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Aplica el perfil mentre es carrega</string>
+    <string name="thermal_charging_switch_summary">Utilitza regles d\'acceleració tèrmica mentre es carrega. Apagueu per permetre una càrrega ràpida sense restriccions de fins a 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Estat de la bateria</string>
+    <string name="battery_real_capacity">Capacitat plena</string>
+    <string name="battery_design_capacity">Capacitat de disseny</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Governador de la CPU</string>
+    <string name="cpu_governor_summary">Ajustar el governador d\'escala a tots els clústers</string>
+    <string name="cpu_gov_schedutil">Rendiment equilibrat</string>
+    <string name="cpu_gov_performance"></string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

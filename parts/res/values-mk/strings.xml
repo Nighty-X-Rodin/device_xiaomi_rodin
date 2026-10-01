@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Примена не успеа</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM проширување</string>
+    <string name="zram_summary">Управувајте со компресираната големина на замена на RAM</string>
+    <string name="zram_disksize">Активен zRAM</string>
+    <string name="zram_comp_algo">Алгоритам</string>
+    <string name="zram_usage">Заменете ја употребата</string>
+    <string name="zram_percentage">Процент на распределба на RAM</string>
+    <string name="zram_apply">Применете ги промените</string>
+    <string name="zram_applying">Променете ја големината на zRAM…</string>
+    <string name="zram_applied">големината на zRAM е сменета на %1$s</string>
+    <string name="zram_applied_reboot">зачувана е големината на zRAM. Рестартирајте го уредот ако промената не се примени веднаш.</string>
+    <string name="zram_failed">Не успеа да се смени големината на zRAM</string>
+    <string name="zram_preset_basic">Основна (25%)</string>
+    <string name="zram_preset_balanced">Балансирана (50%)</string>
+    <string name="zram_preset_performance">Перформанси (65%)</string>
+    <string name="zram_preset_heavy">Максимална (80%)</string>
+    <string name="zram_description">zRAM создава компримиран простор за размена директно во физичка RAM меморија. Го зголемува ефективниот капацитет на меморијата без да се истроши внатрешната меморија, одржувајќи живи и одговорни повеќе апликации во заднина.
+
+Забелешка: ако новата големина не се рефлектира веднаш по примената, рестартирајте го уредот за повторно да се создаде просторот за замена.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Калибрација на отпечатокот</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Калибрација на звучникот</string>
     <string name="speaker_calibration_summary">CIT тест за самокалибрација на звучникот</string>
     <string name="speaker_calibration_not_found">Калибрацијата на звучникот не е достапна</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Брзи дејства</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Активен</string>
+    <string name="status_disabled">Исклучен</string>
+    <string name="optical_sensor_chip">Оптички сензор</string>
+    <string name="audio_cit_chip">CIT аудио</string>
+    <string name="bento_battery_title">Батерија</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Екран</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Термички</string>
+    <string name="bento_performance_title">Перформанси</string>
+    <string name="bento_memory_title">RAM меморија</string>
+    <string name="bento_colours_title">Бои</string>
+    <string name="bento_resolution_title">Резолуција</string>
+    <string name="bento_fingerprint_title">Отпечаток од прст</string>
+    <string name="bento_speaker_title">Звучник</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Примени го профилот додека се полни</string>
+    <string name="thermal_charging_switch_summary">Користете правила за термичко пригушување додека се полни. Исклучете за да овозможите неограничено брзо полнење до 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Здравје на батеријата</string>
+    <string name="battery_real_capacity">Целосен капацитет</string>
+    <string name="battery_design_capacity">Дизајнерски капацитет</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Гувернер на процесорот</string>
+    <string name="cpu_governor_summary">Прилагодете го гувернерот на скалирање низ сите кластери</string>
+    <string name="cpu_gov_schedutil">Балансирани</string>
+    <string name="cpu_gov_performance">Перформанси</string>
+    <string name="cpu_gov_powersave">Заштедете на енергија</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

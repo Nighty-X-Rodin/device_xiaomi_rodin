@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Nabigo ang pag-apply ng touch boost</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM expansion</string>
+    <string name="zram_summary">Pamahalaan ang compressed RAM swap size</string>
+    <string name="zram_disksize">Active zRAM</string>
+    <string name="zram_comp_algo">Algorithm</string>
+    <string name="zram_usage">Swap usage</string>
+    <string name="zram_percentage">RAM allocation percentage</string>
+    <string name="zram_apply">Ilapat ang mga pagbabago</string>
+    <string name="zram_applying">Resizing zRAM...</string>
+    <string name="zram_applied">zRAM resize to %1$s</string>
+    <string name="zram_applied_reboot">zRAM size na na-save. I-reboot ang iyong device kung hindi agad nalalapat ang pagbabago.</string>
+    <string name="zram_failed">Nabigong i-resize ang zRAM</string>
+    <string name="zram_preset_basic">Basic (25%)</string>
+    <string name="zram_preset_balanced">Balanced (50%)</string>
+    <string name="zram_preset_performance">Performance (65%)</string>
+    <string name="zram_preset_heavy">Maximum (80%)</string>
+    <string name="zram_description">Ang zRAM ay lumilikha ng isang naka-compress na swap space nang direkta sa pisikal na RAM. Pinapataas nito ang epektibong kapasidad ng memorya nang hindi nauubos ang panloob na storage, pinananatiling buhay at tumutugon ang higit pang mga background app.
+
+Tandaan: Kung hindi agad makikita ang bagong laki pagkatapos mag-apply, i-reboot ang device para muling likhain ang swap space.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Calibration ng fingerprint</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Calibration ng speaker</string>
     <string name="speaker_calibration_summary">CIT speaker self-calibration test</string>
     <string name="speaker_calibration_not_found">Hindi available ang speaker calibration</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Mabilis na pagkilos</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Optical sensor</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Baterya</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Performance</string>
+    <string name="bento_memory_title">RAM Memory</string>
+    <string name="bento_colours_title">Mga Kulay</string>
+    <string name="bento_resolution_title">Resolution</string>
+    <string name="bento_fingerprint_title">Fingerprint</string>
+    <string name="bento_speaker_title">Speaker</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Ilapat ang profile habang nagcha-charge</string>
+    <string name="thermal_charging_switch_summary">Gumamit ng mga panuntunan sa thermal throttling habang nagcha-charge. I-off para payagan ang walang limitasyong mabilis na pag-charge hanggang 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Kalusugan ng baterya</string>
+    <string name="battery_real_capacity">Buong kapasidad</string>
+    <string name="battery_design_capacity">Kapasidad ng disenyo</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">gobernador ng CPU</string>
+    <string name="cpu_governor_summary">Isaayos ang scaling governor sa lahat ng cluster</string>
+    <string name="cpu_gov_schedutil">Balanse</string>
+    <string name="cpu_gov_performance">Performance</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

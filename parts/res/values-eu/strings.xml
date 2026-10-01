@@ -163,6 +163,24 @@
     <string name="touch_boost_failed">Ukipen bultsak ez du funtzionatu</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM hedapena</string>
+    <string name="zram_summary">Kudeatu konprimitutako RAM truke-tamaina</string>
+    <string name="zram_disksize">Aktiboa zRAM</string>
+    <string name="zram_comp_algo">Algoritmo</string>
+    <string name="zram_usage">Truke-erabilera</string>
+    <string name="zram_percentage">RAM esleipen-ehunekoa</string>
+    <string name="zram_apply">Aplikatu aldaketak</string>
+    <string name="zram_applying">Aldatu zRAM tamaina...</string>
+    <string name="zram_applied">zRAM tamaina aldatu da %1$s</string>
+    <string name="zram_applied_reboot">zRAM tamainara gordeta. Berrabiarazi gailua aldaketa berehala aplikatzen ez bada.</string>
+    <string name="zram_failed">Ezin izan da zRAM tamaina aldatu</string>
+    <string name="zram_preset_basic">Oinarrizkoa (%25)</string>
+    <string name="zram_preset_balanced">Orekatua (%50)</string>
+    <string name="zram_preset_performance">Errendimendua (%65)</string>
+    <string name="zram_preset_heavy">Gehienezkoa (%80)</string>
+    <string name="zram_description">zRAM-ek truke-espazio konprimitua sortzen du zuzenean RAM fisikoan. Memoria-ahalmen eraginkorra areagotzen du barne biltegiratzea gastatu gabe, atzeko planoko aplikazio gehiago bizirik eta erantzuteko moduan mantenduz.
+
+Oharra: aplikatu eta berehala tamaina berria islatzen ez bada, berrabiarazi gailua trukatzeko espazioa birsortzeko.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Hatze-markaren kalibrazio</string>
@@ -171,4 +189,41 @@
     <string name="speaker_calibration_title">Bozgorailuen kalibrazio</string>
     <string name="speaker_calibration_summary">Bozgorailu autodeia CIT</string>
     <string name="speaker_calibration_not_found">Bozgorailu</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Ekintza azkarrak</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktiboa</string>
+    <string name="status_disabled">Desaktibatuta</string>
+    <string name="optical_sensor_chip">Sentsore optikoa</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Bateria</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Pantaila</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Errendimendua</string>
+    <string name="bento_memory_title">RAM Memoria</string>
+    <string name="bento_colours_title">Koloreak</string>
+    <string name="bento_resolution_title">Ebazpena</string>
+    <string name="bento_fingerprint_title">Hatz-marka</string>
+    <string name="bento_speaker_title">Bozgorailua</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Aplikatu profila kargatzen ari zaren bitartean</string>
+    <string name="thermal_charging_switch_summary">Erabili kargatzen ari zaren bitartean muga termikoko arauak. Desaktibatu mugarik gabeko karga azkarra 90 W-raino kargatzeko.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Bateriaren osasuna</string>
+    <string name="battery_real_capacity">Edukiera osoa</string>
+    <string name="battery_design_capacity">Diseinuaren gaitasuna</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU gobernadorea</string>
+    <string name="cpu_governor_summary">Doitu eskalatze gobernadorea kluster guztietan</string>
+    <string name="cpu_gov_schedutil">Orekatua</string>
+    <string name="cpu_gov_performance">Errendimendua</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

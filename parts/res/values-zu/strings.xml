@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch-boost akaphumelelanga</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Ukunwetshwa kwe-zRAM</string>
+    <string name="zram_summary">Phatha usayizi wokushintsha we-RAM ocindezelwe</string>
+    <string name="zram_disksize">I-zRAM esebenzayo</string>
+    <string name="zram_comp_algo">I-algorithm</string>
+    <string name="zram_usage">Shintshanisa ukusetshenziswa</string>
+    <string name="zram_percentage">Iphesenti lokwabiwa kwe-RAM</string>
+    <string name="zram_apply">Faka izinguquko</string>
+    <string name="zram_applying">Ishintsha usayizi we-zRAM…</string>
+    <string name="zram_applied">zRAM ishintshwe usayizi ukuze %1$s</string>
+    <string name="zram_applied_reboot">zRAM usayizi ulondoloziwe. Qalisa kabusha idivayisi yakho uma ushintsho lungasebenzi ngokushesha.</string>
+    <string name="zram_failed">Yehlulekile ukushintsha usayizi we-zRAM</string>
+    <string name="zram_preset_basic">Eyisisekelo (25%)</string>
+    <string name="zram_preset_balanced">Ibhalansisiwe (50%)</string>
+    <string name="zram_preset_performance">Ukusebenza (65%)</string>
+    <string name="zram_preset_heavy">Ubukhulu (80%)</string>
+    <string name="zram_description">I-zRAM idala isikhala sokushintshana esicindezelwe ngqo ku-RAM ebonakalayo. Ikhuphula umthamo wememori osebenzayo ngaphandle kokuguga isitoreji sangaphakathi, igcine izinhlelo zokusebenza eziningi ezingemuva ziphila futhi zisabela.
+
+Qaphela: Uma usayizi omusha ungaboniswa ngokushesha ngemva kokufaka isicelo, qalisa kabusha idivayisi ukuze udale kabusha isikhala sokushintshwa.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Ukulinganisa umbhenkeli wezihla</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Ukulinganisha khathazikwe speaker</string>
     <string name="speaker_calibration_summary">CIT ukulinga kakhulu husb kuleto</string>
     <string name="speaker_calibration_not_found">Ukulinganisa kwe-speaker akutholakali</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Izenzo ezisheshayo</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Iyasebenza</string>
+    <string name="status_disabled">Ivaliwe</string>
+    <string name="optical_sensor_chip">Inzwa yokubona</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Ibhethri</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Bonisa</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Ukusebenza</string>
+    <string name="bento_memory_title">Inkumbulo ye-RAM</string>
+    <string name="bento_colours_title">Imibala</string>
+    <string name="bento_resolution_title">Ukulungiswa</string>
+    <string name="bento_fingerprint_title">Izigxivizo zeminwe</string>
+    <string name="bento_speaker_title">Isipikha</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Faka iphrofayela ngenkathi ushaja okuthi</string>
+    <string name="thermal_charging_switch_summary">Sebenzisa imithetho yokuthinta okushisayo ngenkathi ushaja. Vala ukuze uvumele ukushaja okusheshayo okungakhawulelwe kufika ku-90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Impilo yebhethri</string>
+    <string name="battery_real_capacity">Umthamo ogcwele</string>
+    <string name="battery_design_capacity">Umthamo wokudizayina</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">umbusi we-CPU</string>
+    <string name="cpu_governor_summary">Lungisa isikali sombusi kuwo wonke amaqoqo</string>
+    <string name="cpu_gov_schedutil">Okulingana</string>
+    <string name="cpu_gov_performance">Ukusebenza</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

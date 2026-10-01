@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch-Boost konnte nicht angewendet werden</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM-Erweiterung</string>
+    <string name="zram_summary">Komprimierte RAM-Swap-Größe verwalten</string>
+    <string name="zram_disksize">Aktives zRAM</string>
+    <string name="zram_comp_algo">Algorithmus</string>
+    <string name="zram_usage">Swap-Nutzung</string>
+    <string name="zram_percentage">RAM-Zuteilungsprozentsatz</string>
+    <string name="zram_apply">Änderungen anwenden</string>
+    <string name="zram_applying">zRAM-Größe ändern…</string>
+    <string name="zram_applied">zRAM-Größe auf %1$s geändert</string>
+    <string name="zram_applied_reboot">zRAM-Größe gespeichert. Starten Sie Ihr Gerät neu, wenn die Änderung nicht sofort wirksam wird.</string>
+    <string name="zram_failed">Größe des zRAM konnte nicht geändert werden</string>
+    <string name="zram_preset_basic">Einfach (25 %)</string>
+    <string name="zram_preset_balanced">Ausgewogen (50 %)</string>
+    <string name="zram_preset_performance">Leistung (65 %)</string>
+    <string name="zram_preset_heavy">Maximal (80 %)</string>
+    <string name="zram_description">zRAM erstellt einen komprimierten Swap-Space direkt im physischen RAM. Es erhöht die effektive Speicherkapazität, ohne den internen Speicher zu beanspruchen, und sorgt dafür, dass mehr Hintergrund-Apps aktiv und reaktionsfähig bleiben.
+
+Hinweis: Wenn die neue Größe nicht sofort nach der Anwendung angezeigt wird, starten Sie das Gerät neu, um den Auslagerungsbereich neu zu erstellen.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Fingerabdruck-Kalibrierung</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Lautsprecher-Kalibrierung</string>
     <string name="speaker_calibration_summary">CIT-Selbstkalibrierungstest für Lautsprecher</string>
     <string name="speaker_calibration_not_found">Lautsprecher-Kalibrierung nicht verfügbar</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Schnelle Aktionen</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktiv</string>
+    <string name="status_disabled">Aus</string>
+    <string name="optical_sensor_chip">Optischer Sensor</string>
+    <string name="audio_cit_chip">CIT-Audio</string>
+    <string name="bento_battery_title">Batterie</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Anzeige</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermik</string>
+    <string name="bento_performance_title">Leistung</string>
+    <string name="bento_memory_title">RAM-Speicher</string>
+    <string name="bento_colours_title">Farben</string>
+    <string name="bento_resolution_title">Auflösung</string>
+    <string name="bento_fingerprint_title">Fingerabdruck</string>
+    <string name="bento_speaker_title">Lautsprecher</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Profil beim Laden anwenden</string>
+    <string name="thermal_charging_switch_summary">Regeln zur thermischen Drosselung beim Laden verwenden. Ausschalten, um uneingeschränktes Schnellladen mit bis zu 90 W zu ermöglichen.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Batteriezustand</string>
+    <string name="battery_real_capacity">Volle Kapazität</string>
+    <string name="battery_design_capacity">Designkapazität</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU-Regler</string>
+    <string name="cpu_governor_summary">Skalierungsregler für alle Cluster anpassen</string>
+    <string name="cpu_gov_schedutil">Ausgewogen</string>
+    <string name="cpu_gov_performance">Leistung</string>
+    <string name="cpu_gov_powersave">Energiesparen</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Неуспешно прилагане на турбо докосване</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM разширение</string>
+    <string name="zram_summary">Управление на размера на компресираната RAM памет</string>
+    <string name="zram_disksize">Активна zRAM</string>
+    <string name="zram_comp_algo">Алгоритъм</string>
+    <string name="zram_usage">Използване на суап</string>
+    <string name="zram_percentage">Процент на разпределение на RAM</string>
+    <string name="zram_apply">Прилагане на промените</string>
+    <string name="zram_applying">Преоразмеряване на zRAM…</string>
+    <string name="zram_applied">zRAM преоразмерено до %1$s</string>
+    <string name="zram_applied_reboot">Размерът на zRAM е запазен. Рестартирайте устройството си, ако промяната не се приложи веднага.</string>
+    <string name="zram_failed">Неуспешно преоразмеряване на zRAM</string>
+    <string name="zram_preset_basic">Основен (25%)</string>
+    <string name="zram_preset_balanced">Балансиран (50%)</string>
+    <string name="zram_preset_performance">Производителност (65%)</string>
+    <string name="zram_preset_heavy">Максимален (80%)</string>
+    <string name="zram_description">zRAM създава компресирано суап пространство директно във физическата RAM. Той увеличава ефективния капацитет на паметта, без да износва вътрешното хранилище, като поддържа повече фонови приложения активни и отзивчиви.
+
+Забележка: Ако новият размер не се отрази веднага след прилагането, рестартирайте устройството, за да създадете отново пространството за суап.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Калибриране на пръстов отпечатък</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Калибриране на високоговорител</string>
     <string name="speaker_calibration_summary">CIT тест за самокалибриране на високоговорител</string>
     <string name="speaker_calibration_not_found">Калибрирането на високоговорителя не е налично</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Бързи действия</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Активен</string>
+    <string name="status_disabled">Изключен</string>
+    <string name="optical_sensor_chip">Оптичен сензор</string>
+    <string name="audio_cit_chip">CIT аудио</string>
+    <string name="bento_battery_title">Батерия</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Дисплей</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Производителност</string>
+    <string name="bento_memory_title">RAM памет</string>
+    <string name="bento_colours_title">Цветове</string>
+    <string name="bento_resolution_title">Резолюция</string>
+    <string name="bento_fingerprint_title">Пръстов отпечатък</string>
+    <string name="bento_speaker_title">Високоговорител</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Прилагане на профил по време на зареждане</string>
+    <string name="thermal_charging_switch_summary">Използвайте правила за термично регулиране по време на зареждане. Изключете, за да позволите неограничено бързо зареждане до 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Здраве на батерията</string>
+    <string name="battery_real_capacity">Пълен капацитет</string>
+    <string name="battery_design_capacity">Проектен капацитет</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Регулатор на процесора</string>
+    <string name="cpu_governor_summary">Регулиране на регулатора на мащабиране във всички клъстери</string>
+    <string name="cpu_gov_schedutil">Балансиран</string>
+    <string name="cpu_gov_performance">Производителност</string>
+    <string name="cpu_gov_powersave">Енергоспестяване</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Не вдалося застосувати прискорення відгуку на дотик</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Розширення zRAM</string>
+    <string name="zram_summary">Керування розміром підкачки стисненої RAM</string>
+    <string name="zram_disksize">Активний zRAM</string>
+    <string name="zram_comp_algo">Алгоритм</string>
+    <string name="zram_usage">Використання підкачки</string>
+    <string name="zram_percentage">Відсоток розподілу RAM</string>
+    <string name="zram_apply">Застосувати зміни</string>
+    <string name="zram_applying">Зміна розміру zRAM…</string>
+    <string name="zram_applied">zRAM змінено до %1$s</string>
+    <string name="zram_applied_reboot">Розмір zRAM збережено. Перезавантажте пристрій, якщо зміни не застосовуються негайно.</string>
+    <string name="zram_failed">Не вдалося змінити розмір zRAM</string>
+    <string name="zram_preset_basic">Базовий (25%)</string>
+    <string name="zram_preset_balanced">Збалансований (50%)</string>
+    <string name="zram_preset_performance">Продуктивність (65%)</string>
+    <string name="zram_preset_heavy">Максимальний (80%)</string>
+    <string name="zram_description">zRAM створює стислий простір підкачки безпосередньо у фізичній RAM. Це збільшує ефективний об’єм пам’яті, не зношуючи внутрішню пам’ять, зберігаючи більше фонових додатків активними та швидко реагуючими.
+
+Примітка. Якщо новий розмір не відображається одразу після застосування, перезавантажте пристрій, щоб повторно створити простір підкачки.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Калібрування відбитків пальців</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Калібрування динаміка</string>
     <string name="speaker_calibration_summary">Тест самокалібрування динаміка CIT</string>
     <string name="speaker_calibration_not_found">Калібрування динаміка недоступне</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Швидкі дії</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Активний</string>
+    <string name="status_disabled">Вимк.</string>
+    <string name="optical_sensor_chip">Оптичний датчик</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Акумулятор</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Дисплей</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Продуктивність</string>
+    <string name="bento_memory_title">RAM Пам’ять</string>
+    <string name="bento_colours_title">Кольори</string>
+    <string name="bento_resolution_title">Роздільна здатність</string>
+    <string name="bento_fingerprint_title">Відбиток пальця</string>
+    <string name="bento_speaker_title">Динамік</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Застосувати профіль під час заряджання</string>
+    <string name="thermal_charging_switch_summary">Використовуйте правила терморегулювання під час заряджання. Вимкніть, щоб дозволити необмежену швидку зарядку до 90 Вт.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Справність батареї</string>
+    <string name="battery_real_capacity">Повна ємність</string>
+    <string name="battery_design_capacity">Проектна ємність</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Регулятор ЦП</string>
+    <string name="cpu_governor_summary">Налаштування регулятора масштабування в усіх кластерах</string>
+    <string name="cpu_gov_schedutil">Збалансована</string>
+    <string name="cpu_gov_performance">Продуктивність</string>
+    <string name="cpu_gov_powersave">Енергозбереження</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

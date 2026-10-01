@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch-boost haijaweza kutumika</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Upanuzi wa zRAM</string>
+    <string name="zram_summary">Dhibiti ukubwa wa ubadilishaji wa RAM uliobanwa</string>
+    <string name="zram_disksize">ZRAM inayotumika</string>
+    <string name="zram_comp_algo">Algorithm</string>
+    <string name="zram_usage">Badilisha matumizi</string>
+    <string name="zram_percentage">Asilimia ya mgao wa RAM</string>
+    <string name="zram_apply">Tekeleza mabadiliko</string>
+    <string name="zram_applying">Kubadilisha ukubwa wa zRAM…</string>
+    <string name="zram_applied">zRAM imebadilishwa ukubwa hadi %1$s</string>
+    <string name="zram_applied_reboot">zRAM iliyohifadhiwa. Washa upya kifaa chako ikiwa mabadiliko hayatumiki mara moja.</string>
+    <string name="zram_failed">Imeshindwa kubadilisha ukubwa wa zRAM</string>
+    <string name="zram_preset_basic">Msingi (25%)</string>
+    <string name="zram_preset_balanced">Mizani (50%)</string>
+    <string name="zram_preset_performance">Utendaji (65%)</string>
+    <string name="zram_preset_heavy">Upeo (80%)</string>
+    <string name="zram_description">zRAM huunda nafasi iliyoshinikizwa ya kubadilishana moja kwa moja kwenye RAM halisi. Huongeza uwezo mzuri wa kumbukumbu bila kuchakaa hifadhi ya ndani, hivyo basi kufanya programu nyingi za chinichini ziendelee kutumika.
+
+Kumbuka: Ikiwa ukubwa mpya hautaonyeshwa mara tu baada ya kuomba, washa kifaa upya ili uunde upya nafasi ya kubadilishana.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Urekebishaji wa alama ya vidole</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Urekebishaji wa spika</string>
     <string name="speaker_calibration_summary">Jaribio la CIT la busafisha kwa spika</string>
     <string name="speaker_calibration_not_found">Urekebishaji wa spika haipatikani</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Vitendo vya haraka</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Inatumika</string>
+    <string name="status_disabled">Imezimwa</string>
+    <string name="optical_sensor_chip">Kihisi cha macho</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Betri</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Onyesha</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Utendaji</string>
+    <string name="bento_memory_title">Kumbukumbu ya RAM</string>
+    <string name="bento_colours_title">Rangi</string>
+    <string name="bento_resolution_title">Azimio</string>
+    <string name="bento_fingerprint_title">Alama ya Vidole</string>
+    <string name="bento_speaker_title">Spika</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Tekeleza wasifu unapochaji</string>
+    <string name="thermal_charging_switch_summary">Tumia sheria za kubana kwa mafuta unapochaji. Zima ili kuruhusu kuchaji haraka bila vikwazo hadi 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Afya ya betri</string>
+    <string name="battery_real_capacity">Uwezo kamili</string>
+    <string name="battery_design_capacity">Ubunifu wa uwezo</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Gavana wa CPU</string>
+    <string name="cpu_governor_summary">Rekebisha upanuzi wa gavana kwenye makundi yote</string>
+    <string name="cpu_gov_schedutil">Uwiano</string>
+    <string name="cpu_gov_performance">Utendaji</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

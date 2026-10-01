@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Nepavyko pritaikyti lietimo spartinimo</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM išplėtimas</string>
+    <string name="zram_summary">Tvarkyti suspaustos RAM apsikeitimo dydį</string>
+    <string name="zram_disksize">Aktyvus zRAM</string>
+    <string name="zram_comp_algo">Algoritmas</string>
+    <string name="zram_usage">Sukeisti naudojimą</string>
+    <string name="zram_percentage">RAM paskirstymo procentas</string>
+    <string name="zram_apply">Taikyti pakeitimus</string>
+    <string name="zram_applying">Keičiamas zRAM dydis...</string>
+    <string name="zram_applied">zRAM dydis pakeistas į %1$s</string>
+    <string name="zram_applied_reboot">išsaugotas zRAM dydis. Iš naujo paleiskite įrenginį, jei pakeitimas nepritaikomas iš karto.</string>
+    <string name="zram_failed">Nepavyko pakeisti zRAM dydžio</string>
+    <string name="zram_preset_basic">Basic (25%)</string>
+    <string name="zram_preset_balanced">Subalansuotas (50%)</string>
+    <string name="zram_preset_performance">Našumas (65%)</string>
+    <string name="zram_preset_heavy">Maksimalus (80%)</string>
+    <string name="zram_description">zRAM sukuria suglaudintą apsikeitimo vietą tiesiogiai fizinėje RAM. Tai padidina efektyvią atminties talpą neišsenkant vidinės atminties, todėl daugiau foninių programų veikia ir reaguoja.
+
+Pastaba: jei naujas dydis neatsispindi iškart po to, kai pritaikomas, iš naujo paleiskite įrenginį, kad iš naujo sukurtumėte apsikeitimo vietą.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Pirštų atspaudų kalibravimas</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Garsiakalbio kalibravimas</string>
     <string name="speaker_calibration_summary">CIT garsiakalbio savikalibravimo testas</string>
     <string name="speaker_calibration_not_found">Garsiakalbio kalibravimas neprieinamas</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Greiti veiksmai</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktyvus</string>
+    <string name="status_disabled">Išjungtas</string>
+    <string name="optical_sensor_chip">Optinis jutiklis</string>
+    <string name="audio_cit_chip">CIT garsas</string>
+    <string name="bento_battery_title">Baterija</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Ekranas</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Terminiai</string>
+    <string name="bento_performance_title">Našumas</string>
+    <string name="bento_memory_title">RAM atmintis</string>
+    <string name="bento_colours_title">Spalvos</string>
+    <string name="bento_resolution_title">Skiriamoji geba</string>
+    <string name="bento_fingerprint_title">Piršto atspaudas</string>
+    <string name="bento_speaker_title">Garsiakalbis</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Taikyti profilį kraunant</string>
+    <string name="thermal_charging_switch_summary">Įkrovimo metu naudokite terminio droselio taisykles. Išjunkite, kad galėtumėte neribotai greitai įkrauti iki 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Baterijos būklė</string>
+    <string name="battery_real_capacity">Visas pajėgumas</string>
+    <string name="battery_design_capacity">Projektavimo talpa</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU reguliatorius</string>
+    <string name="cpu_governor_summary">Sureguliuokite mastelio reguliatorių visose grupėse</string>
+    <string name="cpu_gov_schedutil">Subalansuotas</string>
+    <string name="cpu_gov_performance">Našumas</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

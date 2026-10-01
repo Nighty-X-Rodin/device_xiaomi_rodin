@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Nepodarilo sa použiť</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Rozšírenie zRAM</string>
+    <string name="zram_summary">Správa komprimovanej swapovej veľkosti RAM</string>
+    <string name="zram_disksize">Aktívna zRAM</string>
+    <string name="zram_comp_algo">Algoritmus</string>
+    <string name="zram_usage">Využitie výmeny</string>
+    <string name="zram_percentage">Percento pridelenia RAM</string>
+    <string name="zram_apply">Použiť zmeny</string>
+    <string name="zram_applying">Zmena veľkosti zRAM…</string>
+    <string name="zram_applied">Veľkosť zRAM bola zmenená na %1$s</string>
+    <string name="zram_applied_reboot">Uložená veľkosť zRAM. Ak sa zmena okamžite neprejaví, reštartujte zariadenie.</string>
+    <string name="zram_failed">Nepodarilo sa zmeniť veľkosť zRAM</string>
+    <string name="zram_preset_basic">Základné (25 %)</string>
+    <string name="zram_preset_balanced">Vyvážené (50 %)</string>
+    <string name="zram_preset_performance">Výkon (65 %)</string>
+    <string name="zram_preset_heavy">Maximum (80 %)</string>
+    <string name="zram_description">zRAM vytvára komprimovaný swap priestor priamo vo fyzickej RAM. Zvyšuje efektívnu kapacitu pamäte bez opotrebenia interného úložiska, čím udržuje viac aplikácií na pozadí nažive a reagujú.
+
+Poznámka: Ak sa nová veľkosť neprejaví ihneď po použití, reštartujte zariadenie, aby ste znova vytvorili odkladací priestor.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Kalibrácia odtlačku prsta</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Kalibrácia reproduktora</string>
     <string name="speaker_calibration_summary">CIT samokalibrácia reproduktorov</string>
     <string name="speaker_calibration_not_found">Kalibrácia reproduktorov nie je dostupná</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Rýchle akcie</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktívne</string>
+    <string name="status_disabled">Vypnuté</string>
+    <string name="optical_sensor_chip">Optický senzor</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Batéria</string>
+    <string name="bento_soc_thermal_title">SoC Tepelná</string>
+    <string name="bento_display_title">Displej</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Teploty</string>
+    <string name="bento_performance_title">Výkon</string>
+    <string name="bento_memory_title">Pamäť RAM</string>
+    <string name="bento_colours_title">Farby</string>
+    <string name="bento_resolution_title">Rozlíšenie</string>
+    <string name="bento_fingerprint_title">Odtlačok prsta</string>
+    <string name="bento_speaker_title">Reproduktor</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Použiť profil počas nabíjania</string>
+    <string name="thermal_charging_switch_summary">Počas nabíjania používajte pravidlá tepelného škrtenia. Vypnutím umožníte neobmedzené rýchle nabíjanie až do 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Stav batérie</string>
+    <string name="battery_real_capacity">Plná kapacita</string>
+    <string name="battery_design_capacity">Dizajnová kapacita</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Regulátor CPU</string>
+    <string name="cpu_governor_summary">Upravte regulátor škálovania vo všetkých klastroch</string>
+    <string name="cpu_gov_schedutil">Vyvážený</string>
+    <string name="cpu_gov_performance">Výkon</string>
+    <string name="cpu_gov_powersave">Úspora energie</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

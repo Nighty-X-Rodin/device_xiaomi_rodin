@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">টাচ বূস্ট প্রয়োগ কৰাত ব্যর্থ</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM সম্প্ৰসাৰণ</string>
+    <string name="zram_summary">সংকোচিত RAM শ্বেপ আকাৰ ব্যৱস্থাপনা কৰক</string>
+    <string name="zram_disksize">সক্ৰিয় zRAM</string>
+    <string name="zram_comp_algo">এলগৰিদম</string>
+    <string name="zram_usage">শ্বেপ ব্যৱহাৰ</string>
+    <string name="zram_percentage">RAM আবণ্টন শতাংশ</string>
+    <string name="zram_apply">পৰিবৰ্তনসমূহ প্ৰয়োগ কৰক</string>
+    <string name="zram_applying">zRAM আকাৰ পুনৰায় কৰা...</string>
+    <string name="zram_applied">zRAM আকাৰ %1$s লৈ সলনি কৰা হৈছে</string>
+    <string name="zram_applied_reboot">zRAM আকাৰ সংৰক্ষণ কৰা হৈছে। যদি পৰিবৰ্তন তৎক্ষণাত প্ৰযোজ্য নহয় তেন্তে আপোনাৰ ডিভাইচ পুনৰাৰম্ভ কৰক ।</string>
+    <string name="zram_failed">zRAM আকাৰ সলনি কৰাত ব্যৰ্থ</string>
+    <string name="zram_preset_basic">মূল (২৫%)</string>
+    <string name="zram_preset_balanced">সুষম (৫০%)</string>
+    <string name="zram_preset_performance">পৰিৱেশন (৬৫%)</string>
+    <string name="zram_preset_heavy">সৰ্বোচ্চ (৮০%)</string>
+    <string name="zram_description">zRAM এ এটা সংকোচিত শ্বেপ স্থান পোনপটীয়াকৈ ভৌতিক RAM ত সৃষ্টি কৰে। ই আভ্যন্তৰীণ সংৰক্ষণ ক্ষয় নকৰাকৈ ফলপ্ৰসূ মেমৰি ক্ষমতা বৃদ্ধি কৰে, অধিক পটভূমি এপসমূহ জীয়াই আৰু সঁহাৰিশীল কৰি ৰাখে।
+
+টোকা: যদি নতুন আকাৰ প্ৰয়োগ কৰাৰ পিছত তৎক্ষণাত প্ৰতিফলিত নহয়, শ্বেপ স্থান পুনৰ সৃষ্টি কৰিবলে ডিভাইচ পুনৰাৰম্ভ কৰক।</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">ফিংগারপ্রিন্ট কেলিব্রেশন</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">স্পিকার কেলিব্রেশন</string>
     <string name="speaker_calibration_summary">CIT স্পিকার স্বয়ং ক্রিয় কেলিব্রেশন পৰীক্ষা</string>
     <string name="speaker_calibration_not_found">স্পিকার কেলিব্রেশন উপলব্ধ নহয়</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">দ্ৰুত কাৰ্য্যসমূহ</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">সক্ৰিয়</string>
+    <string name="status_disabled">বন্ধ</string>
+    <string name="optical_sensor_chip">অপটিকেল চেন্সৰ</string>
+    <string name="audio_cit_chip">CIT অডিঅ\'</string>
+    <string name="bento_battery_title">বেটাৰী</string>
+    <string name="bento_soc_thermal_title">SoC তাপীয়</string>
+    <string name="bento_display_title">প্ৰদৰ্শন</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">থাৰ্মেলসমূহ</string>
+    <string name="bento_performance_title">পৰিৱেশন</string>
+    <string name="bento_memory_title">ৰেম মেমৰি</string>
+    <string name="bento_colours_title">ৰং</string>
+    <string name="bento_resolution_title">ৰিজ\'লিউচন</string>
+    <string name="bento_fingerprint_title">আঙুলিৰ ছাপ</string>
+    <string name="bento_speaker_title">স্পীকাৰ</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">চাৰ্জ কৰাৰ সময়ত প্ৰফাইল প্ৰয়োগ কৰক</string>
+    <string name="thermal_charging_switch_summary">চাৰ্জ কৰাৰ সময়ত থাৰ্মেল থ্ৰ\'টলিং নিয়ম ব্যৱহাৰ কৰক। 90W লৈকে নিষিদ্ধভাৱে দ্ৰুত চাৰ্জিঙৰ অনুমতি দিবলৈ বন্ধ কৰক।</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">বেটাৰী স্বাস্থ্য</string>
+    <string name="battery_real_capacity">সম্পূৰ্ণ ক্ষমতা</string>
+    <string name="battery_design_capacity">ডিজাইন ক্ষমতা</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU গভৰ্ণৰ</string>
+    <string name="cpu_governor_summary">সকলো থুপত স্কেলিং গভৰ্ণৰ সামঞ্জস্য কৰক</string>
+    <string name="cpu_gov_schedutil">সুষম</string>
+    <string name="cpu_gov_performance">পৰিৱেশন</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

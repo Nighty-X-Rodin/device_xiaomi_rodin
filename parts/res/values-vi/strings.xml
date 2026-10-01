@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Không thể áp dụng tăng tốc cảm ứng</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">mở rộng zRAM</string>
+    <string name="zram_summary">Quản lý kích thước trao đổi RAM đã nén</string>
+    <string name="zram_disksize">ZRAM hoạt động</string>
+    <string name="zram_comp_algo">Thuật toán</string>
+    <string name="zram_usage">Cách sử dụng trao đổi</string>
+    <string name="zram_percentage">Tỷ lệ phân bổ RAM</string>
+    <string name="zram_apply">Áp dụng các thay đổi</string>
+    <string name="zram_applying">Thay đổi kích thước zRAM…</string>
+    <string name="zram_applied">zRAM đã thay đổi kích thước thành %1$s</string>
+    <string name="zram_applied_reboot">kích thước zRAM đã lưu. Khởi động lại thiết bị của bạn nếu thay đổi không được áp dụng ngay lập tức.</string>
+    <string name="zram_failed">Không thể thay đổi kích thước zRAM</string>
+    <string name="zram_preset_basic">Cơ bản (25%)</string>
+    <string name="zram_preset_balanced">Cân bằng (50%)</string>
+    <string name="zram_preset_performance">Hiệu suất (65%)</string>
+    <string name="zram_preset_heavy">Tối đa (80%)</string>
+    <string name="zram_description">zRAM tạo không gian trao đổi nén trực tiếp trong RAM vật lý. Nó tăng dung lượng bộ nhớ hiệu quả mà không làm hao mòn bộ nhớ trong, giúp nhiều ứng dụng chạy nền hoạt động và phản hồi nhanh hơn.
+
+Lưu ý: Nếu kích thước mới không được phản ánh ngay sau khi áp dụng, hãy khởi động lại thiết bị để tạo lại không gian hoán đổi.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Hiệu chuẩn vân tay</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Hiệu chuẩn loa</string>
     <string name="speaker_calibration_summary">Bài thử tự hiệu chuẩn loa CIT</string>
     <string name="speaker_calibration_not_found">Không có hiệu chuẩn loa</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Thao tác nhanh</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Tắt</string>
+    <string name="optical_sensor_chip">Cảm biến quang</string>
+    <string name="audio_cit_chip">Âm thanh CIT</string>
+    <string name="bento_battery_title">Pin</string>
+    <string name="bento_soc_thermal_title">SoC Nhiệt</string>
+    <string name="bento_display_title">Hiển thị</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Nhiệt</string>
+    <string name="bento_performance_title">Hiệu suất</string>
+    <string name="bento_memory_title">Bộ nhớ RAM</string>
+    <string name="bento_colours_title">Màu sắc</string>
+    <string name="bento_resolution_title">Độ phân giải</string>
+    <string name="bento_fingerprint_title">Vân tay</string>
+    <string name="bento_speaker_title">Loa</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Áp dụng cấu hình trong khi sạc</string>
+    <string name="thermal_charging_switch_summary">Sử dụng quy tắc điều tiết nhiệt trong khi sạc. Tắt để cho phép sạc nhanh không giới hạn lên tới 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Tình trạng pin</string>
+    <string name="battery_real_capacity">Công suất tối đa</string>
+    <string name="battery_design_capacity">Công suất thiết kế</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Bộ điều chỉnh CPU</string>
+    <string name="cpu_governor_summary">Điều chỉnh bộ điều chỉnh tỷ lệ trên tất cả các cụm</string>
+    <string name="cpu_gov_schedutil">Cân bằng</string>
+    <string name="cpu_gov_performance">Hiệu suất</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

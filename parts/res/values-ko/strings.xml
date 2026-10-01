@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">터치 부스트를 적용하지 못했습니다</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM 확장</string>
+    <string name="zram_summary">압축된 RAM 스왑 크기 관리</string>
+    <string name="zram_disksize">활성 zRAM</string>
+    <string name="zram_comp_algo">알고리즘</string>
+    <string name="zram_usage">스왑 사용량</string>
+    <string name="zram_percentage">RAM 할당 백분율</string>
+    <string name="zram_apply">변경 사항 적용</string>
+    <string name="zram_applying">zRAM 크기 조정…</string>
+    <string name="zram_applied">zRAM 크기가 %1$s로 조정됨</string>
+    <string name="zram_applied_reboot">zRAM 크기가 저장되었습니다. 변경 사항이 즉시 적용되지 않으면 장치를 재부팅하십시오.</string>
+    <string name="zram_failed">zRAM 크기 조정 실패</string>
+    <string name="zram_preset_basic">기본(25%)</string>
+    <string name="zram_preset_balanced">균형(50%)</string>
+    <string name="zram_preset_performance">성능(65%)</string>
+    <string name="zram_preset_heavy">최대(80%)</string>
+    <string name="zram_description">zRAM은 물리적 RAM에 직접 압축된 스왑 공간을 생성합니다. 내부 저장소를 소모하지 않고 유효 메모리 용량을 늘려 더 많은 백그라운드 앱이 활성 상태로 반응하도록 유지합니다.
+
+참고: 새 크기가 적용 후 즉시 반영되지 않으면 기기를 재부팅하여 스왑 공간을 다시 생성하세요.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">지문 보정</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">스피커 보정</string>
     <string name="speaker_calibration_summary">CIT 스피커 자체 보정 테스트</string>
     <string name="speaker_calibration_not_found">스피커 보정을 사용할 수 없음</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">빠른 작업</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">활성</string>
+    <string name="status_disabled">끄기</string>
+    <string name="optical_sensor_chip">광학 센서</string>
+    <string name="audio_cit_chip">CIT 오디오</string>
+    <string name="bento_battery_title">배터리</string>
+    <string name="bento_soc_thermal_title">SoC 열</string>
+    <string name="bento_display_title">디스플레이</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">열</string>
+    <string name="bento_performance_title">성능</string>
+    <string name="bento_memory_title">RAM 메모리</string>
+    <string name="bento_colours_title">색상</string>
+    <string name="bento_resolution_title">해상도</string>
+    <string name="bento_fingerprint_title">지문</string>
+    <string name="bento_speaker_title">스피커</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">충전 중 프로필 적용</string>
+    <string name="thermal_charging_switch_summary">충전 중 열 조절 규칙을 사용합니다. 최대 90W까지 무제한 고속 충전을 허용하려면 끄세요.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">배터리 상태</string>
+    <string name="battery_real_capacity">전체 용량</string>
+    <string name="battery_design_capacity">설계 용량</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU 거버너</string>
+    <string name="cpu_governor_summary">모든 클러스터에 걸쳐 스케일링 거버너 조정</string>
+    <string name="cpu_gov_schedutil">균형</string>
+    <string name="cpu_gov_performance">성능</string>
+    <string name="cpu_gov_powersave">절전</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

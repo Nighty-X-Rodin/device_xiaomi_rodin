@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">टच बूस्ट लागू नहीं हो सका</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM विस्तार</string>
+    <string name="zram_summary">संपीड़ित RAM स्वैप आकार प्रबंधित करें</string>
+    <string name="zram_disksize">सक्रिय zRAM</string>
+    <string name="zram_comp_algo">एल्गोरिथम</string>
+    <string name="zram_usage">स्वैप उपयोग</string>
+    <string name="zram_percentage">RAM आवंटन प्रतिशत</string>
+    <string name="zram_apply">परिवर्तन लागू करें</string>
+    <string name="zram_applying">zRAM का आकार बदलना...</string>
+    <string name="zram_applied">zRAM का आकार %1$s में बदला गया</string>
+    <string name="zram_applied_reboot">zRAM आकार सहेजा गया। यदि परिवर्तन तुरंत लागू नहीं होता है तो अपने डिवाइस को रीबूट करें।</string>
+    <string name="zram_failed">zRAM का आकार बदलने में विफल</string>
+    <string name="zram_preset_basic">बेसिक (25%)</string>
+    <string name="zram_preset_balanced">संतुलित (50%)</string>
+    <string name="zram_preset_performance">प्रदर्शन (65%)</string>
+    <string name="zram_preset_heavy">अधिकतम (80%)</string>
+    <string name="zram_description">zRAM सीधे भौतिक RAM में एक संपीड़ित स्वैप स्थान बनाता है। यह आंतरिक स्टोरेज को खराब किए बिना प्रभावी मेमोरी क्षमता को बढ़ाता है, अधिक बैकग्राउंड ऐप्स को जीवित और प्रतिक्रियाशील रखता है।
+
+ध्यान दें: यदि लागू करने के तुरंत बाद नया आकार प्रतिबिंबित नहीं होता है, तो स्वैप स्पेस को फिर से बनाने के लिए डिवाइस को रीबूट करें।</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">फ़िंगरप्रिंट कैलिब्रेशन</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">स्पीकर कैलिब्रेशन</string>
     <string name="speaker_calibration_summary">CIT स्पीकर सेल्फ़-कैलिब्रेशन टेस्ट</string>
     <string name="speaker_calibration_not_found">स्पीकर कैलिब्रेशन उपलब्ध नहीं है</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">त्वरित कार्रवाई</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">सक्रिय</string>
+    <string name="status_disabled">बंद</string>
+    <string name="optical_sensor_chip">प्रकाशीय संवेदक</string>
+    <string name="audio_cit_chip">सीआईटी ऑडियो</string>
+    <string name="bento_battery_title">बैटरी</string>
+    <string name="bento_soc_thermal_title">SoC थर्मल</string>
+    <string name="bento_display_title">प्रदर्शन</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">थर्मल</string>
+    <string name="bento_performance_title">प्रदर्शन</string>
+    <string name="bento_memory_title">रैन्डम - एक्सेस मेमोरी</string>
+    <string name="bento_colours_title">रंग</string>
+    <string name="bento_resolution_title">रिज़ॉल्यूशन</string>
+    <string name="bento_fingerprint_title">फ़िंगरप्रिंट</string>
+    <string name="bento_speaker_title">स्पीकर</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">चार्ज करते समय प्रोफ़ाइल लागू करें</string>
+    <string name="thermal_charging_switch_summary">चार्ज करते समय थर्मल थ्रॉटलिंग नियमों का उपयोग करें। 90W तक अप्रतिबंधित तेज़ चार्जिंग की अनुमति देने के लिए बंद करें।</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">बैटरी स्वास्थ्य</string>
+    <string name="battery_real_capacity">पूर्ण क्षमता</string>
+    <string name="battery_design_capacity">डिज़ाइन क्षमता</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">सीपीयू गवर्नर</string>
+    <string name="cpu_governor_summary">सभी क्लस्टरों में स्केलिंग गवर्नर समायोजित करें</string>
+    <string name="cpu_gov_schedutil">संतुलित</string>
+    <string name="cpu_gov_performance">प्रदर्शन</string>
+    <string name="cpu_gov_powersave">पावरसेव</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

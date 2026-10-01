@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">觸控增強套用失敗</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM 擴充</string>
+    <string name="zram_summary">管理壓縮 RAM 交換大小</string>
+    <string name="zram_disksize">活動 zRAM</string>
+    <string name="zram_comp_algo">演算法</string>
+    <string name="zram_usage">交換使用</string>
+    <string name="zram_percentage">RAM 分配百分比</string>
+    <string name="zram_apply">應用變更</string>
+    <string name="zram_applying">調整 zRAM 大小…</string>
+    <string name="zram_applied">zRAM 大小調整為 %1$s</string>
+    <string name="zram_applied_reboot">已儲存 zRAM 大小。如果變更未立即套用，請重新啟動您的裝置。</string>
+    <string name="zram_failed">無法調整 zRAM 大小</string>
+    <string name="zram_preset_basic">基本 (25%)</string>
+    <string name="zram_preset_balanced">平衡 (50%)</string>
+    <string name="zram_preset_performance">效能 (65%)</string>
+    <string name="zram_preset_heavy">最大 (80%)</string>
+    <string name="zram_description">zRAM 直接在實體 RAM 中建立壓縮交換空間。它可以增加有效記憶體容量，而不會耗盡內部儲存空間，從而使更多後台應用程式保持活動並保持回應。 
+
+注意：如果應用後未立即反映新大小，請重新啟動裝置以重新建立交換空間。</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">指紋校正</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">喇叭校正</string>
     <string name="speaker_calibration_summary">CIT 喇叭自我校正測試</string>
     <string name="speaker_calibration_not_found">喇叭校正不可用</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">快速操作</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">激活</string>
+    <string name="status_disabled">關閉</string>
+    <string name="optical_sensor_chip">光學感應器</string>
+    <string name="audio_cit_chip">CIT 音訊</string>
+    <string name="bento_battery_title">電池</string>
+    <string name="bento_soc_thermal_title">SoC 散熱</string>
+    <string name="bento_display_title">顯示</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">散熱</string>
+    <string name="bento_performance_title">性能</string>
+    <string name="bento_memory_title">RAM 內存</string>
+    <string name="bento_colours_title">颜色</string>
+    <string name="bento_resolution_title">分辨率</string>
+    <string name="bento_fingerprint_title">指纹</string>
+    <string name="bento_speaker_title">扬声器</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">充电时应用配置文件</string>
+    <string name="thermal_charging_switch_summary">充电时使用热调节规则。关闭即可不受限制地快速充电，最高可达 90W。</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">電池健康狀況</string>
+    <string name="battery_real_capacity">滿容量</string>
+    <string name="battery_design_capacity">設計容量</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU 調控器</string>
+    <string name="cpu_governor_summary">調整所有叢集的擴充調控器</string>
+    <string name="cpu_gov_schedutil">平衡</string>
+    <string name="cpu_gov_performance">效能</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

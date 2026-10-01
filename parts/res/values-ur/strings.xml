@@ -165,6 +165,24 @@
     <string name="touch_boost_failed">ٹچ بوسٹ لاگو کرنے میں ناکامی</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM کی توسیع</string>
+    <string name="zram_summary">کمپریسڈ RAM سویپ سائز کا نظم کریں</string>
+    <string name="zram_disksize">فعال zRAM</string>
+    <string name="zram_comp_algo">الگورتھم</string>
+    <string name="zram_usage">سویپ استعمال</string>
+    <string name="zram_percentage">RAM مختص فیصد</string>
+    <string name="zram_apply">تبدیلیاں لاگو کریں</string>
+    <string name="zram_applying">zRAM کا سائز تبدیل کریں…</string>
+    <string name="zram_applied">zRAM کا سائز تبدیل کر کے %1$s</string>
+    <string name="zram_applied_reboot">zRAM سائز محفوظ کر دیا گیا۔ اگر تبدیلی فوری طور پر لاگو نہیں ہوتی ہے تو اپنے آلے کو دوبارہ شروع کریں۔</string>
+    <string name="zram_failed">zRAM کا سائز تبدیل کرنے میں ناکام</string>
+    <string name="zram_preset_basic">بنیادی (25%)</string>
+    <string name="zram_preset_balanced">متوازن (50%)</string>
+    <string name="zram_preset_performance">کارکردگی (65%)</string>
+    <string name="zram_preset_heavy">زیادہ سے زیادہ (80%)</string>
+    <string name="zram_description">zRAM براہ راست فزیکل RAM میں ایک کمپریسڈ سویپ اسپیس بناتا ہے۔ یہ اندرونی سٹوریج کو ختم کیے بغیر میموری کی موثر صلاحیت کو بڑھاتا ہے، مزید بیک گراؤنڈ ایپس کو زندہ اور ریسپانسیو رکھتا ہے۔
+
+نوٹ: اگر نیا سائز لاگو کرنے کے فوراً بعد منعکس نہیں ہوتا ہے تو تبدیل کرنے کی جگہ کو دوبارہ بنانے کے لیے ڈیوائس کو ری بوٹ کریں۔</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">فنگرپرنٹ کیلیبریشن</string>
@@ -173,4 +191,41 @@
     <string name="speaker_calibration_title">اسپیکر کیلیبریشن</string>
     <string name="speaker_calibration_summary">CIT اسپیکر سیلف کیلیبریشن ٹیسٹ</string>
     <string name="speaker_calibration_not_found">اسپیکر کیلیبریشن دستیاب نہیں</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">فوری کارروائیاں</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">ایکٹو</string>
+    <string name="status_disabled">آف</string>
+    <string name="optical_sensor_chip">آپٹیکل سینسر</string>
+    <string name="audio_cit_chip">CIT آڈیو</string>
+    <string name="bento_battery_title">بیٹری</string>
+    <string name="bento_soc_thermal_title">SoC تھرمل</string>
+    <string name="bento_display_title">ڈسپلے</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">تھرمل</string>
+    <string name="bento_performance_title">پرفارمنس</string>
+    <string name="bento_memory_title"></string>
+    <string name="bento_colours_title">رنگ</string>
+    <string name="bento_resolution_title">ریزولوشن</string>
+    <string name="bento_fingerprint_title">فنگر پرنٹ</string>
+    <string name="bento_speaker_title">سپیکر</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">چارج کرتے وقت پروفائل لگائیں</string>
+    <string name="thermal_charging_switch_summary">چارج کرتے وقت تھرمل تھروٹلنگ رولز استعمال کریں۔ 90W تک غیر محدود فاسٹ چارجنگ کی اجازت دینے کے لیے بند کریں۔</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">بیٹری کی صحت</string>
+    <string name="battery_real_capacity">پوری صلاحیت</string>
+    <string name="battery_design_capacity">ڈیزائن کی صلاحیت</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU گورنر</string>
+    <string name="cpu_governor_summary">تمام کلسٹرز میں اسکیلنگ گورنر کو ایڈجسٹ کریں</string>
+    <string name="cpu_gov_schedutil">متوازن</string>
+    <string name="cpu_gov_performance">کارکردگی</string>
+    <string name="cpu_gov_powersave">پاور سیو</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost tətbiq edilə bilmədi</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM genişləndirilməsi</string>
+    <string name="zram_summary">Sıxılmış RAM dəyişdirmə ölçüsünü idarə edin</string>
+    <string name="zram_disksize">Aktiv zRAM</string>
+    <string name="zram_comp_algo">Alqoritmi</string>
+    <string name="zram_usage">Swap istifadəsi</string>
+    <string name="zram_percentage">RAM ayrılması faizi</string>
+    <string name="zram_apply">Dəyişiklikləri tətbiq edin</string>
+    <string name="zram_applying">zRAM ölçüsünü dəyişdirin…</string>
+    <string name="zram_applied">zRAM ölçüsünü %1$s</string>
+    <string name="zram_applied_reboot">zRAM ölçüsünə dəyişdirin. Dəyişiklik dərhal tətbiq edilmirsə, cihazınızı yenidən başladın.</string>
+    <string name="zram_failed">zRAM ölçüsünü dəyişmək alınmadı</string>
+    <string name="zram_preset_basic">Əsas (25%)</string>
+    <string name="zram_preset_balanced">Balanslı (50%)</string>
+    <string name="zram_preset_performance">Performans (65%)</string>
+    <string name="zram_preset_heavy">Maksimum (80%)</string>
+    <string name="zram_description">zRAM birbaşa fiziki RAM-də sıxılmış dəyişdirmə sahəsi yaradır. O, daxili yaddaşı tükənmədən effektiv yaddaş tutumunu artırır, daha çox fon tətbiqini canlı və cavabdeh saxlayır.
+
+Qeyd: Yeni ölçü tətbiq edildikdən dərhal sonra əks olunmursa, dəyişdirmə yerini yenidən yaratmaq üçün cihazı yenidən işə salın.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Barmaq izi kalibrləşdirməsi</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Dinamik kalibrləşdirməsi</string>
     <string name="speaker_calibration_summary">CIT dinamik özünü kalibrləmə testi</string>
     <string name="speaker_calibration_not_found">Dinamik kalibrləşdirməsi mövcud deyil</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Tez hərəkətlər</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktiv</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Optik sensor</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Batareya</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Ekran</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Termallar</string>
+    <string name="bento_performance_title">Performans</string>
+    <string name="bento_memory_title">RAM Yaddaş</string>
+    <string name="bento_colours_title">Rənglər</string>
+    <string name="bento_resolution_title">Çözünürlük</string>
+    <string name="bento_fingerprint_title">Barmaq izi</string>
+    <string name="bento_speaker_title">Dinamik</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Doldurarkən profili tətbiq edin</string>
+    <string name="thermal_charging_switch_summary">Doldurarkən termal tənzimləmə qaydalarından istifadə edin. 90 Vt-a qədər məhdudiyyətsiz sürətli şarj etməyə icazə vermək üçün söndürün.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Batareya sağlamlığı</string>
+    <string name="battery_real_capacity">Tam tutum</string>
+    <string name="battery_design_capacity">Dizayn tutumu</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU rezidenti</string>
+    <string name="cpu_governor_summary">Bütün qruplar üzrə miqyaslama idarəedicisini tənzimləyin</string>
+    <string name="cpu_gov_schedutil">Balanslı</string>
+    <string name="cpu_gov_performance">Performans</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

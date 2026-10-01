@@ -161,6 +161,24 @@
     <string name="touch_boost_failed">Touch Boost nu a putut fi activat</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Extindere zRAM</string>
+    <string name="zram_summary">Gestionați dimensiunea de schimb RAM comprimată</string>
+    <string name="zram_disksize">Algoritm zRAM activ</string>
+    <string name="zram_comp_algo"></string>
+    <string name="zram_usage">Utilizare schimb</string>
+    <string name="zram_percentage">Procent de alocare RAM</string>
+    <string name="zram_apply">Aplicați modificări</string>
+    <string name="zram_applying">Redimensionarea zRAM…</string>
+    <string name="zram_applied">zRAM redimensionată la %1$s</string>
+    <string name="zram_applied_reboot">dimensiunea zRAM salvată. Reporniți dispozitivul dacă modificarea nu se aplică imediat.</string>
+    <string name="zram_failed">Nu s-a redimensionat zRAM</string>
+    <string name="zram_preset_basic">De bază (25%)</string>
+    <string name="zram_preset_balanced">Echilibrat (50%)</string>
+    <string name="zram_preset_performance">Performanță (65%)</string>
+    <string name="zram_preset_heavy">Maxim (80%)</string>
+    <string name="zram_description">zRAM creează un spațiu de schimb comprimat direct în memoria RAM fizică. Mărește capacitatea efectivă de memorie fără a uza stocarea internă, păstrând mai multe aplicații în fundal vii și receptive.
+
+Notă: dacă noua dimensiune nu se reflectă imediat după aplicare, reporniți dispozitivul pentru a recrea spațiul de schimb.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Calibrare amprentă</string>
@@ -169,4 +187,41 @@
     <string name="speaker_calibration_title">Calibrare difuzor</string>
     <string name="speaker_calibration_summary">Auto-calibrare difuzor prin CIT</string>
     <string name="speaker_calibration_not_found">Difuzorul nu a fost găsit</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Acțiuni rapide</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Activ</string>
+    <string name="status_disabled">Dezactivat</string>
+    <string name="optical_sensor_chip">Senzor optic</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Baterie</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Performanță</string>
+    <string name="bento_memory_title">Memoria RAM</string>
+    <string name="bento_colours_title">Culori</string>
+    <string name="bento_resolution_title">Rezoluție</string>
+    <string name="bento_fingerprint_title">Amprentă</string>
+    <string name="bento_speaker_title">Difuzor</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Aplicați profilul în timpul încărcării</string>
+    <string name="thermal_charging_switch_summary">Utilizați regulile de accelerare termică în timpul încărcării. Opriți pentru a permite încărcarea rapidă fără restricții de până la 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Sănătatea bateriei</string>
+    <string name="battery_real_capacity">Capacitate completă</string>
+    <string name="battery_design_capacity">Capacitate de proiectare</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Regulator CPU</string>
+    <string name="cpu_governor_summary">Ajustați regulatorul de scalare în toate clusterele</string>
+    <string name="cpu_gov_schedutil">Performanță echilibrată</string>
+    <string name="cpu_gov_performance"></string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

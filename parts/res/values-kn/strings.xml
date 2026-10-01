@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">ಟಚ್ ಬೂಸ್ಟ್ ಅನ್ವಯಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM ವಿಸ್ತರಣೆ</string>
+    <string name="zram_summary">ಸಂಕುಚಿತ RAM ಸ್ವಾಪ್ ಗಾತ್ರವನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="zram_disksize">ಸಕ್ರಿಯ zRAM</string>
+    <string name="zram_comp_algo">ಅಲ್ಗಾರಿದಮ್</string>
+    <string name="zram_usage">ಸ್ವಾಪ್ ಬಳಕೆ</string>
+    <string name="zram_percentage">RAM ಹಂಚಿಕೆ ಶೇಕಡಾವಾರು</string>
+    <string name="zram_apply">ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಿ</string>
+    <string name="zram_applying">ಮರುಗಾತ್ರಗೊಳಿಸುವಿಕೆ zRAM...</string>
+    <string name="zram_applied">zRAM ಅನ್ನು %1$s ಗೆ ಮರುಗಾತ್ರಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="zram_applied_reboot">zRAM ಗಾತ್ರ ಉಳಿಸಿ ಬದಲಾವಣೆಯು ತಕ್ಷಣವೇ ಅನ್ವಯಿಸದಿದ್ದರೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ರೀಬೂಟ್ ಮಾಡಿ.</string>
+    <string name="zram_failed">zRAM ಅನ್ನು ಮರುಗಾತ್ರಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="zram_preset_basic">ಬೇಸಿಕ್ (25%)</string>
+    <string name="zram_preset_balanced">ಸಮತೋಲಿತ (50%)</string>
+    <string name="zram_preset_performance">ಕಾರ್ಯಕ್ಷಮತೆ (65%)</string>
+    <string name="zram_preset_heavy">ಗರಿಷ್ಠ (80%)</string>
+    <string name="zram_description">zRAM ಭೌತಿಕ RAM ನಲ್ಲಿ ನೇರವಾಗಿ ಸಂಕುಚಿತ ಸ್ವಾಪ್ ಜಾಗವನ್ನು ರಚಿಸುತ್ತದೆ. ಇದು ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯನ್ನು ಕಳೆದುಕೊಳ್ಳದೆ ಪರಿಣಾಮಕಾರಿ ಮೆಮೊರಿ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ, ಹೆಚ್ಚಿನ ಹಿನ್ನೆಲೆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಜೀವಂತವಾಗಿ ಮತ್ತು ಸ್ಪಂದಿಸುವಂತೆ ಮಾಡುತ್ತದೆ.
+
+ಗಮನಿಸಿ: ಅನ್ವಯಿಸಿದ ನಂತರ ತಕ್ಷಣವೇ ಹೊಸ ಗಾತ್ರವು ಪ್ರತಿಫಲಿಸದಿದ್ದರೆ, ಸ್ವಾಪ್ ಸ್ಪೇಸ್ ಅನ್ನು ಮರುಸೃಷ್ಟಿಸಲು ಸಾಧನವನ್ನು ರೀಬೂಟ್ ಮಾಡಿ.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">ಸ್ಪೀಕರ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್</string>
     <string name="speaker_calibration_summary">CIT ಸ್ಪೀಕರ್ ಸ್ವಯಂ-ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಪರೀಕ್ಷೆ</string>
     <string name="speaker_calibration_not_found">ಸ್ಪೀಕರ್ ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಲಭ್ಯವಿಲ್ಲ</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">ತ್ವರಿತ ಕ್ರಮಗಳು</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">ಸಕ್ರಿಯ</string>
+    <string name="status_disabled">ಆಫ್</string>
+    <string name="optical_sensor_chip">ಆಪ್ಟಿಕಲ್ ಸೆನ್ಸಾರ್</string>
+    <string name="audio_cit_chip">CIT ಆಡಿಯೋ</string>
+    <string name="bento_battery_title">ಬ್ಯಾಟರಿ</string>
+    <string name="bento_soc_thermal_title">SoC ಥರ್ಮಲ್</string>
+    <string name="bento_display_title">ಡಿಸ್ಪ್ಲೇ</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">ಥರ್ಮಲ್ಸ್</string>
+    <string name="bento_performance_title">ಪ್ರದರ್ಶನ</string>
+    <string name="bento_memory_title">RAM</string>
+    <string name="bento_colours_title">ಬಣ್ಣಗಳು</string>
+    <string name="bento_resolution_title">ರೆಸಲ್ಯೂಶನ್</string>
+    <string name="bento_fingerprint_title">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್</string>
+    <string name="bento_speaker_title">ಸ್ಪೀಕರ್</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅನ್ವಯಿಸಿ</string>
+    <string name="thermal_charging_switch_summary">ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಥರ್ಮಲ್ ಥ್ರೊಟ್ಲಿಂಗ್ ನಿಯಮಗಳನ್ನು ಬಳಸಿ. 90W ವರೆಗೆ ಅನಿಯಂತ್ರಿತ ವೇಗದ ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ಅನುಮತಿಸಲು ಆಫ್ ಮಾಡಿ.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">ಬ್ಯಾಟರಿ ಆರೋಗ್ಯ</string>
+    <string name="battery_real_capacity">ಪೂರ್ಣ ಸಾಮರ್ಥ್ಯ</string>
+    <string name="battery_design_capacity">ವಿನ್ಯಾಸ ಸಾಮರ್ಥ್ಯ</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">ಸಿಪಿಯು ಗವರ್ನರ್</string>
+    <string name="cpu_governor_summary">ಎಲ್ಲಾ ಕ್ಲಸ್ಟರ್‌ಗಳಲ್ಲಿ ಸ್ಕೇಲಿಂಗ್ ಗವರ್ನರ್ ಅನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="cpu_gov_schedutil">ಸಮತೋಲಿತ</string>
+    <string name="cpu_gov_performance">ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="cpu_gov_powersave">ಪವರ್‌ಸೇವ್</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

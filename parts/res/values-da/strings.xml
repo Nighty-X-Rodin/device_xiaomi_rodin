@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch-boost kunne ikke anvendes</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM-udvidelse</string>
+    <string name="zram_summary">Administrer størrelse på komprimeret RAM-swap</string>
+    <string name="zram_disksize">Aktiv zRAM</string>
+    <string name="zram_comp_algo">Algoritme</string>
+    <string name="zram_usage">Skift forbrug</string>
+    <string name="zram_percentage">RAM-tildelingsprocent</string>
+    <string name="zram_apply">Anvend ændringer</string>
+    <string name="zram_applying">Ændring af størrelsen på zRAM…</string>
+    <string name="zram_applied">zRAM ændret størrelsen til %1$s</string>
+    <string name="zram_applied_reboot">zRAM-størrelsen gemt. Genstart din enhed, hvis ændringen ikke gælder med det samme.</string>
+    <string name="zram_failed">Kunne ikke ændre størrelsen på zRAM</string>
+    <string name="zram_preset_basic">Basic (25%)</string>
+    <string name="zram_preset_balanced">Balanceret (50%)</string>
+    <string name="zram_preset_performance">Ydeevne (65%)</string>
+    <string name="zram_preset_heavy">Maksimum (80%)</string>
+    <string name="zram_description">zRAM opretter et komprimeret swap-rum direkte i fysisk RAM. Det øger den effektive hukommelseskapacitet uden at slide internt lager og holder flere baggrundsapps i live og responsive.
+
+Bemærk: Hvis den nye størrelse ikke afspejles umiddelbart efter påføring, skal du genstarte enheden for at genskabe swap-pladsen.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Fingeraftryk-kalibrering</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">Højttalerkalibrering</string>
     <string name="speaker_calibration_summary">CIT-selvkalibreringstest for højttalere</string>
     <string name="speaker_calibration_not_found">Højttalerkalibrering er ikke tilgængelig</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Hurtige handlinger</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktiv</string>
+    <string name="status_disabled">Fra</string>
+    <string name="optical_sensor_chip">Optisk sensor</string>
+    <string name="audio_cit_chip">CIT-lyd</string>
+    <string name="bento_battery_title">Batteri</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Termisk</string>
+    <string name="bento_performance_title">Ydelse</string>
+    <string name="bento_memory_title">RAM-hukommelse</string>
+    <string name="bento_colours_title">Farver</string>
+    <string name="bento_resolution_title">Opløsning</string>
+    <string name="bento_fingerprint_title">Fingeraftryk</string>
+    <string name="bento_speaker_title">Højttaler</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Anvend profil under opladning</string>
+    <string name="thermal_charging_switch_summary">Brug termiske droslingsregler under opladning. Sluk for at tillade ubegrænset hurtigopladning op til 90W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Batteritilstand</string>
+    <string name="battery_real_capacity">Fuld kapacitet</string>
+    <string name="battery_design_capacity">Designkapacitet</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU-regulator</string>
+    <string name="cpu_governor_summary">Juster skaleringsregulator på tværs af alle klynger</string>
+    <string name="cpu_gov_schedutil">Balanceret</string>
+    <string name="cpu_gov_performance">Ydelse</string>
+    <string name="cpu_gov_powersave">Strømbesparelse</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

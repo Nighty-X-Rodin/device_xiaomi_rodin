@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">មិនអាចអនុវត្តការពន្លឿកការប៉ះ</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">ការពង្រីក zRAM</string>
+    <string name="zram_summary">គ្រប់គ្រងទំហំប្ដូរ RAM ដែលបានបង្ហាប់</string>
+    <string name="zram_disksize">សកម្ម zRAM</string>
+    <string name="zram_comp_algo">ក្បួនដោះស្រាយ</string>
+    <string name="zram_usage">ការប្រើប្រាស់ប្ដូរ</string>
+    <string name="zram_percentage">ភាគរយនៃការបែងចែក RAM</string>
+    <string name="zram_apply">អនុវត្តការផ្លាស់ប្តូរ</string>
+    <string name="zram_applying">ប្ដូរទំហំ zRAM…</string>
+    <string name="zram_applied">zRAM ប្តូរទំហំទៅ %1$s</string>
+    <string name="zram_applied_reboot">ទំហំ zRAM ត្រូវបានរក្សាទុក។ ចាប់ផ្ដើមឧបករណ៍របស់អ្នកឡើងវិញ ប្រសិនបើការផ្លាស់ប្តូរមិនអនុវត្តភ្លាមៗ។</string>
+    <string name="zram_failed">បរាជ័យក្នុងការផ្លាស់ប្តូរទំហំ zRAM</string>
+    <string name="zram_preset_basic">មូលដ្ឋាន (25%)</string>
+    <string name="zram_preset_balanced">តុល្យភាព (50%)</string>
+    <string name="zram_preset_performance">ការអនុវត្ត (65%)</string>
+    <string name="zram_preset_heavy">អតិបរមា (80%)</string>
+    <string name="zram_description">zRAM បង្កើតទំហំស្វបដែលបានបង្ហាប់ដោយផ្ទាល់នៅក្នុង RAM រាងកាយ។ វាបង្កើនសមត្ថភាពអង្គចងចាំប្រកបដោយប្រសិទ្ធភាពដោយមិនបាត់បង់ទំហំផ្ទុកខាងក្នុង រក្សាកម្មវិធីផ្ទៃខាងក្រោយឱ្យនៅរស់ និងឆ្លើយតបកាន់តែច្រើន។
+
+ចំណាំ៖ ប្រសិនបើទំហំថ្មីមិនត្រូវបានឆ្លុះបញ្ចាំងភ្លាមៗបន្ទាប់ពីអនុវត្តទេ សូមចាប់ផ្ដើមឧបករណ៍ឡើងវិញ ដើម្បីបង្កើតកន្លែងប្ដូរ។</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">ការក្រិតស្នាមម្រាមដៃ</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">ការក្រិតឧបករណ៍សំឡេង</string>
     <string name="speaker_calibration_summary">CIT ការសាកល្បងក្រិតសំឡេងដោយខ្លួនឯង</string>
     <string name="speaker_calibration_not_found">ការក្រិតឧបករណ៍សំឡេងមិនអាចប្រើបាន</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">សកម្មភាពរហ័ស</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Optical sensor</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Battery</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Performance</string>
+    <string name="bento_memory_title">RAM Memory</string>
+    <string name="bento_colours_title">ពណ៌</string>
+    <string name="bento_resolution_title">ដំណោះស្រាយ</string>
+    <string name="bento_fingerprint_title">ស្នាមម្រាមដៃ</string>
+    <string name="bento_speaker_title">ឧបករណ៍បំពងសំឡេង</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">អនុវត្តទម្រង់ខណៈពេលកំពុងសាក</string>
+    <string name="thermal_charging_switch_summary">ប្រើច្បាប់បិទកម្តៅពេលកំពុងសាក។ បិទ​ដើម្បី​អនុញ្ញាត​ឱ្យ​មាន​ការ​បញ្ចូល​ថ្ម​លឿន​រហូត​ដល់ 90W ដែល​គ្មាន​ការ​កំណត់។</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">សុខភាពថ្ម</string>
+    <string name="battery_real_capacity">សមត្ថភាពពេញ</string>
+    <string name="battery_design_capacity">សមត្ថភាពរចនា</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">អភិបាលស៊ីភីយូ</string>
+    <string name="cpu_governor_summary">កែតម្រូវការធ្វើមាត្រដ្ឋានអភិបាលគ្រប់ចង្កោម</string>
+    <string name="cpu_gov_schedutil">មានតុល្យភាព</string>
+    <string name="cpu_gov_performance">ការអនុវត្ត</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

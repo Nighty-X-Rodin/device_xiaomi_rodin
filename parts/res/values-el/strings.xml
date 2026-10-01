@@ -165,4 +165,61 @@
     <string name="speaker_calibration_title">Βαθμονόμηση ηχείου</string>
     <string name="speaker_calibration_summary">Αυτόνομη βαθμονόμηση ηχείου CIT</string>
     <string name="speaker_calibration_not_found">Η βαθμονόμηση ηχείου δεν είναι διαθέσιμη</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">Επέκταση zRAM</string>
+    <string name="zram_summary">Διαχειριστείτε το μέγεθος εναλλαγής συμπιεσμένης RAM</string>
+    <string name="zram_disksize">Ενεργό zRAM</string>
+    <string name="zram_comp_algo">Αλγόριθμος</string>
+    <string name="zram_usage">Εναλλαγή χρήσης</string>
+    <string name="zram_percentage">Ποσοστό κατανομής RAM</string>
+    <string name="zram_apply">Εφαρμογή αλλαγών</string>
+    <string name="zram_applying">Αλλαγή μεγέθους zRAM…</string>
+    <string name="zram_applied">Το μέγεθος zRAM άλλαξε σε %1$s</string>
+    <string name="zram_applied_reboot">Αποθηκεύτηκε το μέγεθος zRAM. Επανεκκινήστε τη συσκευή σας εάν η αλλαγή δεν εφαρμοστεί αμέσως.</string>
+    <string name="zram_failed">Αποτυχία αλλαγής μεγέθους zRAM</string>
+    <string name="zram_preset_basic">Βασικό (25%)</string>
+    <string name="zram_preset_balanced">Ισορροπημένη (50%)</string>
+    <string name="zram_preset_performance">Απόδοση (65%)</string>
+    <string name="zram_preset_heavy">Μέγιστη (80%)</string>
+    <string name="zram_description">Το zRAM δημιουργεί έναν συμπιεσμένο χώρο ανταλλαγής απευθείας στη φυσική RAM. Αυξάνει την αποτελεσματική χωρητικότητα της μνήμης χωρίς να φθείρεται ο εσωτερικός αποθηκευτικός χώρος, διατηρώντας ζωντανές και ανταποκρινόμενες περισσότερες εφαρμογές στο παρασκήνιο.
+
+Σημείωση: Εάν το νέο μέγεθος δεν αντικατοπτρίζεται αμέσως μετά την εφαρμογή, επανεκκινήστε τη συσκευή για να δημιουργήσετε ξανά τον χώρο ανταλλαγής.</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Γρήγορες ενέργειες</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Ενεργός</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Οπτικός αισθητήρας</string>
+    <string name="audio_cit_chip">Ήχος CIT</string>
+    <string name="bento_battery_title">Μπαταρία</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Εμφάνιση</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Θερμικά</string>
+    <string name="bento_performance_title">Απόδοση</string>
+    <string name="bento_memory_title">Μνήμη RAM</string>
+    <string name="bento_colours_title">Χρώματα</string>
+    <string name="bento_resolution_title">Ανάλυση</string>
+    <string name="bento_fingerprint_title">Δακτυλικό αποτύπωμα</string>
+    <string name="bento_speaker_title">Ηχείο</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Εφαρμόστε προφίλ κατά τη φόρτιση</string>
+    <string name="thermal_charging_switch_summary">Χρησιμοποιήστε κανόνες θερμικού στραγγαλισμού κατά τη φόρτιση. Απενεργοποιήστε για να επιτρέψετε την απεριόριστη γρήγορη φόρτιση έως και 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Υγεία μπαταρίας</string>
+    <string name="battery_real_capacity">Πλήρης χωρητικότητα</string>
+    <string name="battery_design_capacity">Χωρητικότητα σχεδίασης</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Κυβερνήτης CPU</string>
+    <string name="cpu_governor_summary">Προσαρμόστε τον ρυθμιστή κλιμάκωσης σε όλα τα συμπλέγματα</string>
+    <string name="cpu_gov_schedutil">Ισορροπημένη</string>
+    <string name="cpu_gov_performance">Απόδοση</string>
+    <string name="cpu_gov_powersave">Εξοικονόμηση ενέργειας</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

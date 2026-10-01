@@ -167,6 +167,24 @@
     <string name="touch_boost_failed">Dështoi aplikim i përforcim të prekjes</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">Zgjerimi i zRAM</string>
+    <string name="zram_summary">Menaxhoni madhësinë e ndërrimit të RAM-it të ngjeshur</string>
+    <string name="zram_disksize">ZRAM aktiv</string>
+    <string name="zram_comp_algo">Algoritmi</string>
+    <string name="zram_usage">Ndërroni përdorimin</string>
+    <string name="zram_percentage">Përqindja e shpërndarjes së RAM-it</string>
+    <string name="zram_apply">Aplikoni ndryshime</string>
+    <string name="zram_applying">Ndryshimi i madhësisë së zRAM…</string>
+    <string name="zram_applied">zRAM u ndryshua në madhësinë %1$s</string>
+    <string name="zram_applied_reboot">zRAM u ruajt. Rinisni pajisjen tuaj nëse ndryshimi nuk zbatohet menjëherë.</string>
+    <string name="zram_failed">Dështoi ndryshimi i madhësisë së zRAM</string>
+    <string name="zram_preset_basic">Bazë (25%)</string>
+    <string name="zram_preset_balanced">E balancuar (50%)</string>
+    <string name="zram_preset_performance">Performanca (65%)</string>
+    <string name="zram_preset_heavy">Maksimumi (80%)</string>
+    <string name="zram_description">zRAM krijon një hapësirë ​​të ngjeshur shkëmbimi direkt në RAM fizike. Rrit kapacitetin efektiv të memories pa konsumuar hapësirën e brendshme, duke mbajtur më shumë aplikacione në sfond të gjallë dhe të përgjegjshëm.
+
+Shënim: Nëse madhësia e re nuk reflektohet menjëherë pas aplikimit, rinisni pajisjen për të rikrijuar hapësirën e shkëmbimit.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">Kalibrimi i gjurmës së gishtit</string>
@@ -175,4 +193,41 @@
     <string name="speaker_calibration_title">Kalibrimi i altoparlantit</string>
     <string name="speaker_calibration_summary">Test i vetkalibrimit të altoparlantit CIT</string>
     <string name="speaker_calibration_not_found">Kalibrimi i altoparlantit i padisponueshëm</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Veprime të shpejta</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktive</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">Sensori optik</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Bateria</string>
+    <string name="bento_soc_thermal_title">SoC Termike</string>
+    <string name="bento_display_title">Ekrani</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Termike</string>
+    <string name="bento_performance_title">Performanca</string>
+    <string name="bento_memory_title">Memorie RAM</string>
+    <string name="bento_colours_title">Ngjyrat</string>
+    <string name="bento_resolution_title">Rezolucioni</string>
+    <string name="bento_fingerprint_title">Gjurmët e gishtave</string>
+    <string name="bento_speaker_title">Altoparlanti</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Aplikoni profilin gjatë karikimit</string>
+    <string name="thermal_charging_switch_summary">Përdorni rregullat e frenimit termik gjatë karikimit. Fikeni për të lejuar karikim të shpejtë të pakufizuar deri në 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Shëndeti i baterisë</string>
+    <string name="battery_real_capacity">Kapaciteti i plotë</string>
+    <string name="battery_design_capacity">Kapaciteti i projektimit</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">Guvernatori i CPU-së</string>
+    <string name="cpu_governor_summary">Rregulloni guvernatorin e shkallëzimit në të gjitha grupet</string>
+    <string name="cpu_gov_schedutil">Balancuar</string>
+    <string name="cpu_gov_performance">Performanca</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

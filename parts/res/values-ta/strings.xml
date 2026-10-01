@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost பயன்படுத்த முடியவில்லை</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM விரிவாக்கம்</string>
+    <string name="zram_summary">சுருக்கப்பட்ட ரேம் இடமாற்று அளவை நிர்வகிக்கவும்</string>
+    <string name="zram_disksize">செயலில் உள்ள zRAM</string>
+    <string name="zram_comp_algo">அல்காரிதம்</string>
+    <string name="zram_usage">ஸ்வாப் பயன்பாடு</string>
+    <string name="zram_percentage">ரேம் ஒதுக்கீடு சதவீதம்</string>
+    <string name="zram_apply">மாற்றங்களைப் பயன்படுத்தவும்</string>
+    <string name="zram_applying">zRAM அளவை மாற்றவும்...</string>
+    <string name="zram_applied">zRAM அளவு %1$s</string>
+    <string name="zram_applied_reboot">zRAM அளவு சேமிக்கப்பட்டது. மாற்றம் உடனடியாக பொருந்தவில்லை என்றால் உங்கள் சாதனத்தை மீண்டும் துவக்கவும்.</string>
+    <string name="zram_failed">zRAM ஐ மறுஅளவிடுவதில் தோல்வி</string>
+    <string name="zram_preset_basic">அடிப்படை (25%)</string>
+    <string name="zram_preset_balanced">சமச்சீர் (50%)</string>
+    <string name="zram_preset_performance">செயல்திறன் (65%)</string>
+    <string name="zram_preset_heavy">அதிகபட்சம் (80%)</string>
+    <string name="zram_description">zRAM ஆனது இயற்பியல் ரேமில் நேரடியாக சுருக்கப்பட்ட இடமாற்று இடத்தை உருவாக்குகிறது. இது உள் சேமிப்பகத்தை இழக்காமல் பயனுள்ள நினைவக திறனை அதிகரிக்கிறது, மேலும் பின்னணி பயன்பாடுகளை உயிருடன் மற்றும் பதிலளிக்கக்கூடியதாக வைத்திருக்கிறது.
+
+குறிப்பு: விண்ணப்பித்தவுடன் உடனடியாக புதிய அளவு பிரதிபலிக்கவில்லை என்றால், ஸ்வாப் இடத்தை மீண்டும் உருவாக்க சாதனத்தை மீண்டும் துவக்கவும்.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">கைரேகை அளவீடு</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">ஸ்பீக்கர் அளவீடு</string>
     <string name="speaker_calibration_summary">CIT ஸ்பீக்கர் சுய-அளவீடு சோதனை</string>
     <string name="speaker_calibration_not_found">ஸ்பீக்கர் அளவீடு கிடைக்கவில்லை</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">விரைவான செயல்கள்</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">ஆப்டிகல் சென்சார்</string>
+    <string name="audio_cit_chip">CIT ஆடியோ</string>
+    <string name="bento_battery_title">பேட்டரி</string>
+    <string name="bento_soc_thermal_title">SoC தெர்மல்</string>
+    <string name="bento_display_title">காட்சி</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">தெர்மல்கள்</string>
+    <string name="bento_performance_title">செயல்திறன்</string>
+    <string name="bento_memory_title">RAM</string>
+    <string name="bento_colours_title">நிறங்கள்</string>
+    <string name="bento_resolution_title">தெளிவுத்திறன்</string>
+    <string name="bento_fingerprint_title">கைரேகை</string>
+    <string name="bento_speaker_title">ஸ்பீக்கர்</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">சார்ஜ் செய்யும் போது சுயவிவரத்தைப் பயன்படுத்தவும்</string>
+    <string name="thermal_charging_switch_summary">சார்ஜ் செய்யும் போது தெர்மல் த்ரோட்லிங் விதிகளைப் பயன்படுத்தவும். 90W வரை கட்டுப்பாடற்ற வேகமான சார்ஜிங்கை அனுமதிக்க அணைக்கவும்.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">பேட்டரி ஆரோக்கியம்</string>
+    <string name="battery_real_capacity">முழு திறன்</string>
+    <string name="battery_design_capacity">வடிவமைப்பு திறன்</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU கவர்னர்</string>
+    <string name="cpu_governor_summary">அனைத்து கிளஸ்டர்களிலும் அளவிடுதல் கவர்னரை சரிசெய்யவும்</string>
+    <string name="cpu_gov_schedutil">சமப்படுத்தப்பட்ட</string>
+    <string name="cpu_gov_performance">செயல்திறன்</string>
+    <string name="cpu_gov_powersave">பவர்சேவ்</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

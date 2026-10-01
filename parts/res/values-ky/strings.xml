@@ -152,4 +152,61 @@
     <string name="speaker_calibration_title">Динамик калибрлөө</string>
     <string name="speaker_calibration_summary">CIT спикеринин өзүн-өзү калибрлөө тести</string>
     <string name="speaker_calibration_not_found">Динамик калибрлөө жеткиликтүү эмес</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">zRAM кеңейиши</string>
+    <string name="zram_summary">Кысылган RAM алмаштыруу өлчөмүн башкарыңыз</string>
+    <string name="zram_disksize">Активдүү zRAM</string>
+    <string name="zram_comp_algo">Алгоритм</string>
+    <string name="zram_usage">Алмашуу колдонулушу</string>
+    <string name="zram_percentage">RAM бөлүштүрүү пайызы</string>
+    <string name="zram_apply">Өзгөртүүлөрдү колдонуу</string>
+    <string name="zram_applying">zRAM өлчөмүн өзгөртүү…</string>
+    <string name="zram_applied">zRAM өлчөмүн %1$s</string>
+    <string name="zram_applied_reboot">zRAM өлчөмүнө өзгөртүү сакталды. Өзгөртүү дароо колдонулбаса, түзмөгүңүздү өчүрүп күйгүзүңүз.</string>
+    <string name="zram_failed">zRAM өлчөмүн өзгөртүү ишке ашкан жок</string>
+    <string name="zram_preset_basic">Негизги (25%)</string>
+    <string name="zram_preset_balanced">Тең салмактуу (50%)</string>
+    <string name="zram_preset_performance">Өнөктөштүк (65%)</string>
+    <string name="zram_preset_heavy">Максималдуу (80%)</string>
+    <string name="zram_description">zRAM түздөн-түз физикалык RAMда кысылган алмаштыруу мейкиндигин түзөт. Бул ички сактагычты жарактан чыгарбастан, эффективдүү эс тутум сыйымдуулугун жогорулатып, көбүрөөк фондо колдонмолорду жандуу жана жооп берет.
+
+Эскертүү: Эгер жаңы өлчөм колдонулгандан кийин дароо чагылдырылбаса, алмаштыруу мейкиндигин кайра түзүү үчүн түзмөктү өчүрүп күйгүзүңүз.</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Ыкчам аракеттер</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Өчүк</string>
+    <string name="optical_sensor_chip">Оптикалык сенсор</string>
+    <string name="audio_cit_chip">CIT аудио</string>
+    <string name="bento_battery_title">Батарея</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Дисплей</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Термалдар</string>
+    <string name="bento_performance_title">Иштөө</string>
+    <string name="bento_memory_title">RAM эстутум</string>
+    <string name="bento_colours_title">Түстөр</string>
+    <string name="bento_resolution_title">Резолюция</string>
+    <string name="bento_fingerprint_title">Манжа изи</string>
+    <string name="bento_speaker_title">Динамик</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Заряддоо учурунда профилди колдонуңуз</string>
+    <string name="thermal_charging_switch_summary">Заряддоо учурунда термикалык жөнгө салуу эрежелерин колдонуңуз. 90 Вт чейин чексиз тез кубаттоого уруксат берүү үчүн өчүрүңүз.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Батареянын ден соолугу</string>
+    <string name="battery_real_capacity">Толук сыйымдуулук</string>
+    <string name="battery_design_capacity">Долбоордук кубаттуулук</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU башкаруучусу</string>
+    <string name="cpu_governor_summary">Бардык кластерлерде масштабдуу башкаруучуну тууралоо</string>
+    <string name="cpu_gov_schedutil">Баланстуу</string>
+    <string name="cpu_gov_performance">Иштөө</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

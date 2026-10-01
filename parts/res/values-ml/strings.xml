@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">Touch boost പ്രയോഗിക്കാൻ കഴിഞ്ഞില്ല</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM വിപുലീകരണം</string>
+    <string name="zram_summary">കംപ്രസ് ചെയ്ത റാം സ്വാപ്പ് സൈസ് മാനേജ് ചെയ്യുക</string>
+    <string name="zram_disksize">സജീവമായ zRAM</string>
+    <string name="zram_comp_algo">അൽഗോരിതം</string>
+    <string name="zram_usage">സ്വാപ്പ് ഉപയോഗം</string>
+    <string name="zram_percentage">റാം അലോക്കേഷൻ ശതമാനം</string>
+    <string name="zram_apply">മാറ്റങ്ങൾ പ്രയോഗിക്കുക</string>
+    <string name="zram_applying">zRAM വലുപ്പം മാറ്റുന്നു...</string>
+    <string name="zram_applied">zRAM %1$s ആയി വലുപ്പം മാറ്റി</string>
+    <string name="zram_applied_reboot">zRAM വലുപ്പം സംരക്ഷിച്ചു. മാറ്റം ഉടനടി ബാധകമല്ലെങ്കിൽ നിങ്ങളുടെ ഉപകരണം റീബൂട്ട് ചെയ്യുക.</string>
+    <string name="zram_failed">zRAM-ൻ്റെ വലുപ്പം മാറ്റുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string name="zram_preset_basic">അടിസ്ഥാന (25%)</string>
+    <string name="zram_preset_balanced">സമതുലിതമായ (50%)</string>
+    <string name="zram_preset_performance">പ്രകടനം (65%)</string>
+    <string name="zram_preset_heavy">പരമാവധി (80%)</string>
+    <string name="zram_description">zRAM ഫിസിക്കൽ റാമിൽ നേരിട്ട് ഒരു കംപ്രസ് ചെയ്ത സ്വാപ്പ് സ്പേസ് സൃഷ്ടിക്കുന്നു. ഇൻ്റേണൽ സ്‌റ്റോറേജ് നഷ്ടപ്പെടാതെയും കൂടുതൽ പശ്ചാത്തല ആപ്പുകളെ സജീവമായും പ്രതികരിക്കുന്നതായും നിലനിർത്തിക്കൊണ്ട് ഇത് ഫലപ്രദമായ മെമ്മറി കപ്പാസിറ്റി വർദ്ധിപ്പിക്കുന്നു.
+
+ശ്രദ്ധിക്കുക: പ്രയോഗിച്ചതിന് ശേഷം ഉടൻ തന്നെ പുതിയ വലുപ്പം പ്രതിഫലിക്കുന്നില്ലെങ്കിൽ, സ്വാപ്പ് സ്പേസ് പുനഃസൃഷ്ടിക്കാൻ ഉപകരണം റീബൂട്ട് ചെയ്യുക.</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">ഫിംഗർപ്രിന്റ് കാലിബ്രേഷൻ</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">സ്പീക്കർ കാലിബ്രേഷൻ</string>
     <string name="speaker_calibration_summary">CIT സ്പീക്കർ സ്വയം-കാലിബ്രേഷൻ പരിശോധന</string>
     <string name="speaker_calibration_not_found">സ്പീക്കർ കാലിബ്രേഷൻ ലഭ്യമല്ല</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">ദ്രുത പ്രവർത്തനങ്ങൾ</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Off</string>
+    <string name="optical_sensor_chip">ഒപ്റ്റിക്കൽ സെൻസർ</string>
+    <string name="audio_cit_chip">CIT ഓഡിയോ</string>
+    <string name="bento_battery_title">ബാറ്ററി</string>
+    <string name="bento_soc_thermal_title">SoC തെർമൽ</string>
+    <string name="bento_display_title">ഡിസ്പ്ലേ</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">തെർമലുകൾ</string>
+    <string name="bento_performance_title">പ്രകടനം</string>
+    <string name="bento_memory_title">RAM</string>
+    <string name="bento_colours_title">നിറങ്ങൾ</string>
+    <string name="bento_resolution_title">റെസല്യൂഷൻ</string>
+    <string name="bento_fingerprint_title">ഫിംഗർപ്രിൻ്റ്</string>
+    <string name="bento_speaker_title">സ്പീക്കർ</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ചാർജ് ചെയ്യുമ്പോൾ പ്രൊഫൈൽ പ്രയോഗിക്കുക</string>
+    <string name="thermal_charging_switch_summary">ചാർജ് ചെയ്യുമ്പോൾ തെർമൽ ത്രോട്ടിംഗ് നിയമങ്ങൾ ഉപയോഗിക്കുക. 90W വരെ അനിയന്ത്രിതമായ ഫാസ്റ്റ് ചാർജിംഗ് അനുവദിക്കുന്നതിന് ഓഫാക്കുക.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">ബാറ്ററി ആരോഗ്യം</string>
+    <string name="battery_real_capacity">പൂർണ്ണ ശേഷി</string>
+    <string name="battery_design_capacity">ഡിസൈൻ ശേഷി</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">സിപിയു ഗവർണർ</string>
+    <string name="cpu_governor_summary">എല്ലാ ക്ലസ്റ്ററുകളിലുടനീളം സ്കെയിലിംഗ് ഗവർണർ ക്രമീകരിക്കുക</string>
+    <string name="cpu_gov_schedutil">ബാലൻസ്ഡ്</string>
+    <string name="cpu_gov_performance">പ്രകടനം</string>
+    <string name="cpu_gov_powersave">പവർസേവ്</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

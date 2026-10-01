@@ -153,4 +153,61 @@
     <string name="speaker_calibration_title">Բարձրախոսի չափաբերում</string>
     <string name="speaker_calibration_summary">CIT բարձրախոսի ինքնորոշման ստուգում</string>
     <string name="speaker_calibration_not_found">Բարձրախոսի չափաբերումը հասանելի չէ</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">zRAM-ի ընդլայնում</string>
+    <string name="zram_summary">Կառավարեք սեղմված RAM-ի փոխանակման չափը</string>
+    <string name="zram_disksize">Ակտիվ zRAM</string>
+    <string name="zram_comp_algo">Ալգորիթմ</string>
+    <string name="zram_usage">Փոխեք օգտագործումը</string>
+    <string name="zram_percentage">RAM-ի տեղաբաշխման տոկոսը</string>
+    <string name="zram_apply">Կիրառեք փոփոխություններ</string>
+    <string name="zram_applying">zRAM-ի չափափոխում…</string>
+    <string name="zram_applied">zRAM-ի չափը փոխվեց %1$s</string>
+    <string name="zram_applied_reboot">zRAM-ի չափը պահպանված է: Վերագործարկեք ձեր սարքը, եթե փոփոխությունն անմիջապես չկիրառվի:</string>
+    <string name="zram_failed">Չհաջողվեց փոխել zRAM-ի չափը</string>
+    <string name="zram_preset_basic">Հիմնական (25%)</string>
+    <string name="zram_preset_balanced">Հավասարակշռված (50%)</string>
+    <string name="zram_preset_performance">Կատարողականություն (65%)</string>
+    <string name="zram_preset_heavy">Առավելագույն (80%)</string>
+    <string name="zram_description">zRAM-ը ստեղծում է սեղմված փոխանակման տարածք անմիջապես ֆիզիկական RAM-ում: Այն մեծացնում է արդյունավետ հիշողության հզորությունը՝ առանց ներքին հիշողությունը մաշելու, ավելի շատ ֆոնային հավելվածներ պահելով կենդանի և արձագանքող։
+
+Նշում․ եթե նոր չափը չարտացոլվի անմիջապես կիրառելուց հետո, վերագործարկեք սարքը՝ փոխանակման տարածքը վերստեղծելու համար։</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Արագ գործողություններ</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Ակտիվ</string>
+    <string name="status_disabled">Անջատված</string>
+    <string name="optical_sensor_chip">Օպտիկական սենսոր</string>
+    <string name="audio_cit_chip">CIT աուդիո</string>
+    <string name="bento_battery_title">Մարտկոց</string>
+    <string name="bento_soc_thermal_title">SoC Ջերմային</string>
+    <string name="bento_display_title">Ցուցադրել</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Ջերմային</string>
+    <string name="bento_performance_title">Գործողություն</string>
+    <string name="bento_memory_title">RAM հիշողություն</string>
+    <string name="bento_colours_title">Գույներ</string>
+    <string name="bento_resolution_title">Բանաձև</string>
+    <string name="bento_fingerprint_title">Մատնահետք</string>
+    <string name="bento_speaker_title">Բարձրախոս</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Կիրառել պրոֆիլը լիցքավորելիս</string>
+    <string name="thermal_charging_switch_summary">Լիցքավորելիս օգտագործեք ջերմային շնչափող կանոններ: Անջատեք՝ մինչև 90 Վտ անսահմանափակ արագ լիցքավորումը թույլ տալու համար:</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Մարտկոցի առողջություն</string>
+    <string name="battery_real_capacity">Ամբողջ հզորություն</string>
+    <string name="battery_design_capacity">Նախագծման հզորություն</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU կառավարիչ</string>
+    <string name="cpu_governor_summary">Կարգավորեք մասշտաբային կառավարիչը բոլոր կլաստերներում</string>
+    <string name="cpu_gov_schedutil">Հավասարակշռված</string>
+    <string name="cpu_gov_performance">Կատարում</string>
+    <string name="cpu_gov_powersave">Powersave</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

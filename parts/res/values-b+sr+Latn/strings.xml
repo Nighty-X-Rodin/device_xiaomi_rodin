@@ -152,4 +152,61 @@
     <string name="speaker_calibration_title">Kalibracija zvučnika</string>
     <string name="speaker_calibration_summary">CIT test samokalibracije zvučnika</string>
     <string name="speaker_calibration_not_found">Kalibracija zvučnika nije dostupna</string>
+
+    <!-- ── Swap (zRAM) ─ -->
+    <string name="zram_title">proširenje zRAM-a</string>
+    <string name="zram_summary">Upravljanje komprimiranom veličinom zamjene RAM-a</string>
+    <string name="zram_disksize">Aktivan zRAM</string>
+    <string name="zram_comp_algo">Algoritam</string>
+    <string name="zram_usage">Upotreba zamjene</string>
+    <string name="zram_percentage">Postotak dodjele RAM-a</string>
+    <string name="zram_apply">Primijeni promjene</string>
+    <string name="zram_applying">Promjena veličine zRAM-a…</string>
+    <string name="zram_applied">Veličina zRAM-a promijenjena na %1$s</string>
+    <string name="zram_applied_reboot">Veličina zRAM-a spremljena. Ponovno pokrenite uređaj ako se promjena ne primijeni odmah.</string>
+    <string name="zram_failed">Promjena veličine zRAM-a nije uspjela</string>
+    <string name="zram_preset_basic">Osnovno (25%)</string>
+    <string name="zram_preset_balanced">Uravnoteženo (50%)</string>
+    <string name="zram_preset_performance">Performanse (65%)</string>
+    <string name="zram_preset_heavy">Maksimalno (80%)</string>
+    <string name="zram_description">zRAM stvara komprimirani swap prostor izravno u fizičkom RAM-u. Povećava efektivni kapacitet memorije bez trošenja interne memorije, održavajući više pozadinskih aplikacija živim i responzivnim.
+
+Napomena: ako se nova veličina ne odrazi odmah nakon primjene, ponovno pokrenite uređaj kako biste ponovno stvorili swap prostor.</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">Brze akcije</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">Aktivno</string>
+    <string name="status_disabled">Isključeno</string>
+    <string name="optical_sensor_chip">Optički senzor</string>
+    <string name="audio_cit_chip">CIT audio</string>
+    <string name="bento_battery_title">Baterija</string>
+    <string name="bento_soc_thermal_title">SoC Thermal</string>
+    <string name="bento_display_title">Display</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">Thermals</string>
+    <string name="bento_performance_title">Performanse</string>
+    <string name="bento_memory_title">RAM Memorija</string>
+    <string name="bento_colours_title">Boje</string>
+    <string name="bento_resolution_title">Rezolucija</string>
+    <string name="bento_fingerprint_title">Otisak prsta</string>
+    <string name="bento_speaker_title">Zvučnik</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">Primijeni profil tijekom punjenja</string>
+    <string name="thermal_charging_switch_summary">Koristite pravila toplinskog prigušivanja tijekom punjenja. Isključite kako biste omogućili neograničeno brzo punjenje do 90 W.</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">Stanje baterije</string>
+    <string name="battery_real_capacity">Puni kapacitet</string>
+    <string name="battery_design_capacity">Projektirani kapacitet</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU regulator</string>
+    <string name="cpu_governor_summary">Prilagodi regulator skaliranja u svim klasterima</string>
+    <string name="cpu_gov_schedutil">Uravnotežena</string>
+    <string name="cpu_gov_performance">Performanse</string>
+    <string name="cpu_gov_powersave">Ušteda energije</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

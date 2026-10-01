@@ -169,6 +169,22 @@
     <string name="touch_boost_failed">ଟଚ ବୁସ୍ଟ ପ୍ରୟୋଗ କରାଯାଇ ପାରିଲ ନାହିଁ</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM ବିସ୍ତାର</string>
+    <string name="zram_summary">ସଙ୍କୋଚିତ RAM ସ୍ ap ାପ୍ ଆକାର ପରିଚାଳନା କରନ୍ତୁ |</string>
+    <string name="zram_disksize">ସକ୍ରିୟ zRAM |</string>
+    <string name="zram_comp_algo">ଆଲଗୋରିଦମ |</string>
+    <string name="zram_usage">ସ୍ ap ାପ୍ ବ୍ୟବହାର</string>
+    <string name="zram_percentage">RAM ଆବଣ୍ଟନ ପ୍ରତିଶତ</string>
+    <string name="zram_apply">ପରିବର୍ତ୍ତନଗୁଡିକ ପ୍ରୟୋଗ କରନ୍ତୁ |</string>
+    <string name="zram_applying">ZRAM ର ଆକାର ପରିବର୍ତ୍ତନ…</string>
+    <string name="zram_applied">zRAM ଆକାର 1% $ କୁ ଆକାର ପରିବର୍ତ୍ତନ କଲା |</string>
+    <string name="zram_applied_reboot">zRAM ଆକାର ସଞ୍ଚୟ ହୋଇଛି | ଯଦି ପରିବର୍ତ୍ତନ ତୁରନ୍ତ ପ୍ରୟୋଗ ନହୁଏ ତେବେ ଆପଣଙ୍କର ଡିଭାଇସ୍ କୁ ପୁନ o ଚାଳନ କରନ୍ତୁ |</string>
+    <string name="zram_failed">ZRAM ଆକାର ପରିବର୍ତ୍ତନ କରିବାରେ ବିଫଳ |</string>
+    <string name="zram_preset_basic">ମ Basic ଳିକ (25%)</string>
+    <string name="zram_preset_balanced">ସନ୍ତୁଳିତ (50%)</string>
+    <string name="zram_preset_performance">ପ୍ରଦର୍ଶନ (65%)</string>
+    <string name="zram_preset_heavy">ସର୍ବାଧିକ (80%)</string>
+    <string name="zram_description">zRAM ସିଧାସଳଖ ଭ physical ତିକ RAM ରେ ଏକ ସଙ୍କୋଚିତ ସ୍ ap ାପ୍ ସ୍ପେସ୍ ସୃଷ୍ଟି କରେ | ଆଭ୍ୟନ୍ତରୀଣ ଷ୍ଟୋରେଜ୍ ନ ପିନ୍ଧି ଏହା ଅଧିକ ପ୍ରଭାବଶାଳୀ ମେମୋରୀ କ୍ଷମତା ବ increases ାଇଥାଏ, ଅଧିକ ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଆପ୍କୁ ଜୀବନ୍ତ ଏବଂ ପ୍ରତିକ୍ରିୟାଶୀଳ ରଖେ | \ n \ n ଟିପ୍ପଣୀ: ଯଦି ପ୍ରୟୋଗ ପରେ ତୁରନ୍ତ ନୂତନ ଆକାର ପ୍ରତିଫଳିତ ହୁଏ ନାହିଁ, ତେବେ ସ୍ ap ାପ୍ ସ୍ପେସ୍ ସୃଷ୍ଟି କରିବାକୁ ଡିଭାଇସ୍ କୁ ପୁନ bo ବୁଟ କରନ୍ତୁ |</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">ଆଙ୍ଗୁଠିଶୋକ କାଲିବ୍ରେସନ</string>
@@ -177,4 +193,41 @@
     <string name="speaker_calibration_title">ସ୍ପିକର କାଲିବ୍ରେସନ</string>
     <string name="speaker_calibration_summary">CIT ସ୍ପିକର ସେଲଫ-କାଲିବ୍ରେସନ ପରୀକ୍ଷା</string>
     <string name="speaker_calibration_not_found">ସ୍ପିକର କାଲିବ୍ରେସନ ଉପଲବ୍ଧ ନାହିଁ</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">ଶୀଘ୍ର କାର୍ଯ୍ୟ</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">ସକ୍ରିୟ |</string>
+    <string name="status_disabled">ବନ୍ଦ</string>
+    <string name="optical_sensor_chip">ଅପ୍ଟିକାଲ୍ ସେନ୍ସର |</string>
+    <string name="audio_cit_chip">CIT ଅଡିଓ |</string>
+    <string name="bento_battery_title">ବ୍ୟାଟେରୀ</string>
+    <string name="bento_soc_thermal_title">SoC ଥର୍ମାଲ୍ |</string>
+    <string name="bento_display_title">ପ୍ରଦର୍ଶନ</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">ଥର୍ମାଲ୍ |</string>
+    <string name="bento_performance_title">ପ୍ରଦର୍ଶନ</string>
+    <string name="bento_memory_title">RAM ମେମୋରୀ</string>
+    <string name="bento_colours_title">ରଙ୍ଗଗୁଡିକ |</string>
+    <string name="bento_resolution_title">ସଂକଳ୍ପ</string>
+    <string name="bento_fingerprint_title">ଫିଙ୍ଗର ପ୍ରିଣ୍ଟ |</string>
+    <string name="bento_speaker_title">ବକ୍ତା</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">ଚାର୍ଜ କରିବା ସମୟରେ ପ୍ରୋଫାଇଲ୍ ପ୍ରୟୋଗ କରନ୍ତୁ |</string>
+    <string name="thermal_charging_switch_summary">ଚାର୍ଜ କରିବା ସମୟରେ ଥର୍ମାଲ୍ ଥ୍ରଟଲିଂ ନିୟମ ବ୍ୟବହାର କରନ୍ତୁ | 90W ପର୍ଯ୍ୟନ୍ତ ସୀମିତ ଦ୍ରୁତ ଚାର୍ଜିଂକୁ ଅନୁମତି ଦେବାକୁ ଟର୍ନ୍ ଅଫ୍ କରନ୍ତୁ |</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">ବ୍ୟାଟେରୀ ସ୍ୱାସ୍ଥ୍ୟ</string>
+    <string name="battery_real_capacity">ପୂର୍ଣ୍ଣ କ୍ଷମତା |</string>
+    <string name="battery_design_capacity">ଡିଜାଇନ୍ କ୍ଷମତା |</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU ରାଜ୍ୟପାଳ |</string>
+    <string name="cpu_governor_summary">ସମସ୍ତ କ୍ଲଷ୍ଟରରେ ସ୍କେଲିଂ ଗଭର୍ଣ୍ଣର ଆଡଜଷ୍ଟ କରନ୍ତୁ |</string>
+    <string name="cpu_gov_schedutil">ସନ୍ତୁଳିତ |</string>
+    <string name="cpu_gov_performance">ପ୍ରଦର୍ଶନ</string>
+    <string name="cpu_gov_powersave">ପାୱାରସେଭ୍ |</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>

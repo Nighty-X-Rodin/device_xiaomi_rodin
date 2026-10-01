@@ -169,6 +169,24 @@
     <string name="touch_boost_failed">タッチブーストを適用できませんでした</string>
 
     <!-- ── Swap (zRAM) ──────────────────────────────────────── -->
+    <string name="zram_title">zRAM 拡張</string>
+    <string name="zram_summary">圧縮 RAM スワップ サイズの管理</string>
+    <string name="zram_disksize">アクティブな zRAM</string>
+    <string name="zram_comp_algo">アルゴリズム</string>
+    <string name="zram_usage">スワップ使用量</string>
+    <string name="zram_percentage">RAM 割り当てパーセンテージ</string>
+    <string name="zram_apply">変更を適用</string>
+    <string name="zram_applying">zRAM のサイズ変更…</string>
+    <string name="zram_applied">zRAM のサイズが %1$s に変更されました</string>
+    <string name="zram_applied_reboot">zRAM サイズが保存されました。変更がすぐに適用されない場合は、デバイスを再起動します。</string>
+    <string name="zram_failed">zRAM のサイズ変更に失敗しました</string>
+    <string name="zram_preset_basic">基本 (25%)</string>
+    <string name="zram_preset_balanced">バランス (50%)</string>
+    <string name="zram_preset_performance">パフォーマンス (65%)</string>
+    <string name="zram_preset_heavy">最大 (80%)</string>
+    <string name="zram_description">zRAM は、圧縮されたスワップ領域を物理 RAM に直接作成します。内部ストレージを使い果たさずに有効なメモリ容量を増やし、より多くのバックグラウンド アプリを稼働させ、応答性を維持します。
+
+注: 新しいサイズが適用後すぐに反映されない場合は、デバイスを再起動してスワップ スペースを再作成します。</string>
 
     <!-- ── Diagnostics ─────────────────────────────────────── -->
     <string name="fingerprint_calibration_title">指紋キャリブレーション</string>
@@ -177,4 +195,41 @@
     <string name="speaker_calibration_title">スピーカーキャリブレーション</string>
     <string name="speaker_calibration_summary">CIT スピーカー自己キャリブレーションテスト</string>
     <string name="speaker_calibration_not_found">スピーカーキャリブレーションを利用できません</string>
+
+    <!-- ── Expressive Home & Bento Grid ─ -->
+    <string name="quick_actions_title">クイックアクション</string>
+    <string name="device_overview_title">POCO X7 Pro</string>
+    <string name="device_overview_chip">Dimensity 8400 Ultra</string>
+    <string name="status_active">アクティブ</string>
+    <string name="status_disabled">オフ</string>
+    <string name="optical_sensor_chip">光学センサー</string>
+    <string name="audio_cit_chip">CIT オーディオ</string>
+    <string name="bento_battery_title">バッテリー</string>
+    <string name="bento_soc_thermal_title">SoC サーマル</string>
+    <string name="bento_display_title">ディスプレイ</string>
+    <string name="bento_zram_title">zRAM</string>
+    <string name="bento_thermal_title">サーマル</string>
+    <string name="bento_performance_title">パフォーマンス</string>
+    <string name="bento_memory_title">RAM メモリ</string>
+    <string name="bento_colours_title">色</string>
+    <string name="bento_resolution_title">解像度</string>
+    <string name="bento_fingerprint_title">指紋</string>
+    <string name="bento_speaker_title">スピーカー</string>
+
+    <!-- ── Thermal Charging Switch ─ -->
+    <string name="thermal_charging_switch_title">充電中にプロファイルを適用</string>
+    <string name="thermal_charging_switch_summary">充電中にサーマル スロットル ルールを使用します。オフにすると、最大 90W までの無制限の高速充電が可能になります。</string>
+
+    <!-- ── Real Battery Health ─ -->
+    <string name="battery_health_percentage">バッテリーの状態</string>
+    <string name="battery_real_capacity">全容量</string>
+    <string name="battery_design_capacity">設計容量</string>
+
+    <!-- ── CPU Governor & Scheduler ─ -->
+    <string name="cpu_governor_title">CPU ガバナー</string>
+    <string name="cpu_governor_summary">すべてのクラスターにわたるスケーリング ガバナーを調整</string>
+    <string name="cpu_gov_schedutil">バランス</string>
+    <string name="cpu_gov_performance">パフォーマンス</string>
+    <string name="cpu_gov_powersave">省電力</string>
+    <string name="cpu_gov_sugov_ext">MediaTek EAS</string>
 </resources>
