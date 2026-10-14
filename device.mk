@@ -473,3 +473,6 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 TARGET_PRODUCT_PROP += device/xiaomi/rodin/product.prop
 # Fenrir
 $(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
+
+# Hide useless cameras from GPay QR scanner and Chrome
+PRODUCT_VENDOR_PROPERTIES += vendor.camera.aux.packageexcludelist=in.org.npci.upiapp,com.google.android.apps.nbu.paisa.user,com.android.chrome
