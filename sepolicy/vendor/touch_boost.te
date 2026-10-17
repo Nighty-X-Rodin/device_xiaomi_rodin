@@ -1,0 +1,6 @@
+# Allow proc_touch_boost to associate with the proc filesystem
+allow proc_touch_boost proc:filesystem associate;
+
+# Allow power/touch HAL and init to access the boost node
+allow hal_power_default proc_touch_boost:file rw_file_perms;
+allow hal_power_default proc_touch_boost:dir r_dir_perms;
