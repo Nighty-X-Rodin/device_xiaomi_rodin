@@ -460,3 +460,6 @@ $(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
 # BypassCharge
 PRODUCT_PACKAGES += \
     BypassCharge
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
