@@ -467,3 +467,6 @@ PRODUCT_PACKAGES += \
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# Product properties
+TARGET_PRODUCT_PROP += device/xiaomi/rodin/product.prop
