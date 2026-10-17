@@ -1,0 +1,24 @@
+diff --git a/common/private/platform_app.te b/common/private/platform_app.te
+index 86e4708..aa9a564 100644
+--- a/common/private/platform_app.te
++++ b/common/private/platform_app.te
+@@ -6,3 +6,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
+ 
+ # Allow PowerShare HAL service to be found
+ hal_client_domain(platform_app, hal_lineage_powershare)
++
++# Bypass charge
++allow platform_app sysfs_batteryinfo:dir search;
++allow platform_app sysfs_batteryinfo:file rw_file_perms;
+diff --git a/common/private/system_app.te b/common/private/system_app.te
+index f62d6f3..4a9cd0b 100644
+--- a/common/private/system_app.te
++++ b/common/private/system_app.te
+@@ -13,3 +13,7 @@ hal_client_domain(system_app, hal_lineage_touch)
+ 
+ # Allow SetupWizard to set recovery update prop
+ set_prop(system_app, recovery_update_prop)
++
++# Bypass charge
++allow system_app sysfs_batteryinfo:dir search;
++allow system_app sysfs_batteryinfo:file rw_file_perms;

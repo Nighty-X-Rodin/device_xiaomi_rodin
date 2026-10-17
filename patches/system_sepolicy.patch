@@ -1,0 +1,13 @@
+diff --git a/private/domain.te b/private/domain.te
+index 7d5869e..c8fa706 100644
+--- a/private/domain.te
++++ b/private/domain.te
+@@ -1652,6 +1652,8 @@ full_treble_only(`
+     -charger
+     # TODO(b/110891300): remove this exception
+     -incidentd
++    -platform_app
++    -system_app
+   } sysfs_batteryinfo:file { open read };
+ ')
+ 

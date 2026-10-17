@@ -1,1 +1,5 @@
 allow system_app sysfs_zram:file rw_file_perms;
+
+# Bypass charge
+allow system_app sysfs_batteryinfo:dir search;
+allow system_app sysfs_batteryinfo:file rw_file_perms;
