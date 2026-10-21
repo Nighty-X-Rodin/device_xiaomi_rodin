@@ -485,3 +485,6 @@ PRODUCT_PACKAGES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rodin/rodin-vendor.mk)
 
+# Hide useless cameras from GPay QR scanner and Chrome
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.camera.aux.packageexcludelist=in.org.npci.upiapp,com.google.android.apps.nbu.paisa.user,com.android.chrome
