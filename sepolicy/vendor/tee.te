@@ -8,3 +8,6 @@ allow tee fingerprint_vendor_data_file:dir { ioctl read write getattr lock open 
 allow tee proc_mitee_log:file { read getattr open };
 allow tee mitee_data_file:dir create_dir_perms;
 allow tee mitee_data_file:file create_file_perms;
+
+# Suppress harmless search denial on /data/user (violates Treble full_treble_only neverallow if allowed)
+dontaudit tee system_userdir_file:dir search;

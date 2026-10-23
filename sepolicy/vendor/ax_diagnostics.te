@@ -1,0 +1,2 @@
+# Allow ax_diagnostics to read CPU online state
+allow ax_diagnostics vendor_sysfs_cpu_control:file r_file_perms;
