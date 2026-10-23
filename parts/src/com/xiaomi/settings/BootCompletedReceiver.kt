@@ -10,15 +10,12 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.hardware.display.DisplayManager
-import android.os.UserHandle
 import android.util.Log
 import android.view.Display
 import android.view.Display.HdrCapabilities
-import com.xiaomi.settings.display.ColorService
 import com.xiaomi.settings.thermal.ThermalUtils
-import com.xiaomi.settings.touchsampling.TouchSamplingService
 
-/** Restores all XiaomiParts feature states at locked-boot. */
+/** Restores XiaomiParts feature states at locked-boot. */
 class BootCompletedReceiver : BroadcastReceiver() {
 
     companion object {
@@ -33,32 +30,13 @@ class BootCompletedReceiver : BroadcastReceiver() {
     }
 
     /**
-     * Called early at locked-boot — starts all background services so display,
-     * thermal, and touch settings are applied before the user sees the lock screen.
-     * Each service start is wrapped in runCatching to prevent a single failure
-     * from stopping the remaining services from starting.
+     * Called early at locked-boot. Restores thermal override state and HDR capabilities.
      */
     private fun onLockedBootCompleted(context: Context) {
-        // Display colour mode
+        // Restore thermal throttling state
         runCatching {
-            context.startServiceAsUser(
-                Intent(context, ColorService::class.java),
-                UserHandle.CURRENT,
-            )
-        }.onFailure { e -> Log.e(TAG, "Failed to start ColorService", e) }
-
-        // Touch boost / high touch sampling rate
-        runCatching {
-            context.startServiceAsUser(
-                Intent(context, TouchSamplingService::class.java),
-                UserHandle.CURRENT,
-            )
-        }.onFailure { e -> Log.e(TAG, "Failed to start TouchSamplingService", e) }
-
-        // Per-app thermal profiles
-        runCatching {
-            ThermalUtils.getInstance(context.applicationContext).startService()
-        }.onFailure { e -> Log.e(TAG, "Failed to start ThermalService", e) }
+            ThermalUtils.getInstance(context.applicationContext).restoreStateAtBoot()
+        }.onFailure { e -> Log.e(TAG, "Failed to restore thermal state", e) }
 
         // Force-enable all HDR types (Dolby Vision, HDR10, HLG, HDR10+)
         runCatching {

@@ -15,10 +15,6 @@ android_app {
     system_ext_specific: true,
 
     static_libs: [
-        // Xiaomi vendor AIDL interfaces
-        "org.lineageos.settings.resources",
-        "vendor.xiaomi.hardware.displayfeature_aidl-V2-java",
-        "vendor.xiaomi.hw.touchfeature-V1-java",
 
         // AndroidX core — androidx.core.os.postDelayed (ColorService)
         "androidx.core_core",
@@ -47,11 +43,15 @@ android_app {
         // Navigation-Compose
         "androidx.navigation_navigation-compose",
 
+        // Run sysfs I/O away from the main thread
+        "kotlinx_coroutines_android",
+
         // AndroidX preference
         "androidx.preference_preference",
 
         // SettingsLib
         "SettingsLib",
+        "SpaLib",
     ],
 
     required: [

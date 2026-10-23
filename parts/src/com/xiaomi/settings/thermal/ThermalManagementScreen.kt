@@ -93,7 +93,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.core.graphics.drawable.toBitmap
-import com.xiaomi.settings.PartsCategory
+import com.xiaomi.settings.ui.PartsCategoryTitle
 import com.xiaomi.settings.R
 import com.xiaomi.settings.ui.Motion
 import kotlinx.coroutines.Dispatchers
@@ -391,7 +391,7 @@ fun ThermalManagementScreen(onBack: () -> Unit) {
             }
 
             item(key = "per-app-label") {
-                PartsCategory(stringResource(R.string.thermal_per_app_label))
+                PartsCategoryTitle(stringResource(R.string.thermal_per_app_label))
             }
 
             if (appList.isEmpty()) {
