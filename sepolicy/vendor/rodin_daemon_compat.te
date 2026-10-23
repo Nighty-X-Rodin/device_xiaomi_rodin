@@ -1,0 +1,51 @@
+# Rodin Essential hardware compat rules
+
+# Direct input event device discovery for 1000Hz touch polling
+allow rodin_daemon input_device:dir r_dir_perms;
+allow rodin_daemon input_device:chr_file rw_file_perms;
+
+# Battery & USB power supply sysfs symlinks / vendor nodes for charging controls
+allow rodin_daemon sysfs_battery_supply:lnk_file r_file_perms;
+allow rodin_daemon sysfs_usb_supply:lnk_file r_file_perms;
+allow rodin_daemon vendor_sysfs_battery_supply:dir r_dir_perms;
+allow rodin_daemon vendor_sysfs_battery_supply:file rw_file_perms;
+allow rodin_daemon vendor_sysfs_battery_supply:lnk_file r_file_perms;
+allow rodin_daemon vendor_sysfs_usb_supply:dir r_dir_perms;
+allow rodin_daemon vendor_sysfs_usb_supply:file rw_file_perms;
+allow rodin_daemon vendor_sysfs_usb_supply:lnk_file r_file_perms;
+
+# Vendor touch firmware and panel variant lockdown nodes
+allow rodin_daemon vendor_proc_tp_file:file rw_file_perms;
+allow rodin_daemon vendor_proc_tp_lockdown:file r_file_perms;
+
+# Vendor touch sysfs and THP cadence nodes (240/480 Hz restoration)
+allow rodin_daemon vendor_sysfs_touch:dir r_dir_perms;
+allow rodin_daemon vendor_sysfs_touch:file rw_file_perms;
+allow rodin_daemon sysfs_touch_hostprocess:file rw_file_perms;
+
+# CPU frequency limits and CPU core online controls
+allow rodin_daemon vendor_sysfs_cpu_control:file rw_file_perms;
+
+# Thermal controls for CPU clock frequency locking and thermal limits
+allow rodin_daemon sysfs_therm:dir r_dir_perms;
+
+# Battery and charging controls
+allow rodin_daemon sysfs_batteryinfo:file rw_file_perms;
+
+# ZRAM controls
+allow rodin_daemon sysfs_zram:dir r_dir_perms;
+
+# Display feature and screen backlight status
+allow rodin_daemon vendor_sysfs_displayfeature:dir r_dir_perms;
+allow rodin_daemon sysfs_leds:dir r_dir_perms;
+allow rodin_daemon sysfs_leds:file r_file_perms;
+
+
+# Allow rodin_daemon sysfs dir and sysfs_leds file access
+allow rodin_daemon sysfs:dir r_dir_perms;
+
+# Allow rodin_daemon to search block device dir for swapoff/swapon
+allow rodin_daemon block_device:dir search;
+
+# Allow rodin_daemon to search and read PowerHAL CPU control dir
+allow rodin_daemon proc_powerhal_cpu_ctrl:dir r_dir_perms;
