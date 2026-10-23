@@ -1,13 +1,46 @@
+diff --git a/private/coredomain.te b/private/coredomain.te
+index 49726fea1..d0926725d 100644
+--- a/private/coredomain.te
++++ b/private/coredomain.te
+@@ -46,6 +46,7 @@ neverallow {
+     -ueventd
+     -system_server
+     -vold
++    -rodin_leds_access
+ } sysfs_leds:file *;
+ ')
+ 
 diff --git a/private/domain.te b/private/domain.te
-index 7d5869e..c8fa706 100644
+index f146717d9..642b1f3a2 100644
 --- a/private/domain.te
 +++ b/private/domain.te
-@@ -1652,6 +1652,8 @@ full_treble_only(`
-     -charger
+@@ -1638,6 +1638,9 @@ full_treble_only(`
      # TODO(b/110891300): remove this exception
      -incidentd
+     -ax_diagnostics
 +    -platform_app
 +    -system_app
++    -rodin_batteryinfo_access
    } sysfs_batteryinfo:file { open read };
  ')
  
+diff --git a/public/attributes b/public/attributes
+index 274160f91..22736efa5 100644
+--- a/public/attributes
++++ b/public/attributes
+@@ -488,3 +488,15 @@ attribute vulkan_sphal_domain;
+ expandattribute vulkan_sphal_domain false;
+ 
+ ') # starting_at_board_api(202604)
++
++# Opt-in legacy Rodin THP access. Assign only to rodin_daemon.
++attribute rodin_native_touch_access;
++expandattribute rodin_native_touch_access false;
++
++# Opt-in Rodin battery and charging controls. Assign only to rodin_daemon.
++attribute rodin_batteryinfo_access;
++expandattribute rodin_batteryinfo_access false;
++
++# Opt-in Rodin leds and backlight access. Assign only to rodin_daemon.
++attribute rodin_leds_access;
++expandattribute rodin_leds_access false;

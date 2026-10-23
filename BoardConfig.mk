@@ -226,3 +226,5 @@ WIFI_FEATURE_SUPPLICANT_11AX := true
 include vendor/xiaomi/rodin/BoardConfigVendor.mk
 # Leica Camera
 include device/xiaomi/rodin-miuicamera/BoardConfig.mk
+# Rodin Essential
+include vendor/rodin-essential/BoardConfigRodinEssential.mk

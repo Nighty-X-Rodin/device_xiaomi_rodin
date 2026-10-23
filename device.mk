@@ -481,3 +481,6 @@ PRODUCT_VENDOR_PROPERTIES += vendor.camera.aux.packageexcludelist=in.org.npci.up
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.arm64.memtag.default=off \
     persist.arm64.memtag.system_server=off
+
+# Rodin Essential
+$(call inherit-product, vendor/rodin-essential/rodin-essential.mk)
