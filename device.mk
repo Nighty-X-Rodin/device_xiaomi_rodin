@@ -484,3 +484,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Rodin Essential
 $(call inherit-product, vendor/rodin-essential/rodin-essential.mk)
+
+# ViPER4Android FX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
